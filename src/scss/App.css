@@ -339,7 +339,7 @@ nav .social ul li a i:hover {
 .hero .hero-text .get-in-touch .subtle {
   border: none;
   border-radius: 5px;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 0.5rem;
   margin: 1rem 0.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
