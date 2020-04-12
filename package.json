@@ -1,5 +1,6 @@
 {
   "name": "design-portfolio",
+  "homepage": "jaskiratoberoi.ml",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
