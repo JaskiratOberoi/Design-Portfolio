@@ -83,11 +83,16 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center;
+
       li {
         padding: 0 1rem;
         color: #f1f1f1;
-        i {
-          cursor: pointer;
+        a {
+          text-decoration: none;
+          color: #f1f1f1;
+          i {
+            cursor: pointer;
+          }
         }
       }
     }
@@ -113,11 +118,11 @@ nav {
     // align-items: center;
     h1 {
       font-size: 2.5rem;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 0rem;
       margin: 0.4rem 0;
-      text-align: center;
-      background: #f1f1f1;
-      color: #1f1f1f;
+      // text-align: center;
+      // background: #f1f1f1;
+      // color: #1f1f1f;
       border-radius: 10px;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
@@ -127,11 +132,11 @@ nav {
       position: relative;
       top: -30px;
       font-size: 1.5rem;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 0rem;
       margin: 0.4rem 0;
-      text-align: center;
+      // text-align: center;
       // background: #000;
-      border: 3px solid #f1f1f1;
+      // border: 3px solid #f1f1f1;
       color: #f1f1f1;
       border-radius: 10px;
     }
@@ -152,7 +157,7 @@ nav {
       }
       .cta {
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 0.6rem 0.5rem;
         margin: 1rem 0;
         text-transform: uppercase;
@@ -162,7 +167,7 @@ nav {
 
       .subtle {
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 0.6rem 1rem;
         margin: 1rem 0.5rem;
         text-transform: uppercase;

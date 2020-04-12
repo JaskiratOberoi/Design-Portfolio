@@ -25,16 +25,24 @@ export default function Header() {
       <div className="social">
         <ul>
           <li>
-            <i className="fab fa-github-alt"></i>
+            <a href="/github" target="_blank">
+              <i className="fab fa-github-alt"></i>
+            </a>
           </li>
           <li>
-            <i className="fab fa-behance"></i>
+            <a href="/behance" target="_blank">
+              <i className="fab fa-behance"></i>
+            </a>
           </li>
           <li>
-            <i className="fab fa-linkedin-in"></i>
+            <a href="/linkedin" target="_blank">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
           </li>
           <li>
-            <i className="fab fa-facebook"></i>
+            <a href="/facebook" target="_blank">
+              <i className="fab fa-facebook"></i>
+            </a>
           </li>
         </ul>
       </div>
