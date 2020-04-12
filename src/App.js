@@ -1,6 +1,5 @@
 import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
-// import PageTransition from "react-router-page-transition";
 import "./scss/App.css";
 import Header from "./Header";
 import Hero from "./Hero.js";
@@ -77,22 +76,6 @@ function App() {
           path="/behance"
           component={() => {
             window.location.href = "https://www.behance.net/JaskiratSOberoi";
-            return null;
-          }}
-        />
-        <Route
-          path="/linkedin"
-          component={() => {
-            window.location.href =
-              "https://www.linkedin.com/in/jaskiratoberoi/";
-            return null;
-          }}
-        />
-        <Route
-          path="/facebook"
-          component={() => {
-            window.location.href =
-              "https://www.facebook.com/jaskirat.singh.oberoi.1996";
             return null;
           }}
         />

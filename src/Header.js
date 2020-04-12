@@ -17,7 +17,7 @@ export default function Header() {
           <a href="/About">About Me</a>
         </li>
         <li className="ltr">
-          <a href="/hanseibydesign" target="_blank">
+          <a href="https://hanseibydesign.com/" target="_blank">
             Hansei By Design
           </a>
         </li>
@@ -25,22 +25,28 @@ export default function Header() {
       <div className="social">
         <ul>
           <li>
-            <a href="/github" target="_blank">
+            <a href="https://github.com/JaskiratOberoi" target="_blank">
               <i className="fab fa-github-alt"></i>
             </a>
           </li>
           <li>
-            <a href="/behance" target="_blank">
+            <a href="https://www.behance.net/JaskiratSOberoi" target="_blank">
               <i className="fab fa-behance"></i>
             </a>
           </li>
           <li>
-            <a href="/linkedin" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/jaskiratoberoi/"
+              target="_blank"
+            >
               <i className="fab fa-linkedin-in"></i>
             </a>
           </li>
           <li>
-            <a href="/facebook" target="_blank">
+            <a
+              href="https://www.facebook.com/jaskirat.singh.oberoi.1996"
+              target="_blank"
+            >
               <i className="fab fa-facebook"></i>
             </a>
           </li>

@@ -17,9 +17,12 @@ export default function Hero() {
             <Link className="cta" to="/Portfolio">
               My Projects
             </Link>
-            <Link className="subtle" to="/linkedin">
-              Let's Talk
-            </Link>
+            <a
+              className="subtle"
+              href="https://www.linkedin.com/in/jaskiratoberoi/"
+            >
+              Let's Connect
+            </a>
           </div>
         </div>
         <div className="hero-image">
