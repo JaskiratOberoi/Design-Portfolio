@@ -64,6 +64,8 @@ function App() {
             return null;
           }}
         />
+
+        {/* Social Link routes */}
         <Route
           path="/github"
           component={() => {
@@ -91,6 +93,67 @@ function App() {
           component={() => {
             window.location.href =
               "https://www.facebook.com/jaskirat.singh.oberoi.1996";
+            return null;
+          }}
+        />
+
+        {/* Portfolio routes */}
+        <Route
+          path="/cmr"
+          component={() => {
+            window.location.href = "https://cmrgaming.in";
+            return null;
+          }}
+        />
+        <Route
+          path="/covid"
+          component={() => {
+            window.location.href = "https://covid19in.live";
+            return null;
+          }}
+        />
+        <Route
+          path="/jstodo"
+          component={() => {
+            window.location.href = "http://get-organised.hanseibydesign.com/";
+            return null;
+          }}
+        />
+        <Route
+          path="/lifecal"
+          component={() => {
+            window.location.href = "http://lifecalendar.tk";
+            return null;
+          }}
+        />
+        <Route
+          path="/csi"
+          component={() => {
+            window.location.href = "http://csi-amity.tk";
+            return null;
+          }}
+        />
+        <Route
+          path="/choose"
+          component={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/94964421/Choose-Life";
+            return null;
+          }}
+        />
+        <Route
+          path="/tvs"
+          component={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/95252333/SK-TVS-Automobile-Franchise";
+            return null;
+          }}
+        />
+        <Route
+          path="/mori"
+          component={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/93131927/Memento-Mori";
             return null;
           }}
         />
