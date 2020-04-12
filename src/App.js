@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import PageTransition from "react-router-page-transition";
-import "./App.css";
+import "./scss/App.css";
 import Header from "./Header";
 import Hero from "./Hero.js";
 import Foot from "./Foot.js";
@@ -21,9 +21,9 @@ function App() {
           path="/"
           render={(props) => (
             <React.Fragment>
-              <PageTransition>
-                <Hero />
-              </PageTransition>
+              {/* <PageTransition> */}
+              <Hero />
+              {/* </PageTransition> */}
             </React.Fragment>
           )}
         />
@@ -31,9 +31,9 @@ function App() {
           path="/About"
           render={(props) => (
             <React.Fragment>
-              <PageTransition>
-                <About />
-              </PageTransition>
+              {/* <PageTransition> */}
+              <About />
+              {/* </PageTransition> */}
             </React.Fragment>
           )}
         />
@@ -41,9 +41,9 @@ function App() {
           path="/Work"
           render={(props) => (
             <React.Fragment>
-              <PageTransition>
-                <Work />
-              </PageTransition>
+              {/* <PageTransition> */}
+              <Work />
+              {/* </PageTransition> */}
             </React.Fragment>
           )}
         />
@@ -51,9 +51,9 @@ function App() {
           path="/Portfolio"
           render={(props) => (
             <React.Fragment>
-              <PageTransition>
-                <Portfolio />
-              </PageTransition>
+              {/* <PageTransition> */}
+              <Portfolio />
+              {/* </PageTransition> */}
             </React.Fragment>
           )}
         />

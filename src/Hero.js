@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import developer from "./media/code.svg";
 
 export default function Hero() {
@@ -13,8 +14,12 @@ export default function Hero() {
             meaningful to me.
           </div>
           <div className="get-in-touch">
-            <button className="cta">My Projects</button>
-            <button className="subtle">Let's Talk</button>
+            <Link className="cta" to="/Portfolio">
+              My Projects
+            </Link>
+            <Link className="subtle" to="/linkedin">
+              Let's Talk
+            </Link>
           </div>
         </div>
         <div className="hero-image">

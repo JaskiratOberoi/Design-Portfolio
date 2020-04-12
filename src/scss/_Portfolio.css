@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1.p-header {
+  font-size: 2.5rem;
+  max-width: 100%;
+}
+
+.main .project-cards {
+  height: 70vh;
+  max-width: 80%;
+  background: #000514;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  flex-wrap: wrap;
+}
+
+.main .project-cards .project-card {
+  height: 50%;
+  width: 300px;
+  background: #1b1b1b;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem 0.6rem;
+  box-sizing: border-box;
+}
+
+.main .project-cards .project-card .p-image {
+  width: 100%;
+}
+
+.main .project-cards .project-card .p-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.main .project-cards .project-card .p-title {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.3rem 0;
+}
+
+.main .project-cards .project-card .p-details {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.main .project-cards .project-card .p-details span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
