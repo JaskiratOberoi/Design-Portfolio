@@ -54,6 +54,8 @@
           box-sizing: border-box;
   -webkit-box-shadow: 5px 5px 10px #000208, -5px -5px 10px #000820;
           box-shadow: 5px 5px 10px #000208, -5px -5px 10px #000820;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .main .project-cards .project-card .p-image {
@@ -83,8 +85,6 @@
 }
 
 .main .project-cards .project-card:hover {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
   -webkit-box-shadow: 0 3px 10px rgba(255, 255, 255, 0.507);
