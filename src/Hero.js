@@ -20,6 +20,8 @@ export default function Hero() {
             <a
               className="subtle"
               href="https://www.linkedin.com/in/jaskiratoberoi/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Let's Connect
             </a>
