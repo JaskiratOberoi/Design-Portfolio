@@ -3,26 +3,38 @@ import React from "react";
 export default function Header() {
   return (
     <nav>
-      <div className="title">Jaskirat Singh Oberoi</div>
+      <div className="title">
+        <a href="/">Jaskirat Singh Oberoi</a>
+      </div>
       <ul className="navbar">
-        <li>Work-ex</li>
-        <li>Portfolio</li>
-        <li>About Me</li>
-        <li>Hansei By Design</li>
+        <li className="ltr">
+          <a href="/Work">Work-ex</a>
+        </li>
+        <li className="ltr">
+          <a href="/Portfolio">Portfolio</a>
+        </li>
+        <li className="ltr">
+          <a href="/About">About Me</a>
+        </li>
+        <li className="ltr">
+          <a href="/hanseibydesign" target="_blank">
+            Hansei By Design
+          </a>
+        </li>
       </ul>
       <div className="social">
         <ul>
           <li>
-            <i class="fab fa-github-alt"></i>
+            <i className="fab fa-github-alt"></i>
           </li>
           <li>
-            <i class="fab fa-behance"></i>
+            <i className="fab fa-behance"></i>
           </li>
           <li>
-            <i class="fab fa-linkedin-in"></i>
+            <i className="fab fa-linkedin-in"></i>
           </li>
           <li>
-            <i class="fab fa-facebook"></i>
+            <i className="fab fa-facebook"></i>
           </li>
         </ul>
       </div>
