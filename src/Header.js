@@ -8,10 +8,13 @@ export default function Header() {
       </div>
       <ul className="navbar">
         <li className="ltr">
-          <a href="/Work">Work-ex</a>
+          <a href="/Work">Experience</a>
         </li>
         <li className="ltr">
           <a href="/Portfolio">Portfolio</a>
+        </li>
+        <li className="ltr">
+          <a href="/Flow">Workflow</a>
         </li>
         <li className="ltr">
           <a href="/About">About Me</a>

@@ -2,11 +2,12 @@ import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import "./scss/App.css";
 import Header from "./Header";
-import Hero from "./Hero.js";
-import Foot from "./Foot.js";
-import About from "./About.js";
-import Work from "./Work.js";
+import Hero from "./Hero";
+import Foot from "./Foot";
+import About from "./About";
+import Work from "./Work";
 import Portfolio from "./Portfolio";
+import Flow from "./Flow";
 
 function App() {
   return (
@@ -52,6 +53,16 @@ function App() {
             <React.Fragment>
               {/* <PageTransition> */}
               <Portfolio />
+              {/* </PageTransition> */}
+            </React.Fragment>
+          )}
+        />
+        <Route
+          path="/Flow"
+          render={(props) => (
+            <React.Fragment>
+              {/* <PageTransition> */}
+              <Flow />
               {/* </PageTransition> */}
             </React.Fragment>
           )}

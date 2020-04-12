@@ -1,0 +1,13 @@
+.f-main {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 75vw;
+  margin: 0 auto;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  .f-body {
+    font-size: 8rem;
+  }
+}

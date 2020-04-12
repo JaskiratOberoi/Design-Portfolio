@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function Work() {
-  return <div>Work EX</div>;
+  return (
+    <div className="f-main">
+      <div className="f-body">404</div>
+      &lt; WORK IN PROGRESS /&gt;
+    </div>
+  );
 }
