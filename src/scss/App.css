@@ -564,6 +564,10 @@ footer .foot a {
     padding-top: 1rem;
     margin-top: 10px;
   }
+  .hero .hero-text .get-in-touch .cta,
+  .hero .hero-text .get-in-touch .subtle {
+    width: 40%;
+  }
 }
 
 @media all and (max-width: 800px) {
