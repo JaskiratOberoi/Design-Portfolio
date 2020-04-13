@@ -95,14 +95,14 @@ function App() {
         <Route
           path="/cmr"
           component={() => {
-            window.location.href = "https://cmrgaming.in";
+            window.location.href = "http://cmrgaming.in";
             return null;
           }}
         />
         <Route
           path="/covid"
           component={() => {
-            window.location.href = "https://covid19in.live";
+            window.location.href = "http://covid19in.live";
             return null;
           }}
         />

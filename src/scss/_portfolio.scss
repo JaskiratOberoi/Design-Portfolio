@@ -17,6 +17,7 @@
 
   .project-cards {
     height: 75vh;
+    position: relative;
     max-width: 80%;
     background: #000514;
     display: flex;
@@ -26,7 +27,7 @@
     flex-wrap: wrap;
     .project-card {
       height: 50%;
-      width: 300px;
+      max-width: 280px;
       background: #000514;
       border-radius: 10px;
       padding: 1rem;

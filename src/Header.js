@@ -17,7 +17,7 @@ export default function Header() {
           <a href="/Flow">Workflow</a>
         </li>
         <li className="ltr">
-          <a href="/About">About Me</a>
+          <a href="/About">About</a>
         </li>
         <li className="ltr">
           <a
@@ -29,6 +29,9 @@ export default function Header() {
           </a>
         </li>
       </ul>
+      <div className="mobile-nav">
+        <i class="fas fa-bars"></i>
+      </div>
       <div className="social">
         <ul>
           <li>

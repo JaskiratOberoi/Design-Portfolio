@@ -23,7 +23,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Let's Connect
+              Connect
             </a>
           </div>
         </div>
