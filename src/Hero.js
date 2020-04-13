@@ -7,7 +7,7 @@ export default function Hero() {
     <main>
       <div className="hero">
         <div className="hero-text">
-          <h1>UI/UX Practioner</h1>
+          <h1>UI/UX Practitioner</h1>
           <h2> Frontend Web Developer</h2>
           <div className="intro">
             I’ve always sought out opportunities and challenges that are
