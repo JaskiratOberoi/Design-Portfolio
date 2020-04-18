@@ -8,6 +8,7 @@ import mori from "./media/mori.png";
 import life from "./media/life.png";
 import tvs from "./media/tvs.png";
 import csi from "./media/csi.png";
+import ttt from "./media/ttt.png";
 
 export default function Portfolio() {
   return (
@@ -19,6 +20,19 @@ export default function Portfolio() {
       </h2>
 
       <div className="project-cards">
+        <Link to="/ngtictacto" target="_blank">
+          <div className="project-card">
+            <div className="p-image">
+              <img src={ttt} alt="ttt"></img>
+            </div>
+            <h1 className="p-title">Tic Tac Toe</h1>
+            <div className="p-details">
+              <span>Design:</span> Nebular UI <br />
+              <span>Dev:</span> Angular JS, PWA, Sass
+            </div>
+          </div>
+        </Link>
+
         <Link to="/cmr" target="_blank">
           <div className="project-card">
             <div className="p-image">
