@@ -10,13 +10,16 @@
     max-width: 100%;
   }
 
+  h2.quote {
+    margin-bottom: 1rem;
+  }
   a {
     text-decoration: none;
     color: #f1f1f1;
   }
 
   .project-cards {
-    height: 75vh;
+    height: 70vh;
     position: relative;
     max-width: 80%;
     background: #000514;

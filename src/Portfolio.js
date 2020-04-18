@@ -20,7 +20,11 @@ export default function Portfolio() {
       </h2>
 
       <div className="project-cards">
-        <Link to="/ngtictacto" target="_blank">
+        <a
+          href="https://tic-tac-toe-36436.web.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={ttt} alt="ttt"></img>
@@ -31,7 +35,7 @@ export default function Portfolio() {
               <span>Dev:</span> Angular JS, PWA, Sass
             </div>
           </div>
-        </Link>
+        </a>
 
         <Link to="/cmr" target="_blank">
           <div className="project-card">
