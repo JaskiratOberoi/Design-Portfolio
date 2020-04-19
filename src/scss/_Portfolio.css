@@ -72,5 +72,5 @@
 
 .main .project-cards .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.507);
+  box-shadow: 0 3px 10px rgba(0, 25, 170, 0.507);
 }
