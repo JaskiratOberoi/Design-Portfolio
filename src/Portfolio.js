@@ -52,7 +52,7 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <Link to="/cmr" target="_blank">
+        <a href="http://cmrgaming.in" target="_blank" rel="noopener noreferrer">
           <div className="project-card">
             <div className="p-image">
               <img src={cmr} alt="cmr"></img>
@@ -63,9 +63,13 @@ export default function Portfolio() {
               <span>Dev:</span> HTML5, Sass, Vanilla JS
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/covid" target="_blank">
+        <a
+          href="http://covid19in.live"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={covid} alt="covid"></img>
@@ -76,9 +80,13 @@ export default function Portfolio() {
               <span>Dev:</span> HTML5, Sass, Python 3
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/jstodo" target="_blank">
+        <a
+          href="http://get-organised.hanseibydesign.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={todo} alt="cmr"></img>
@@ -89,9 +97,13 @@ export default function Portfolio() {
               <span>Dev:</span> HTML5, Sass, Vanilla JS
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="lifecal" target="_blank">
+        <a
+          href="http://lifecalendar.tk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={life} alt="cmr"></img>
@@ -102,9 +114,9 @@ export default function Portfolio() {
               <span>Dev:</span> HTML5, Sass, Vanilla JS
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/csi" target="_blank">
+        <a href="http://csi-amity.tk" target="_blank" rel="noopener noreferrer">
           <div className="project-card">
             <div className="p-image">
               <img src={csi} alt="cmr"></img>
@@ -115,9 +127,13 @@ export default function Portfolio() {
               <span>Dev:</span> HTML5, W3 CSS, Vanilla JS
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/choose" target="_blank">
+        <a
+          href="https://www.behance.net/gallery/94964421/Choose-Life"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={choose} alt="cmr"></img>
@@ -128,9 +144,13 @@ export default function Portfolio() {
               <span>Dev:</span> N/A
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/tvs" target="_blank">
+        <a
+          href="https://www.behance.net/gallery/95252333/SK-TVS-Automobile-Franchise"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={tvs} alt="cmr"></img>
@@ -141,9 +161,13 @@ export default function Portfolio() {
               <span>Dev:</span> N/A
             </div>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/mori" target="_blank">
+        <a
+          href="https://www.behance.net/gallery/93131927/Memento-Mori"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="project-card">
             <div className="p-image">
               <img src={mori} alt="cmr"></img>
@@ -154,7 +178,7 @@ export default function Portfolio() {
               <span>Dev:</span> N/A
             </div>
           </div>
-        </Link>
+        </a>
       </div>
     </div>
   );

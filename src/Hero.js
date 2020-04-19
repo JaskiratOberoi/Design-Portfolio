@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 import developer from "./media/code.svg";
 
@@ -17,14 +17,9 @@ export default function Hero() {
             <Link className="cta" to="/Portfolio">
               My Projects
             </Link>
-            <a
-              className="subtle"
-              href="https://www.linkedin.com/in/jaskiratoberoi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Connect
-            </a>
+            <Link className="subtle" to="/Work">
+              Work-ex
+            </Link>
           </div>
         </div>
         <div className="hero-image">

@@ -340,6 +340,10 @@ nav .social ul li a i:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.hero .hero-text h1:hover {
+  cursor: default;
+}
+
 .hero .hero-text h1:hover::after {
   opacity: 1;
   right: -10px;
@@ -374,6 +378,10 @@ nav .social ul li a i:hover {
   opacity: 0;
   left: 10px;
   transition: all 0.5s ease-in-out;
+}
+
+.hero .hero-text h2:hover {
+  cursor: default;
 }
 
 .hero .hero-text h2:hover::after {
