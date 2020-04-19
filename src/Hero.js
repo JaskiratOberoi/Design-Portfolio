@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import {Link} from "react-router-dom";
 import developer from "./media/code.svg";
 
@@ -30,6 +30,9 @@ export default function Hero() {
         <div className="hero-image">
           <img src={developer} alt="hero"></img>
         </div>
+      </div>
+      <div className="foot">
+        <a href="/linkedin">Jaskirat Singh Oberoi </a> © Hansei By Design 2020
       </div>
     </main>
   );

@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import "./scss/App.css";
 import Header from "./Header";
 import Hero from "./Hero";
-import Foot from "./Foot";
 import About from "./About";
 import Work from "./Work";
 import Portfolio from "./Portfolio";
@@ -42,7 +41,9 @@ function App() {
           render={(props) => (
             <React.Fragment>
               {/* <PageTransition> */}
+
               <Work />
+
               {/* </PageTransition> */}
             </React.Fragment>
           )}
@@ -152,9 +153,6 @@ function App() {
           }}
         />
       </div>
-      <footer className="footer">
-        <Foot />
-      </footer>
     </Router>
   );
 }

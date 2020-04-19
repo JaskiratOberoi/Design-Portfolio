@@ -15,7 +15,8 @@
     "react-mailto": "^0.4.0",
     "react-router-dom": "^5.1.2",
     "react-router-page-transition": "^3.1.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-timeline-scribble": "^1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",

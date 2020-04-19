@@ -9,6 +9,7 @@ import life from "./media/life.png";
 import tvs from "./media/tvs.png";
 import csi from "./media/csi.png";
 import ttt from "./media/ttt.png";
+import portfolio from "./media/portfolio.png";
 
 export default function Portfolio() {
   return (
@@ -37,6 +38,20 @@ export default function Portfolio() {
           </div>
         </a>
 
+        <Link to="/" target="_blank">
+          <div className="project-card">
+            <div className="p-image">
+              <img src={portfolio} alt="cmr"></img>
+            </div>
+            <h1 className="p-title"> this.Portfolio</h1>
+            <div className="p-details">
+              <span>Design:</span> Minimal, Neumorphic
+              <br />
+              <span>Dev:</span> React JS, Router, Sass
+            </div>
+          </div>
+        </Link>
+
         <Link to="/cmr" target="_blank">
           <div className="project-card">
             <div className="p-image">
@@ -44,7 +59,7 @@ export default function Portfolio() {
             </div>
             <h1 className="p-title">C.M.R Gaming</h1>
             <div className="p-details">
-              <span>Design:</span> Adobe XD, Photoshop <br />
+              <span>Design:</span> Minimalistic , Adobe XD <br />
               <span>Dev:</span> HTML5, Sass, Vanilla JS
             </div>
           </div>
@@ -55,9 +70,9 @@ export default function Portfolio() {
             <div className="p-image">
               <img src={covid} alt="covid"></img>
             </div>
-            <h1 className="p-title">Covid 19 India Tacker</h1>
+            <h1 className="p-title">Covid-19 India Tacker</h1>
             <div className="p-details">
-              <span>Design:</span> Adobe XD, Photoshop <br />
+              <span>Design:</span> Flat UI, Adobe XD <br />
               <span>Dev:</span> HTML5, Sass, Python 3
             </div>
           </div>
