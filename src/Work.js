@@ -19,8 +19,11 @@ export default function Work() {
             title={"Hanu Software"}
             subtitle={"Cloud Engineer"}
           >
-            &#10687; Project 1 (Developing Data ETL Platform for future
-            projects) - Client Company 1 [$18bn total revenue, 2017-2018]
+            {" "}
+            <b>
+              &#10687; Project 1 (Developing Data ETL Platform for future
+              projects) - Client Company 1 [$18bn total revenue, 2017-2018]
+            </b>
             <br />• Deployed a new Data platform which, on completion, will save
             the company millions of dollars as they will have a proper system to
             onboard new data ETL and analysis projects along with a secure data
@@ -33,9 +36,10 @@ export default function Work() {
             <br />• Implementing Data ingestion from sources like flat files,
             Azure Data Lake Gen 2, APIs etc into Synapse Analytics
             <br />
-            <br />
-            &#10687; Project 2 (ETL of Sales Data) – Client Company 2 [$4.2bn
-            total revenue, 2018-2019]
+            <b>
+              &#10687; Project 2 (ETL of Sales Data) – Client Company 2 [$4.2bn
+              total revenue, 2018-2019]
+            </b>
             <br />• Implementing Data ingestion from sources like flat files,
             On-Prem SQL Server etc. through Azure Data Factory into Azure
             Synapse Analytics
@@ -43,15 +47,16 @@ export default function Work() {
             Azure Databricks
             <br />• Support in developing BI reports using PowerBI
             <br />
-            <br />
-            &#10687; Project 3 (Chatbot) – Client Company 3 [$350M total
-            revenue, 2018-2019]
+            <b>
+              &#10687; Project 3 (Chatbot) – Client Company 3 [$350M total
+              revenue, 2018-2019]
+            </b>
             <br />• Implemented UX principles in the current design to enhance
             its functionality
             <br />• Created an interactive front-end prototype for the chatbot
             admin portal using Adobe XD tool
             <br />• Designed the complete front-end prototype from scratch using
-            HTML5, Sass and JavaScript
+            HTML5, Sass and JavaScript <br />
           </Event>
           <Event
             interval={"May 2018 – July 2018"}

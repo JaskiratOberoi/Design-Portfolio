@@ -121,7 +121,7 @@ export default function Portfolio() {
             <div className="p-image">
               <img src={csi} alt="cmr"></img>
             </div>
-            <h1 className="p-title">CSI Amity Student Branch</h1>
+            <h1 className="p-title">CSI Student Branch</h1>
             <div className="p-details">
               <span>Design:</span> Minimal Design <br />
               <span>Dev:</span> HTML5, W3 CSS, Vanilla JS
