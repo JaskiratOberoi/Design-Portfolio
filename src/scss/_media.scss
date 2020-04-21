@@ -229,6 +229,7 @@
     }
   }
 
+  //Experience
   .w-container {
     margin-top: 2rem;
   }
@@ -239,5 +240,20 @@
     margin: 0;
     padding: 0;
     width: 100%;
+  }
+
+  //About
+  .f-main {
+    margin-top: 5rem;
+    flex-direction: column;
+    width: 100%;
+    .f-image {
+      width: 50%;
+    }
+    .f-body {
+      padding: 0 2rem;
+      margin-top: 30%;
+      width: 100%;
+    }
   }
 }

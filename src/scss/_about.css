@@ -1,0 +1,41 @@
+.f-main {
+  display: flex;
+  height: 75vh;
+  width: 100vw;
+  margin: 0 auto;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-main .f-image {
+  position: relative;
+  width: 30%;
+}
+
+.f-main .f-image #slideshow {
+  position: relative;
+  margin-top: -40%;
+  width: 80%;
+  padding: 1rem;
+}
+
+.f-main .f-image #slideshow div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.f-main .f-image #slideshow div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.f-main .f-body {
+  width: 30%;
+  font-size: 1rem;
+  margin: 2rem;
+  text-align: justify;
+}

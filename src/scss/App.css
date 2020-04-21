@@ -100,12 +100,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   height: 75vh;
-  width: 75vw;
+  width: 100vw;
   margin: 0 auto;
   font-size: 2rem;
   -webkit-box-align: center;
@@ -116,8 +112,36 @@
           justify-content: center;
 }
 
+.f-main .f-image {
+  position: relative;
+  width: 30%;
+}
+
+.f-main .f-image #slideshow {
+  position: relative;
+  margin-top: -40%;
+  width: 80%;
+  padding: 1rem;
+}
+
+.f-main .f-image #slideshow div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.f-main .f-image #slideshow div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .f-main .f-body {
-  font-size: 8rem;
+  width: 30%;
+  font-size: 1rem;
+  margin: 2rem;
+  text-align: justify;
 }
 
 .w-container {
@@ -211,13 +235,38 @@
 .w-container div ul li.css-1psltl0 div.css-1jv1kel b {
   font-weight: 900;
   font-size: 1.1rem;
-  padding-top: 0.4rem;
-  padding-bottom: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  width: 100%;
 }
 
 .w-container div ul li.css-1psltl0 div.css-1jv1kel div.css-7mkrez {
-  text-align: left;
+  text-align: justify;
   width: 80%;
+}
+
+.e-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 75vh;
+  width: 75vw;
+  margin: 0 auto;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.e-main .e-body {
+  font-size: 8rem;
 }
 
 * {
@@ -895,6 +944,22 @@ nav .social ul li a i:hover {
   div.css-1jv1kel {
     margin: 0;
     padding: 0;
+    width: 100%;
+  }
+  .f-main {
+    margin-top: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .f-main .f-image {
+    width: 50%;
+  }
+  .f-main .f-body {
+    padding: 0 2rem;
+    margin-top: 30%;
     width: 100%;
   }
 }

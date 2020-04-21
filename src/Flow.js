@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Flow() {
+export default function About() {
   return (
-    <div className="f-main">
-      <div className="f-body">404</div>
+    <div className="e-main">
+      <div className="e-body">404</div>
       &lt; WORK IN PROGRESS /&gt;
     </div>
   );
