@@ -7,7 +7,6 @@ export default function Work() {
   return (
     <div className="w-container">
       <Fragment>
-        {/* <h1>One learn's best on the Job!</h1> */}
         <Timeline>
           <Event
             interval={"This could be your company"}
