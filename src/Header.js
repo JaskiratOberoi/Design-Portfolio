@@ -1,23 +1,24 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 export default function Header() {
   return (
     <nav>
       <div className="title">
-        <a href="/">Jaskirat Singh Oberoi</a>
+        <Link to="/">Jaskirat Singh Oberoi</Link>
       </div>
       <ul className="navbar">
         <li className="ltr">
-          <a href="/Work">Experience</a>
+          <Link to="/Work">Experience</Link>
         </li>
         <li className="ltr">
-          <a href="/Portfolio">Portfolio</a>
+          <Link to="/Portfolio">Portfolio</Link>
         </li>
         <li className="ltr">
-          <a href="/Flow">Workflow</a>
+          <Link to="/Flow">Workflow</Link>
         </li>
         <li className="ltr">
-          <a href="/About">About</a>
+          <Link to="/About">About</Link>
         </li>
         <li className="ltr">
           <a
