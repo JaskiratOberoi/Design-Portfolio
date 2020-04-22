@@ -1,43 +1,63 @@
 import React from "react";
+import {Carousel} from "react-responsive-carousel";
 // import $ from "jquery";
-// import jaskirat1 from "./media/jaskirat-1.JPG";
+import jaskirat1 from "./media/jaskirat-1.JPG";
 import jaskirat2 from "./media/jaskirat-2.jpg";
-// import jaskirat3 from "./media/jaskirat-3.jpg";
-// import jaskirat4 from "./media/jaskirat-4.jpg";
-// import jaskirat5 from "./media/jaskirat-7.png";
-// import jaskirat6 from "./media/jaskirat-8.png";
+import jaskirat3 from "./media/jaskirat-3.jpg";
+import jaskirat4 from "./media/jaskirat-4.jpg";
+import jaskirat5 from "./media/jaskirat-7.png";
+import jaskirat6 from "./media/jaskirat-8.png";
+import jaskirat7 from "./media/jaskirat-9.png";
 
-export default function Flow() {
+export default function About() {
   return (
     <div className="f-main">
       <div className="f-image">
-        <div id="slideshow">
-          {/* <div>
-            <img src={jaskirat1} alt=" me-1" />
+        <Carousel
+          showArrows={false}
+          showThumbs={false}
+          autoPlay={true}
+          infiniteLoop={true}
+          showStatus={false}
+          showIndicators={false}
+          className="carousel"
+        >
+          <div>
+            <img src={jaskirat1} alt="me-1" />
           </div>
           <div>
-            <img src={jaskirat6} alt="me-2" />
+            <img src={jaskirat2} alt="me-1" />
           </div>
           <div>
-            <img src={jaskirat3} alt="me-3" />
+            <img src={jaskirat3} alt="me-1" />
           </div>
           <div>
-            <img src={jaskirat4} alt="me-4" />
+            <img src={jaskirat4} alt="me-1" />
           </div>
           <div>
-            <img src={jaskirat5} alt="me-5" />
-          </div> */}
-          <div>
-            <img src={jaskirat2} alt="me-6" />
+            <img src={jaskirat5} alt="me-1" />
           </div>
-        </div>
+          <div>
+            <img src={jaskirat6} alt="me-1" />
+          </div>
+          <div>
+            <img src={jaskirat7} alt="me-1" />
+          </div>
+        </Carousel>
       </div>
 
       <div className="f-body">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente vitae
-        labore fugiat obcaecati in eius veniam, architecto asperiores, eveniet,
-        nisi fuga aliquam corporis necessitatibus esse commodi! Itaque officiis
-        iusto necessitatibus.
+        <div className="quote">
+          <i className="fas fa-quote-left"></i>Be kind to your future self!
+          <i className="fas fa-quote-right"></i>
+        </div>
+        <div className="main-text">
+          A designer by passion, an engineer by choice, I’m a determined Web
+          Developer & UI/UX Designer who is driven and can achieve strict
+          deadlines. I enjoy using my obsessive attention to detail, my
+          unequivocal love for making things, and my mission-driven work ethic
+          to create simple yet beautiful designs.
+        </div>
       </div>
     </div>
   );
