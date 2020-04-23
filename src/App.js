@@ -27,7 +27,7 @@ function App() {
           )}
         />
         <Route
-          path="/About"
+          path="/about"
           render={(props) => (
             <React.Fragment>
               {/* <PageTransition> */}
@@ -37,7 +37,7 @@ function App() {
           )}
         />
         <Route
-          path="/Work"
+          path="/work"
           render={(props) => (
             <React.Fragment>
               {/* <PageTransition> */}
@@ -49,7 +49,7 @@ function App() {
           )}
         />
         <Route
-          path="/Portfolio"
+          path="/portfolio"
           render={(props) => (
             <React.Fragment>
               {/* <PageTransition> */}
@@ -59,7 +59,7 @@ function App() {
           )}
         />
         <Route
-          path="/Flow"
+          path="/flow"
           render={(props) => (
             <React.Fragment>
               {/* <PageTransition> */}

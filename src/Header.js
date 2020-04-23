@@ -9,16 +9,16 @@ export default function Header() {
       </div>
       <ul className="navbar">
         <li className="ltr">
-          <Link to="/Work">Experience</Link>
+          <Link to="/work">Experience</Link>
         </li>
         <li className="ltr">
-          <Link to="/Portfolio">Portfolio</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="ltr">
-          <Link to="/Flow">Workflow</Link>
+          <Link to="/flow">Workflow</Link>
         </li>
         <li className="ltr">
-          <Link to="/About">About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li className="ltr">
           <a
