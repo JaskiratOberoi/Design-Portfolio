@@ -10,6 +10,7 @@ import tvs from "./media/tvs.png";
 import csi from "./media/csi.png";
 import ttt from "./media/ttt.png";
 import portfolio from "./media/portfolio.png";
+import covidjs from "./media/covidjs.png";
 
 export default function Portfolio() {
   return (
@@ -21,6 +22,23 @@ export default function Portfolio() {
       </h2>
 
       <div className="project-cards">
+        <a
+          href="http://covid19.hanseibydesign.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project-card">
+            <div className="p-image">
+              <img src={covidjs} alt="covidjs"></img>
+            </div>
+            <h1 className="p-title">COVID-19 World Tracker</h1>
+            <div className="p-details">
+              <span>Design:</span> Material UI <br />
+              <span>Dev:</span> React JS, CSS Modules
+            </div>
+          </div>
+        </a>
+
         <a
           href="https://tic-tac-toe-36436.web.app/"
           target="_blank"
