@@ -1,11 +1,11 @@
 import React from "react";
 import {Carousel} from "react-responsive-carousel";
-import jaskirat1 from "./media/jaskirat-1.JPG";
-import jaskirat2 from "./media/jaskirat-2.jpg";
-import jaskirat3 from "./media/jaskirat-3.jpg";
-import jaskirat4 from "./media/jaskirat-4.jpg";
-import jaskirat5 from "./media/jaskirat-7.png";
-import jaskirat6 from "./media/jaskirat-8.png";
+// import jaskirat1 from "./media/jaskirat-1.JPG";
+// import jaskirat2 from "./media/jaskirat-2.jpg";
+// import jaskirat3 from "./media/jaskirat-3.jpg";
+// import jaskirat4 from "./media/jaskirat-4.jpg";
+// import jaskirat5 from "./media/jaskirat-7.png";
+// import jaskirat6 from "./media/jaskirat-8.png";
 import jaskirat7 from "./media/jaskirat-9.png";
 
 export default function About() {
