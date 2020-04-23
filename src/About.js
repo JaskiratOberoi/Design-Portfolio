@@ -1,6 +1,5 @@
 import React from "react";
 import {Carousel} from "react-responsive-carousel";
-// import $ from "jquery";
 import jaskirat1 from "./media/jaskirat-1.JPG";
 import jaskirat2 from "./media/jaskirat-2.jpg";
 import jaskirat3 from "./media/jaskirat-3.jpg";
@@ -22,7 +21,7 @@ export default function About() {
           showIndicators={false}
           className="carousel"
         >
-          <div>
+          {/* <div>
             <img src={jaskirat1} alt="me-1" />
           </div>
           <div>
@@ -39,7 +38,7 @@ export default function About() {
           </div>
           <div>
             <img src={jaskirat6} alt="me-1" />
-          </div>
+          </div> */}
           <div>
             <img src={jaskirat7} alt="me-1" />
           </div>
