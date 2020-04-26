@@ -39,6 +39,13 @@
     font-size: 14px;
     position: relative;
     z-index: 5;
+    transition: all 0.3s ease-in-out;
+  }
+  .body-padding-adder {
+    padding-top: 280px;
+  }
+  .display-flex {
+    display: flex !important;
   }
   nav {
     position: relative;
@@ -58,8 +65,11 @@
   }
   nav .navbar {
     display: none;
-    position: relative;
-    z-index: 20;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 101;
     flex-direction: column;
     background: #000514;
     list-style: none;
@@ -71,11 +81,16 @@
   nav .navbar li {
     font-weight: bold;
     text-decoration: none;
-    padding: 20px 0px;
-    margin: 0px 20px;
+    padding: 0.75rem 0px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    border-bottom: 3px solid #f1f1f1;
+    margin: 0.3rem 20px;
     display: inline-block;
     position: relative;
-    opacity: 0.75;
+    opacity: 0;
+    animation: yourAnimation 0.5s ease forwards 0.1s;
   }
   nav .navbar li a {
     text-decoration: none;
@@ -101,9 +116,11 @@
   }
   nav .mobile-nav {
     display: block;
+    cursor: pointer;
   }
   nav .mobile-nav i {
     color: #f1f1f1;
+    pointer-events: none;
   }
   nav .social {
     padding: 0 2rem;
@@ -133,13 +150,17 @@
   .hero {
     max-width: 95vw;
     height: 80vh;
+    position: relative;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column-reverse;
+    z-index: 1;
   }
   .hero .hero-text,
 .hero .hero-image {
+    position: relative;
     max-width: 80vw;
+    z-index: -20;
   }
   .hero .hero-text {
     text-align: center;

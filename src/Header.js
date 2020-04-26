@@ -2,12 +2,19 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 export default function Header() {
+  function navbarToggle(e) {
+    e.preventDefault();
+    let body = document.getElementById("body");
+    let navbar = document.getElementById("navbar");
+    body.classList.toggle("body-padding-adder");
+    navbar.classList.toggle("display-flex");
+  }
   return (
     <nav>
       <div className="title">
         <Link to="/">Jaskirat Singh Oberoi</Link>
       </div>
-      <ul className="navbar">
+      <ul className="navbar" id="navbar">
         <li className="ltr">
           <Link to="/work">Experience</Link>
         </li>
@@ -30,7 +37,7 @@ export default function Header() {
           </a>
         </li>
       </ul>
-      <div className="mobile-nav">
+      <div className="mobile-nav" id="menubtn" onClick={navbarToggle}>
         <i className="fas fa-bars"></i>
       </div>
       <div className="social">
