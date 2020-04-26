@@ -122,8 +122,9 @@
         }
 
         &::before {
-          transition: 300ms;
-          height: 3px;
+          transition: none;
+
+          height: 0px;
           content: "";
           position: absolute;
           background-color: #f1f1f1;
@@ -237,7 +238,7 @@
 
   //portfolio
 
-  main {
+  .main {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -250,7 +251,7 @@
     }
     h2.quote {
       width: 100%;
-      margin: 0 1rem;
+      padding: 0 1rem;
       text-align: center;
     }
   }

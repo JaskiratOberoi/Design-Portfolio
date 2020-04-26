@@ -101,8 +101,8 @@
     cursor: pointer;
   }
   nav .navbar li::before {
-    transition: 300ms;
-    height: 3px;
+    transition: none;
+    height: 0px;
     content: "";
     position: absolute;
     background-color: #f1f1f1;
@@ -200,20 +200,20 @@
     width: 100%;
     margin: 0.2rem 0;
   }
-  main {
+  .main {
     display: flex;
     flex-direction: column;
     width: 100vw;
     align-items: center;
     justify-content: center;
   }
-  main h1.p-header {
+  .main h1.p-header {
     font-size: 2rem;
     max-width: 100%;
   }
-  main h2.quote {
+  .main h2.quote {
     width: 100%;
-    margin: 0 1rem;
+    padding: 0 1rem;
     text-align: center;
   }
   .w-container {

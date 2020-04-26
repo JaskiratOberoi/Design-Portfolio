@@ -1,5 +1,5 @@
 import React from "react";
-import {Carousel} from "react-responsive-carousel";
+// import {Carousel} from "react-responsive-carousel";
 // import jaskirat1 from "./media/jaskirat-1.JPG";
 // import jaskirat2 from "./media/jaskirat-2.jpg";
 // import jaskirat3 from "./media/jaskirat-3.jpg";
@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className="f-main">
       <div className="f-image">
-        <Carousel
+        {/* <Carousel
           showArrows={false}
           showThumbs={false}
           autoPlay={true}
@@ -20,8 +20,8 @@ export default function About() {
           showStatus={false}
           showIndicators={false}
           className="carousel"
-        >
-          {/* <div>
+        > */}
+        {/* <div>
             <img src={jaskirat1} alt="me-1" />
           </div>
           <div>
@@ -39,10 +39,10 @@ export default function About() {
           <div>
             <img src={jaskirat6} alt="me-1" />
           </div> */}
-          <div>
-            <img src={jaskirat7} alt="me-1" />
-          </div>
-        </Carousel>
+        <div>
+          <img src={jaskirat7} alt="me-1" />
+        </div>
+        {/* </Carousel> */}
       </div>
 
       <div className="f-body">

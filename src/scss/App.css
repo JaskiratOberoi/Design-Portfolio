@@ -409,12 +409,7 @@
   margin: 0 auto;
 }
 
-.f-main .f-image .carousel {
-  width: 100%;
-  overflow: hidden;
-}
-
-.f-main .f-image .carousel div img {
+.f-main .f-image div img {
   width: 100%;
   border-radius: 10px;
 }
@@ -1315,9 +1310,9 @@ nav .social ul li a i:hover {
     cursor: pointer;
   }
   nav .navbar li::before {
-    -webkit-transition: 300ms;
-    transition: 300ms;
-    height: 3px;
+    -webkit-transition: none;
+    transition: none;
+    height: 0px;
     content: "";
     position: absolute;
     background-color: #f1f1f1;
@@ -1442,7 +1437,7 @@ nav .social ul li a i:hover {
     width: 100%;
     margin: 0.2rem 0;
   }
-  main {
+  .main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1458,13 +1453,13 @@ nav .social ul li a i:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  main h1.p-header {
+  .main h1.p-header {
     font-size: 2rem;
     max-width: 100%;
   }
-  main h2.quote {
+  .main h2.quote {
     width: 100%;
-    margin: 0 1rem;
+    padding: 0 1rem;
     text-align: center;
   }
   .w-container {
