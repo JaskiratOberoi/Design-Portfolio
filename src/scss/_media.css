@@ -17,12 +17,16 @@
   * {
     font-size: 12px;
   }
+  .hero .hero-text {
+    margin-bottom: 5px;
+  }
   .hero .hero-text h1 {
     font-size: 2.4rem;
   }
   .hero .hero-text h2 {
     padding-top: 1rem;
-    margin-top: 10px;
+    margin-top: -10px;
+    margin-bottom: 5px;
   }
   .hero .hero-text .get-in-touch .cta,
 .hero .hero-text .get-in-touch .subtle {

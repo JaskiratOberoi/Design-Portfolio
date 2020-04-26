@@ -154,17 +154,16 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
-    h1 {
+
+    svg {
       font-size: 2.3rem;
-      margin: 1rem 0;
-      width: fit-content;
-      margin-left: -0.8rem;
-      // border-radius: 5px;
+      margin: 0.5rem 0;
+      width: 80%;
+      margin-left: 0.8rem;
       transition: all 0.3s ease-in-out;
       &::after {
         position: relative;
-        content: ">";
+        content: "/>";
         opacity: 0;
         right: 10px;
         transition: all 0.5s ease-in-out;
@@ -193,8 +192,9 @@ nav {
       position: relative;
       top: -30px;
       font-size: 1.5rem;
-      padding: 0.5rem 0rem;
-      margin: 0.4rem 0;
+      animation: yourAnimation 0.6s ease forwards 6.3s;
+      margin-bottom: -5%;
+      opacity: 0;
       color: #f1f1f1;
       border-radius: 10px;
       &::after {
@@ -232,9 +232,13 @@ nav {
       display: flex;
       align-items: center;
       font-size: 1.2rem;
+      opacity: 0;
+      animation: yourAnimation 0.6s ease forwards 6.8s;
     }
     .get-in-touch {
       display: flex;
+      opacity: 0;
+      animation: yourAnimation 0.6s ease forwards 7.4s;
 
       button,
       Link {
@@ -340,6 +344,126 @@ nav {
   &.transition-leave.transition-leave-active {
     opacity: 0;
     transform: translate3d(100%, 0, 0);
+  }
+}
+
+// UI/UX SVG Animation
+
+#UI {
+  animation: fill-anim 0.5s ease forwards 5.8s;
+  path {
+    &:nth-child(1) {
+      stroke-dasharray: 337px;
+      stroke-dashoffset: 337px;
+      animation: line-anim 1s ease forwards 0.3s;
+    }
+    &:nth-child(2) {
+      stroke-dasharray: 164.7px;
+      stroke-dashoffset: 164.7px;
+      animation: line-anim 1s ease forwards 0.6s;
+    }
+    &:nth-child(3) {
+      stroke-dasharray: 180px;
+      stroke-dashoffset: 180px;
+      animation: line-anim 1s ease forwards 4.8s;
+    }
+    &:nth-child(4) {
+      stroke-dasharray: 337px;
+      stroke-dashoffset: 337px;
+      animation: line-anim 1s ease forwards 1.2s;
+    }
+    &:nth-child(5) {
+      stroke-dasharray: 354.5px;
+      stroke-dashoffset: 354.5px;
+      animation: line-anim 1s ease forwards 1.5s;
+    }
+    &:nth-child(6) {
+      stroke-dasharray: 305px;
+      stroke-dashoffset: 305px;
+      animation: line-anim 1s ease forwards 1.8s;
+    }
+    &:nth-child(7) {
+      stroke-dasharray: 163px;
+      stroke-dashoffset: 163px;
+      animation: line-anim 1s ease forwards 2.1s;
+    }
+    &:nth-child(8) {
+      stroke-dasharray: 270px;
+      stroke-dashoffset: 270px;
+      animation: line-anim 1s ease forwards 2.4s;
+    }
+    &:nth-child(9) {
+      stroke-dasharray: 205px;
+      stroke-dashoffset: 205px;
+      animation: line-anim 1s ease forwards 2.7s;
+    }
+    &:nth-child(10) {
+      stroke-dasharray: 378px;
+      stroke-dashoffset: 378px;
+      animation: line-anim 1s ease forwards 3s;
+    }
+    &:nth-child(11) {
+      stroke-dasharray: 378px;
+      stroke-dashoffset: 378px;
+      animation: line-anim 1s ease forwards 3.3s;
+    }
+    &:nth-child(12) {
+      stroke-dasharray: 259px;
+      stroke-dashoffset: 259px;
+      animation: line-anim 1s ease forwards 3.6s;
+    }
+    &:nth-child(13) {
+      stroke-dasharray: 275px;
+      stroke-dashoffset: 275px;
+      animation: line-anim 1s ease forwards 3.9s;
+    }
+    &:nth-child(14) {
+      stroke-dasharray: 216px;
+      stroke-dashoffset: 216px;
+      animation: line-anim 1s ease forwards 4.2s;
+    }
+    &:nth-child(15) {
+      stroke-dasharray: 337px;
+      stroke-dashoffset: 337px;
+      animation: line-anim 1s ease forwards 4.5s;
+    }
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-anim {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #f1f1f1;
+  }
+}
+
+@keyframes yourAnimation {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes HeroAnimation {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
   }
 }
 
