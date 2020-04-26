@@ -66,6 +66,7 @@
   nav .navbar {
     display: none;
     position: fixed;
+    width: 100%;
     top: 0;
     right: 0;
     left: 0;
@@ -75,13 +76,19 @@
     list-style: none;
     padding: 1rem;
     flex: 1;
+    text-align: center;
     align-items: center;
     justify-content: center;
   }
-  nav .navbar li {
+  nav .navbar a {
+    text-decoration: none;
+    color: #f1f1f1;
+    width: 80%;
+  }
+  nav .navbar a li {
     font-weight: bold;
     text-decoration: none;
-    padding: 0.75rem 0px;
+    padding: 0.75rem 0rem;
     width: 80%;
     border-radius: 10px;
     text-align: center;
@@ -92,15 +99,11 @@
     opacity: 0;
     animation: yourAnimation 0.5s ease forwards 0.1s;
   }
-  nav .navbar li a {
-    text-decoration: none;
-    color: #f1f1f1;
-  }
-  nav .navbar li:hover {
+  nav .navbar a li:hover {
     opacity: 1;
     cursor: pointer;
   }
-  nav .navbar li::before {
+  nav .navbar a li::before {
     transition: none;
     height: 0px;
     content: "";

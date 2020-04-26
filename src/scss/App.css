@@ -658,7 +658,12 @@ nav .navbar {
           justify-content: center;
 }
 
-nav .navbar li {
+nav .navbar a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+nav .navbar a li {
   font-weight: bold;
   text-decoration: none;
   padding: 20px 0px;
@@ -668,17 +673,12 @@ nav .navbar li {
   opacity: 0.75;
 }
 
-nav .navbar li a {
-  text-decoration: none;
-  color: #f1f1f1;
-}
-
-nav .navbar li:hover {
+nav .navbar a li:hover {
   opacity: 1;
   cursor: pointer;
 }
 
-nav .navbar li::before {
+nav .navbar a li::before {
   -webkit-transition: 300ms;
   transition: 300ms;
   height: 3px;
@@ -1265,6 +1265,7 @@ nav .social ul li a i:hover {
   nav .navbar {
     display: none;
     position: fixed;
+    width: 100%;
     top: 0;
     right: 0;
     left: 0;
@@ -1279,6 +1280,7 @@ nav .social ul li a i:hover {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1286,10 +1288,15 @@ nav .social ul li a i:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  nav .navbar li {
+  nav .navbar a {
+    text-decoration: none;
+    color: #f1f1f1;
+    width: 80%;
+  }
+  nav .navbar a li {
     font-weight: bold;
     text-decoration: none;
-    padding: 0.75rem 0px;
+    padding: 0.75rem 0rem;
     width: 80%;
     border-radius: 10px;
     text-align: center;
@@ -1301,15 +1308,11 @@ nav .social ul li a i:hover {
     -webkit-animation: yourAnimation 0.5s ease forwards 0.1s;
             animation: yourAnimation 0.5s ease forwards 0.1s;
   }
-  nav .navbar li a {
-    text-decoration: none;
-    color: #f1f1f1;
-  }
-  nav .navbar li:hover {
+  nav .navbar a li:hover {
     opacity: 1;
     cursor: pointer;
   }
-  nav .navbar li::before {
+  nav .navbar a li::before {
     -webkit-transition: none;
     transition: none;
     height: 0px;
