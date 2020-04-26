@@ -192,7 +192,7 @@ nav {
       position: relative;
       top: -30px;
       font-size: 1.5rem;
-      animation: yourAnimation 0.6s ease forwards 6.3s;
+      animation: yourAnimation 0.5s ease forwards 3.8s;
       margin-bottom: -5%;
       opacity: 0;
       color: #f1f1f1;
@@ -233,12 +233,12 @@ nav {
       align-items: center;
       font-size: 1.2rem;
       opacity: 0;
-      animation: yourAnimation 0.6s ease forwards 6.8s;
+      animation: yourAnimation 0.5s ease forwards 4.2s;
     }
     .get-in-touch {
       display: flex;
       opacity: 0;
-      animation: yourAnimation 0.6s ease forwards 7.4s;
+      animation: yourAnimation 0.6s ease forwards 4.6s;
 
       button,
       Link {
@@ -350,82 +350,82 @@ nav {
 // UI/UX SVG Animation
 
 #UI {
-  animation: fill-anim 0.5s ease forwards 5.8s;
+  animation: fill-anim 0.5s ease forwards 3.3s;
   path {
     &:nth-child(1) {
       stroke-dasharray: 337px;
       stroke-dashoffset: 337px;
-      animation: line-anim 1s ease forwards 0.3s;
+      animation: line-anim 0.3s ease forwards 0.2s;
     }
     &:nth-child(2) {
       stroke-dasharray: 164.7px;
       stroke-dashoffset: 164.7px;
-      animation: line-anim 1s ease forwards 0.6s;
+      animation: line-anim 0.3s ease forwards 0.4s;
     }
     &:nth-child(3) {
       stroke-dasharray: 180px;
       stroke-dashoffset: 180px;
-      animation: line-anim 1s ease forwards 4.8s;
+      animation: line-anim 0.3s ease forwards 3s;
     }
     &:nth-child(4) {
       stroke-dasharray: 337px;
       stroke-dashoffset: 337px;
-      animation: line-anim 1s ease forwards 1.2s;
+      animation: line-anim 0.3s ease forwards 0.6s;
     }
     &:nth-child(5) {
       stroke-dasharray: 354.5px;
       stroke-dashoffset: 354.5px;
-      animation: line-anim 1s ease forwards 1.5s;
+      animation: line-anim 0.3s ease forwards 0.8s;
     }
     &:nth-child(6) {
       stroke-dasharray: 305px;
       stroke-dashoffset: 305px;
-      animation: line-anim 1s ease forwards 1.8s;
+      animation: line-anim 0.3s ease forwards 1s;
     }
     &:nth-child(7) {
       stroke-dasharray: 163px;
       stroke-dashoffset: 163px;
-      animation: line-anim 1s ease forwards 2.1s;
+      animation: line-anim 0.3s ease forwards 1.2s;
     }
     &:nth-child(8) {
       stroke-dasharray: 270px;
       stroke-dashoffset: 270px;
-      animation: line-anim 1s ease forwards 2.4s;
+      animation: line-anim 0.3s ease forwards 1.4s;
     }
     &:nth-child(9) {
       stroke-dasharray: 205px;
       stroke-dashoffset: 205px;
-      animation: line-anim 1s ease forwards 2.7s;
+      animation: line-anim 0.3s ease forwards 1.6s;
     }
     &:nth-child(10) {
       stroke-dasharray: 378px;
       stroke-dashoffset: 378px;
-      animation: line-anim 1s ease forwards 3s;
+      animation: line-anim 0.3s ease forwards 1.8s;
     }
     &:nth-child(11) {
       stroke-dasharray: 378px;
       stroke-dashoffset: 378px;
-      animation: line-anim 1s ease forwards 3.3s;
+      animation: line-anim 0.3s ease forwards 2s;
     }
     &:nth-child(12) {
       stroke-dasharray: 259px;
       stroke-dashoffset: 259px;
-      animation: line-anim 1s ease forwards 3.6s;
+      animation: line-anim 0.3s ease forwards 2.2s;
     }
     &:nth-child(13) {
       stroke-dasharray: 275px;
       stroke-dashoffset: 275px;
-      animation: line-anim 1s ease forwards 3.9s;
+      animation: line-anim 0.3s ease forwards 2.4s;
     }
     &:nth-child(14) {
       stroke-dasharray: 216px;
       stroke-dashoffset: 216px;
-      animation: line-anim 1s ease forwards 4.2s;
+      animation: line-anim 0.3s ease forwards 2.6s;
     }
     &:nth-child(15) {
       stroke-dasharray: 337px;
       stroke-dashoffset: 337px;
-      animation: line-anim 1s ease forwards 4.5s;
+      animation: line-anim 0.3s ease forwards 2.8s;
     }
   }
 }

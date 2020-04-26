@@ -1,18 +1,9 @@
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 100vw;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .main h1.p-header {
@@ -34,18 +25,11 @@
   position: relative;
   max-width: 80%;
   background: #000514;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Open Sans", sans-serif;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .main .project-cards .project-card {
@@ -55,11 +39,8 @@
   border-radius: 10px;
   padding: 1rem;
   margin: 0.5rem 0.6rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 5px 5px 10px #000208, -5px -5px 10px #000820;
-          box-shadow: 5px 5px 10px #000208, -5px -5px 10px #000820;
-  -webkit-transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px #000208, -5px -5px 10px #000820;
   transition: all 0.3s ease-in-out;
 }
 
@@ -90,10 +71,8 @@
 }
 
 .main .project-cards .project-card:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-box-shadow: 0 3px 10px rgba(0, 25, 170, 0.507);
-          box-shadow: 0 3px 10px rgba(0, 25, 170, 0.507);
+  transform: translateY(-5px);
+  box-shadow: 0 3px 10px rgba(0, 25, 170, 0.507);
 }
 
 /********************************************
@@ -105,8 +84,11 @@
 /********************************************
 	COLOURS
 ********************************************/
-.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+.carousel.carousel-slider .control-arrow, .carousel .control-arrow {
   -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -ms-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
   opacity: 0.4;
   filter: alpha(opacity=40);
@@ -124,7 +106,7 @@
   filter: alpha(opacity=100);
 }
 
-.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+.carousel.carousel-slider .control-arrow:before, .carousel .control-arrow:before {
   margin: 0 5px;
   display: inline-block;
   border-top: 8px solid transparent;
@@ -166,6 +148,7 @@
 
 .carousel * {
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -195,8 +178,14 @@
 
 .carousel .thumbs {
   -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
   transition: all 0.15s ease-in;
   -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   position: relative;
   list-style: none;
@@ -205,6 +194,9 @@
 
 .carousel .thumb {
   -webkit-transition: border 0.15s ease-in;
+  -moz-transition: border 0.15s ease-in;
+  -ms-transition: border 0.15s ease-in;
+  -o-transition: border 0.15s ease-in;
   transition: border 0.15s ease-in;
   display: inline-block;
   margin-right: 6px;
@@ -251,39 +243,40 @@
   margin: auto;
   width: 100%;
   -webkit-transition: height 0.15s ease-in;
+  -moz-transition: height 0.15s ease-in;
+  -ms-transition: height 0.15s ease-in;
+  -o-transition: height 0.15s ease-in;
   transition: height 0.15s ease-in;
 }
 
 .carousel .slider-wrapper.axis-horizontal .slider {
   -ms-box-orient: horizontal;
   display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
 }
 
 .carousel .slider-wrapper.axis-horizontal .slider .slide {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-flow: column;
-      flex-flow: column;
+  flex-direction: column;
+  flex-flow: column;
 }
 
 .carousel .slider-wrapper.axis-vertical {
   -ms-box-orient: horizontal;
   display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
 }
 
 .carousel .slider-wrapper.axis-vertical .slider {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 
 .carousel .slider {
@@ -296,6 +289,9 @@
 
 .carousel .slider.animated {
   -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
@@ -322,6 +318,9 @@
 
 .carousel .slide .legend {
   -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   position: absolute;
   bottom: 40px;
@@ -336,6 +335,9 @@
   text-align: center;
   opacity: 0.25;
   -webkit-transition: opacity 0.35s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -ms-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
   transition: opacity 0.35s ease-in-out;
 }
 
@@ -355,11 +357,13 @@
 
 .carousel .control-dots .dot {
   -webkit-transition: opacity 0.25s ease-in;
+  -moz-transition: opacity 0.25s ease-in;
+  -ms-transition: opacity 0.25s ease-in;
+  -o-transition: opacity 0.25s ease-in;
   transition: opacity 0.25s ease-in;
   opacity: 0.3;
   filter: alpha(opacity=30);
-  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
   background: #fff;
   border-radius: 50%;
   width: 8px;
@@ -389,19 +393,13 @@
 }
 
 .f-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 75vh;
   width: 80vw;
   margin: 0 auto;
   font-size: 2rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .f-main .f-image {
@@ -420,13 +418,8 @@
 }
 
 .f-main .f-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 50%;
   font-size: 1rem;
   margin: auto;
@@ -440,8 +433,7 @@
 .f-main .f-body .quote i {
   font-size: 1rem;
   padding: 0.5rem;
-  -webkit-transform: translateY(-0.5rem);
-          transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
 }
 
 .f-main .f-body .main-text {
@@ -450,24 +442,13 @@
 }
 
 .w-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 2rem 0;
   margin: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -478,37 +459,19 @@
 }
 
 .w-container div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 1rem 0;
   width: 70%;
 }
 
 .w-container div ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .w-container div ul::before {
@@ -551,23 +514,14 @@
 }
 
 .e-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: 75vh;
   width: 75vw;
   margin: 0 auto;
   font-size: 2rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .e-main .e-body {
@@ -577,14 +531,8 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 20px;
-}
-
-::-moz-selection {
-  background-color: #ffffff;
-  color: #000514;
 }
 
 ::selection {
@@ -603,15 +551,9 @@ body {
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 nav .title {
@@ -637,7 +579,6 @@ nav .title::after {
   position: relative;
   top: -20px;
   right: 50px;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -647,20 +588,12 @@ nav .title:hover::after {
 }
 
 nav .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   padding: 1rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 nav .navbar li {
@@ -684,7 +617,6 @@ nav .navbar li:hover {
 }
 
 nav .navbar li::before {
-  -webkit-transition: 300ms;
   transition: 300ms;
   height: 3px;
   content: "";
@@ -715,15 +647,9 @@ nav .social {
 
 nav .social ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 nav .social ul li {
@@ -745,18 +671,12 @@ nav .social ul li a i:hover {
 }
 
 .hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 2rem;
   min-width: 60vw;
   height: 60vh;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .hero .hero-text,
@@ -765,16 +685,9 @@ nav .social ul li a i:hover {
 }
 
 .hero .hero-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero .hero-text svg {
@@ -782,7 +695,6 @@ nav .social ul li a i:hover {
   margin: 0.5rem 0;
   width: 80%;
   margin-left: 0.8rem;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -791,7 +703,6 @@ nav .social ul li a i:hover {
   content: "/>";
   opacity: 0;
   right: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -800,7 +711,6 @@ nav .social ul li a i:hover {
   content: "<";
   opacity: 0;
   left: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -822,8 +732,7 @@ nav .social ul li a i:hover {
   position: relative;
   top: -30px;
   font-size: 1.5rem;
-  -webkit-animation: yourAnimation 0.6s ease forwards 6.3s;
-          animation: yourAnimation 0.6s ease forwards 6.3s;
+  animation: yourAnimation 0.5s ease forwards 3.8s;
   margin-bottom: -5%;
   opacity: 0;
   color: #f1f1f1;
@@ -835,7 +744,6 @@ nav .social ul li a i:hover {
   content: "}";
   opacity: 0;
   right: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -844,7 +752,6 @@ nav .social ul li a i:hover {
   content: "{";
   opacity: 0;
   left: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -867,25 +774,17 @@ nav .social ul li a i:hover {
   padding: 0.2rem 0;
   padding-left: 1rem;
   width: 30vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-size: 1.2rem;
   opacity: 0;
-  -webkit-animation: yourAnimation 0.6s ease forwards 6.8s;
-          animation: yourAnimation 0.6s ease forwards 6.8s;
+  animation: yourAnimation 0.5s ease forwards 4.2s;
 }
 
 .hero .hero-text .get-in-touch {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   opacity: 0;
-  -webkit-animation: yourAnimation 0.6s ease forwards 7.4s;
-          animation: yourAnimation 0.6s ease forwards 7.4s;
+  animation: yourAnimation 0.6s ease forwards 4.6s;
 }
 
 .hero .hero-text .get-in-touch button,
@@ -909,7 +808,6 @@ nav .social ul li a i:hover {
   font-weight: 600;
   width: 35%;
   line-height: 1.6;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -931,7 +829,6 @@ nav .social ul li a i:hover {
   color: #f1f1f1;
   border: 3px solid #f1f1f1;
   width: 35%;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -945,20 +842,14 @@ nav .social ul li a i:hover {
 }
 
 .foot {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
   margin-top: 2rem;
   width: 100vw;
   bottom: 10px;
   display: hidden;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -972,169 +863,130 @@ nav .social ul li a i:hover {
 
 .detail-page {
   overflow: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 20px;
   height: 100vh;
   background-color: #03a9f4;
-  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: transform 0.5s, opacity 0.5s;
-  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .detail-page.transition-appear {
   opacity: 0;
-  -webkit-transform: translate3d(100%, 0, 0);
-          transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
 }
 
 .detail-page.transition-appear.transition-appear-active {
   opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .detail-page.transition-leave {
   opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .detail-page.transition-leave.transition-leave-active {
   opacity: 0;
-  -webkit-transform: translate3d(100%, 0, 0);
-          transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
 }
 
 #UI {
-  -webkit-animation: fill-anim 0.5s ease forwards 5.8s;
-          animation: fill-anim 0.5s ease forwards 5.8s;
+  animation: fill-anim 0.5s ease forwards 3.3s;
 }
 
 #UI path:nth-child(1) {
   stroke-dasharray: 337px;
   stroke-dashoffset: 337px;
-  -webkit-animation: line-anim 1s ease forwards 0.3s;
-          animation: line-anim 1s ease forwards 0.3s;
+  animation: line-anim 0.3s ease forwards 0.2s;
 }
 
 #UI path:nth-child(2) {
   stroke-dasharray: 164.7px;
   stroke-dashoffset: 164.7px;
-  -webkit-animation: line-anim 1s ease forwards 0.6s;
-          animation: line-anim 1s ease forwards 0.6s;
+  animation: line-anim 0.3s ease forwards 0.4s;
 }
 
 #UI path:nth-child(3) {
   stroke-dasharray: 180px;
   stroke-dashoffset: 180px;
-  -webkit-animation: line-anim 1s ease forwards 4.8s;
-          animation: line-anim 1s ease forwards 4.8s;
+  animation: line-anim 0.3s ease forwards 3s;
 }
 
 #UI path:nth-child(4) {
   stroke-dasharray: 337px;
   stroke-dashoffset: 337px;
-  -webkit-animation: line-anim 1s ease forwards 1.2s;
-          animation: line-anim 1s ease forwards 1.2s;
+  animation: line-anim 0.3s ease forwards 0.6s;
 }
 
 #UI path:nth-child(5) {
   stroke-dasharray: 354.5px;
   stroke-dashoffset: 354.5px;
-  -webkit-animation: line-anim 1s ease forwards 1.5s;
-          animation: line-anim 1s ease forwards 1.5s;
+  animation: line-anim 0.3s ease forwards 0.8s;
 }
 
 #UI path:nth-child(6) {
   stroke-dasharray: 305px;
   stroke-dashoffset: 305px;
-  -webkit-animation: line-anim 1s ease forwards 1.8s;
-          animation: line-anim 1s ease forwards 1.8s;
+  animation: line-anim 0.3s ease forwards 1s;
 }
 
 #UI path:nth-child(7) {
   stroke-dasharray: 163px;
   stroke-dashoffset: 163px;
-  -webkit-animation: line-anim 1s ease forwards 2.1s;
-          animation: line-anim 1s ease forwards 2.1s;
+  animation: line-anim 0.3s ease forwards 1.2s;
 }
 
 #UI path:nth-child(8) {
   stroke-dasharray: 270px;
   stroke-dashoffset: 270px;
-  -webkit-animation: line-anim 1s ease forwards 2.4s;
-          animation: line-anim 1s ease forwards 2.4s;
+  animation: line-anim 0.3s ease forwards 1.4s;
 }
 
 #UI path:nth-child(9) {
   stroke-dasharray: 205px;
   stroke-dashoffset: 205px;
-  -webkit-animation: line-anim 1s ease forwards 2.7s;
-          animation: line-anim 1s ease forwards 2.7s;
+  animation: line-anim 0.3s ease forwards 1.6s;
 }
 
 #UI path:nth-child(10) {
   stroke-dasharray: 378px;
   stroke-dashoffset: 378px;
-  -webkit-animation: line-anim 1s ease forwards 3s;
-          animation: line-anim 1s ease forwards 3s;
+  animation: line-anim 0.3s ease forwards 1.8s;
 }
 
 #UI path:nth-child(11) {
   stroke-dasharray: 378px;
   stroke-dashoffset: 378px;
-  -webkit-animation: line-anim 1s ease forwards 3.3s;
-          animation: line-anim 1s ease forwards 3.3s;
+  animation: line-anim 0.3s ease forwards 2s;
 }
 
 #UI path:nth-child(12) {
   stroke-dasharray: 259px;
   stroke-dashoffset: 259px;
-  -webkit-animation: line-anim 1s ease forwards 3.6s;
-          animation: line-anim 1s ease forwards 3.6s;
+  animation: line-anim 0.3s ease forwards 2.2s;
 }
 
 #UI path:nth-child(13) {
   stroke-dasharray: 275px;
   stroke-dashoffset: 275px;
-  -webkit-animation: line-anim 1s ease forwards 3.9s;
-          animation: line-anim 1s ease forwards 3.9s;
+  animation: line-anim 0.3s ease forwards 2.4s;
 }
 
 #UI path:nth-child(14) {
   stroke-dasharray: 216px;
   stroke-dashoffset: 216px;
-  -webkit-animation: line-anim 1s ease forwards 4.2s;
-          animation: line-anim 1s ease forwards 4.2s;
+  animation: line-anim 0.3s ease forwards 2.6s;
 }
 
 #UI path:nth-child(15) {
   stroke-dasharray: 337px;
   stroke-dashoffset: 337px;
-  -webkit-animation: line-anim 1s ease forwards 4.5s;
-          animation: line-anim 1s ease forwards 4.5s;
-}
-
-@-webkit-keyframes line-anim {
-  to {
-    stroke-dashoffset: 0;
-  }
+  animation: line-anim 0.3s ease forwards 2.8s;
 }
 
 @keyframes line-anim {
   to {
     stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes fill-anim {
-  from {
-    fill: transparent;
-  }
-  to {
-    fill: #f1f1f1;
   }
 }
 
@@ -1147,54 +999,24 @@ nav .social ul li a i:hover {
   }
 }
 
-@-webkit-keyframes yourAnimation {
-  0% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
 @keyframes yourAnimation {
   0% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    transform: translateY(-20px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes HeroAnimation {
-  0% {
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateY(0px);
     opacity: 1;
   }
 }
 
 @keyframes HeroAnimation {
   0% {
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
+    transform: translateX(-20px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
     opacity: 1;
   }
 }
@@ -1230,7 +1052,7 @@ nav .social ul li a i:hover {
     margin-bottom: 5px;
   }
   .hero .hero-text .get-in-touch .cta,
-  .hero .hero-text .get-in-touch .subtle {
+.hero .hero-text .get-in-touch .subtle {
     width: 40%;
   }
 }
@@ -1261,22 +1083,13 @@ nav .social ul li a i:hover {
     display: none;
     position: relative;
     z-index: 20;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     background: #000514;
     list-style: none;
     padding: 1rem;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
   }
   nav .navbar li {
     font-weight: bold;
@@ -1296,7 +1109,6 @@ nav .social ul li a i:hover {
     cursor: pointer;
   }
   nav .navbar li::before {
-    -webkit-transition: 300ms;
     transition: 300ms;
     height: 3px;
     content: "";
@@ -1322,19 +1134,10 @@ nav .social ul li a i:hover {
   }
   nav .social ul {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   nav .social ul li {
     padding: 1rem 0rem;
@@ -1353,29 +1156,18 @@ nav .social ul li a i:hover {
   .hero {
     max-width: 95vw;
     height: 80vh;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
   }
   .hero .hero-text,
-  .hero .hero-image {
+.hero .hero-image {
     max-width: 80vw;
   }
   .hero .hero-text {
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .hero .hero-text h1 {
     font-size: 2rem;
@@ -1401,37 +1193,21 @@ nav .social ul li a i:hover {
   }
   .hero .hero-text .get-in-touch {
     width: 80vw;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .hero .hero-text .get-in-touch .cta,
-  .hero .hero-text .get-in-touch .subtle {
+.hero .hero-text .get-in-touch .subtle {
     width: 100%;
     margin: 0.2rem 0;
   }
   main {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100vw;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   main h1.p-header {
     font-size: 2rem;
@@ -1455,10 +1231,7 @@ nav .social ul li a i:hover {
   }
   .f-main {
     margin-top: 5rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
   .f-main .f-image {
@@ -1470,4 +1243,3 @@ nav .social ul li a i:hover {
     width: 100%;
   }
 }
-/*# sourceMappingURL=App.css.map */
