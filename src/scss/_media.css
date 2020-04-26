@@ -119,6 +119,7 @@
   }
   nav .mobile-nav {
     display: block;
+    padding: 0 1rem;
     cursor: pointer;
   }
   nav .mobile-nav i {

@@ -30,33 +30,23 @@ export default function Header() {
       </div>
       <ul className="navbar" id="navbar">
         <Link to="/work">
-          <li className="ltr" onClick={navbarToggle}>
-            Experience
-          </li>
+          <li className="ltr">Experience</li>
         </Link>
         <Link to="/portfolio">
-          <li className="ltr" onClick={navbarToggle}>
-            Portfolio
-          </li>
+          <li className="ltr">Portfolio</li>
         </Link>
         <Link to="/flow">
-          <li className="ltr" onClick={navbarToggle}>
-            Workflow
-          </li>
+          <li className="ltr">Workflow</li>
         </Link>
         <Link to="/about">
-          <li className="ltr" onClick={navbarToggle}>
-            About
-          </li>
+          <li className="ltr">About</li>
         </Link>
         <a
           href="https://hanseibydesign.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <li className="ltr" onClick={navbarToggle}>
-            Hansei By Design
-          </li>
+          <li className="ltr">Hansei By Design</li>
         </a>
       </ul>
       <div className="mobile-nav" id="menubtn" onClick={navbarToggle}>
