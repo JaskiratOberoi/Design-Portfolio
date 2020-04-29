@@ -6,7 +6,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Work from "./Work";
 import Portfolio from "./Portfolio";
-import Flow from "./Flow";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -59,11 +59,11 @@ function App() {
           )}
         />
         <Route
-          path="/flow"
+          path="/skills"
           render={(props) => (
             <React.Fragment>
               {/* <PageTransition> */}
-              <Flow />
+              <Skills />
               {/* </PageTransition> */}
             </React.Fragment>
           )}

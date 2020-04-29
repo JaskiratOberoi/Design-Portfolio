@@ -35,8 +35,8 @@ export default function Header() {
         <Link to="/portfolio">
           <li className="ltr">Portfolio</li>
         </Link>
-        <Link to="/flow">
-          <li className="ltr">Workflow</li>
+        <Link to="/skills">
+          <li className="ltr">Skillset</li>
         </Link>
         <Link to="/about">
           <li className="ltr">About</li>

@@ -14,7 +14,7 @@ export default function Work() {
             subtitle={""}
           ></Event>
           <Event
-            interval={"July 2019 – May 2020"}
+            interval={"July 2019 – April 2020"}
             title={"Hanu Software"}
             subtitle={"Cloud Engineer"}
           >
