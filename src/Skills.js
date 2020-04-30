@@ -15,6 +15,7 @@ import github_logo from "./media/logos/svg/github.svg";
 import git_logo from "./media/logos/svg/git-icon.svg";
 import photoshop_logo from "./media/logos/svg/icons8-adobe-photoshop.svg";
 import xd_logo from "./media/logos/svg/icons8-adobe-xd.svg";
+import explorer_logo from "./media/logos/svg/Storage Explorer.svg";
 
 import adf_logo from "./media/logos/svg/Data Factories.svg";
 import adls_logo from "./media/logos/svg/Data Lake Storage.svg";
@@ -87,6 +88,10 @@ export default function Skills() {
         title: "Adobe XD",
         logo: xd_logo,
       },
+      {
+        title: "Storage Explorer",
+        logo: explorer_logo,
+      },
     ],
   };
 
@@ -110,11 +115,11 @@ export default function Skills() {
         logo: app_logo,
       },
       {
-        title: "Data Lake Storage Gen2",
+        title: "ADLS Gen2",
         logo: adls_logo,
       },
       {
-        title: "Other Azure Services",
+        title: "Other Services",
         logo: az_logo,
       },
     ],
@@ -127,7 +132,6 @@ export default function Skills() {
         skills={frontendEngineer.skills}
       />
       <Section title={backendEngineer.title} skills={backendEngineer.skills} />
-
       <Section title={cloudEngineer.title} skills={cloudEngineer.skills} />
       <Section title={tools.title} skills={tools.skills} />
     </div>
