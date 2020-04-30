@@ -40,23 +40,23 @@ nav {
       font-size: 1.3rem;
     }
 
-    &::after {
-      content: "Work in Progress";
-      color: #f1f1f1;
-      font-size: 0.8rem;
-      font-family: "Lato";
-      font-weight: 600;
-      padding: 0.2rem 0.5rem;
-      border-radius: 3px;
-      position: relative;
-      top: -20px;
-      right: 50px;
-      transition: all 0.3s ease;
-    }
-    &:hover::after {
-      background: #f1f1f1;
-      color: #000514;
-    }
+    // &::after {
+    //   content: "Work in Progress";
+    //   color: #f1f1f1;
+    //   font-size: 0.8rem;
+    //   font-family: "Lato";
+    //   font-weight: 600;
+    //   padding: 0.2rem 0.5rem;
+    //   border-radius: 3px;
+    //   position: relative;
+    //   top: -20px;
+    //   right: 50px;
+    //   transition: all 0.3s ease;
+    // }
+    // &:hover::after {
+    //   background: #f1f1f1;
+    //   color: #000514;
+    // }
   }
 
   .navbar {
