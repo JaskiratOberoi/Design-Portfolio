@@ -212,6 +212,7 @@
         }
       }
       h2 {
+        font-size: 4vw;
         &::after,
         &::before {
           opacity: 1;
@@ -222,6 +223,7 @@
       .intro {
         width: 80vw;
         padding: 0;
+        text-align: center;
         margin-top: -30px;
         margin-bottom: 50px;
       }
@@ -238,6 +240,9 @@
         }
       }
     }
+  }
+  .foot {
+    margin-bottom: -50px;
   }
 
   //portfolio
@@ -316,8 +321,9 @@
   * {
     font-size: 10px;
   }
+
   .foot {
-    margin-top: 20px;
+    margin-bottom: -20px;
     bottom: 0;
   }
   .body-padding-adder {
