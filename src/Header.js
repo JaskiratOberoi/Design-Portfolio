@@ -41,13 +41,9 @@ export default function Header() {
         <Link to="/about">
           <li className="ltr">About</li>
         </Link>
-        <a
-          href="https://hanseibydesign.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link to="/hanseibydesing">
           <li className="ltr">Hansei By Design</li>
-        </a>
+        </Link>
       </ul>
       <div className="mobile-nav" id="menubtn" onClick={navbarToggle}>
         <i className="fas fa-bars"></i>

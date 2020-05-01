@@ -1,6 +1,12 @@
 import React from "react";
 import Section from "./Skills/Section";
 
+import figma_logo from "./media/logos/svg/Figma.svg";
+import wf_logo from "./media/logos/svg/wireframe.svg";
+import ui_logo from "./media/logos/svg/ui.svg";
+import map_logo from "./media/logos/svg/map.svg";
+import uxwriting_logo from "./media/logos/svg/uxwriting.svg";
+
 import css_logo from "./media/logos/svg/icons8-css3.svg";
 import html_logo from "./media/logos/svg/icons8-html-5.svg";
 import js_logo from "./media/logos/svg/icons8-javascript.svg";
@@ -9,6 +15,7 @@ import scss_logo from "./media/logos/svg/sass.svg";
 
 import python_logo from "./media/logos/svg/icons8-python.svg";
 import sql_logo from "./media/logos/svg/sql.svg";
+import flask_logo from "./media/logos/svg/flask.svg";
 
 import code_logo from "./media/logos/svg/033-vscode.svg";
 import github_logo from "./media/logos/svg/github.svg";
@@ -25,6 +32,27 @@ import db_logo from "./media/logos/svg/SQL Databases.svg";
 import az_logo from "./media/logos/svg/All Resources.svg";
 
 export default function Skills() {
+  const uiuxDesigner = {
+    title: "UI/UX Designer",
+    skills: [
+      {
+        title: "UI Prototyping",
+        logo: ui_logo,
+      },
+      {
+        title: "Site Mapping",
+        logo: map_logo,
+      },
+      {
+        title: "Wireframes",
+        logo: wf_logo,
+      },
+      {
+        title: "UX Writing",
+        logo: uxwriting_logo,
+      },
+    ],
+  };
   const frontendEngineer = {
     title: "Frontend Engineer",
     skills: [
@@ -59,6 +87,10 @@ export default function Skills() {
         logo: python_logo,
       },
       {
+        title: "Flask",
+        logo: flask_logo,
+      },
+      {
         title: "SQL Server",
         logo: sql_logo,
       },
@@ -89,8 +121,8 @@ export default function Skills() {
         logo: xd_logo,
       },
       {
-        title: "Storage Explorer",
-        logo: explorer_logo,
+        title: "Figma",
+        logo: figma_logo,
       },
     ],
   };
@@ -127,6 +159,7 @@ export default function Skills() {
 
   return (
     <div className="s-main">
+      <Section title={uiuxDesigner.title} skills={uiuxDesigner.skills} />
       <Section
         title={frontendEngineer.title}
         skills={frontendEngineer.skills}

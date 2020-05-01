@@ -7,6 +7,7 @@ import About from "./About";
 import Work from "./Work";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
+import HanseiByDesign from "./HanseiByDesign";
 
 function App() {
   return (
@@ -69,11 +70,14 @@ function App() {
           )}
         />
         <Route
-          path="/hanseibydesign"
-          component={() => {
-            window.location.href = "http://hanseibydesign.com/";
-            return null;
-          }}
+          path="/hanseibydesing"
+          render={(props) => (
+            <React.Fragment>
+              {/* <PageTransition> */}
+              <HanseiByDesign />
+              {/* </PageTransition> */}
+            </React.Fragment>
+          )}
         />
       </div>
     </Router>
