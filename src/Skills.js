@@ -22,7 +22,7 @@ import github_logo from "./media/logos/svg/github.svg";
 import git_logo from "./media/logos/svg/git-icon.svg";
 import photoshop_logo from "./media/logos/svg/icons8-adobe-photoshop.svg";
 import xd_logo from "./media/logos/svg/icons8-adobe-xd.svg";
-import explorer_logo from "./media/logos/svg/Storage Explorer.svg";
+// import explorer_logo from "./media/logos/svg/Storage Explorer.svg";
 
 import adf_logo from "./media/logos/svg/Data Factories.svg";
 import adls_logo from "./media/logos/svg/Data Lake Storage.svg";
