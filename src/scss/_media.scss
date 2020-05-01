@@ -311,3 +311,16 @@
     }
   }
 }
+
+@media all and (max-width: 320px) {
+  * {
+    font-size: 10px;
+  }
+  .foot {
+    margin-top: 20px;
+    bottom: 0;
+  }
+  .body-padding-adder {
+    padding-top: 200px;
+  }
+}
