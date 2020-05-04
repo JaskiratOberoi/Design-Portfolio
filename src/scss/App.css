@@ -562,6 +562,28 @@
   margin-bottom: 0.4rem;
 }
 
+.skill-card .skill-logo:hover {
+  animation: shaker 0.3s infinite 0s linear;
+}
+
+@keyframes shaker {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .h-main {
   display: flex;
   flex-direction: column;
