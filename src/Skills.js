@@ -7,8 +7,10 @@ import ui_logo from "./media/logos/svg/ui.svg";
 import map_logo from "./media/logos/svg/map.svg";
 import uxwriting_logo from "./media/logos/svg/uxwriting.svg";
 
-import css_logo from "./media/logos/svg/icons8-css3.svg";
 import html_logo from "./media/logos/svg/icons8-html-5.svg";
+import css_logo from "./media/logos/svg/icons8-css3.svg";
+import flexbox_logo from "./media/logos/svg/022-website.svg";
+import grid_logo from "./media/logos/svg/040-website.svg";
 import js_logo from "./media/logos/svg/icons8-javascript.svg";
 import react_logo from "./media/logos/svg/icons8-react-native.svg";
 import scss_logo from "./media/logos/svg/sass.svg";
@@ -65,7 +67,15 @@ export default function Skills() {
         logo: css_logo,
       },
       {
-        title: "Sass",
+        title: "Flexbox",
+        logo: flexbox_logo,
+      },
+      {
+        title: "CSS Grid",
+        logo: grid_logo,
+      },
+      {
+        title: "Sass/Scss",
         logo: scss_logo,
       },
       {
