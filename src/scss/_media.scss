@@ -296,6 +296,12 @@
   .s-main {
     width: 100vw;
   }
+
+  .skill-section {
+    h1 {
+      border-radius: 5px;
+    }
+  }
   .skill-card {
     display: flex;
     flex-direction: row;

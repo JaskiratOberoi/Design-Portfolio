@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.43eabcd1.chunk.css",
-    "main.js": "/static/js/main.55e5db6b.chunk.js",
+    "main.js": "/static/js/main.6eedea6a.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.87d3c81e.js",
     "static/js/2.a7baa8a9.chunk.js": "/static/js/2.a7baa8a9.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.e86112ffc08d616d26709430997c4803.js": "/precache-manifest.e86112ffc08d616d26709430997c4803.js",
+    "precache-manifest.8bce2cd73b835fa7ac79f12a81a560d9.js": "/precache-manifest.8bce2cd73b835fa7ac79f12a81a560d9.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.a7baa8a9.chunk.js.LICENSE.txt": "/static/js/2.a7baa8a9.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "/static/media/022-website.895a094c.svg",
@@ -16,16 +16,16 @@
     "static/media/Azure Databricks.svg": "/static/media/Azure Databricks.7458a86b.svg",
     "static/media/Data Factories.svg": "/static/media/Data Factories.976780af.svg",
     "static/media/Data Lake Storage.svg": "/static/media/Data Lake Storage.2cc7e48c.svg",
-    "static/media/Figma.svg": "/static/media/Figma.0f055bae.svg",
+    "static/media/Figma.svg": "/static/media/Figma.57f55d66.svg",
     "static/media/SQL Databases.svg": "/static/media/SQL Databases.39675f32.svg",
-    "static/media/bs4.svg": "/static/media/bs4.9cda9d5a.svg",
+    "static/media/bs4.svg": "/static/media/bs4.10e321e2.svg",
     "static/media/choose.png": "/static/media/choose.bbef1469.png",
     "static/media/cmr.png": "/static/media/cmr.a6cc690d.png",
     "static/media/code.svg": "/static/media/code.f7e655ee.svg",
     "static/media/covid.png": "/static/media/covid.f4c3cb3c.png",
     "static/media/covidjs.png": "/static/media/covidjs.02ba08f6.png",
     "static/media/csi.png": "/static/media/csi.9a35599f.png",
-    "static/media/flask.svg": "/static/media/flask.5bed8cb4.svg",
+    "static/media/flask.svg": "/static/media/flask.7e46efde.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.d10df85e.svg",
     "static/media/github.svg": "/static/media/github.ad7a2904.svg",
     "static/media/hanseibydesign.png": "/static/media/hanseibydesign.8e750616.png",
@@ -54,6 +54,6 @@
     "static/js/runtime-main.87d3c81e.js",
     "static/js/2.a7baa8a9.chunk.js",
     "static/css/main.43eabcd1.chunk.css",
-    "static/js/main.55e5db6b.chunk.js"
+    "static/js/main.6eedea6a.chunk.js"
   ]
 }

@@ -79,7 +79,7 @@ export default function Skills() {
         logo: scss_logo,
       },
       {
-        title: "Bootstrap 4",
+        title: "Bootstrap",
         logo: bs4_logo,
       },
       {
@@ -105,7 +105,7 @@ export default function Skills() {
         logo: flask_logo,
       },
       {
-        title: "SQL Server",
+        title: "Microsoft SQL",
         logo: sql_logo,
       },
     ],
