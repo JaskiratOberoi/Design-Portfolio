@@ -14,6 +14,7 @@ import grid_logo from "./media/logos/svg/040-website.svg";
 import js_logo from "./media/logos/svg/icons8-javascript.svg";
 import react_logo from "./media/logos/svg/icons8-react-native.svg";
 import scss_logo from "./media/logos/svg/sass.svg";
+import bs4_logo from "./media/logos/svg/bs4.svg";
 
 import python_logo from "./media/logos/svg/icons8-python.svg";
 import sql_logo from "./media/logos/svg/sql.svg";
@@ -24,7 +25,6 @@ import github_logo from "./media/logos/svg/github.svg";
 import git_logo from "./media/logos/svg/git-icon.svg";
 import photoshop_logo from "./media/logos/svg/icons8-adobe-photoshop.svg";
 import xd_logo from "./media/logos/svg/icons8-adobe-xd.svg";
-// import explorer_logo from "./media/logos/svg/Storage Explorer.svg";
 
 import adf_logo from "./media/logos/svg/Data Factories.svg";
 import adls_logo from "./media/logos/svg/Data Lake Storage.svg";
@@ -77,6 +77,10 @@ export default function Skills() {
       {
         title: "Sass/Scss",
         logo: scss_logo,
+      },
+      {
+        title: "Bootstrap 4",
+        logo: bs4_logo,
       },
       {
         title: "JavaScript",
