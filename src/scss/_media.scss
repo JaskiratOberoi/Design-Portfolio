@@ -83,10 +83,9 @@
 
     .navbar {
       display: none;
-      // float: left;
-      position: fixed;
+      position: absolute;
       width: 100%;
-      top: 0;
+      top: -280px;
       right: 0;
       left: 0;
       z-index: 101;
