@@ -1,48 +1,15 @@
 import React from "react";
-// import {Carousel} from "react-responsive-carousel";
-// import jaskirat1 from "./media/jaskirat-1.JPG";
-// import jaskirat2 from "./media/jaskirat-2.jpg";
-// import jaskirat3 from "./media/jaskirat-3.jpg";
-// import jaskirat4 from "./media/jaskirat-4.jpg";
-// import jaskirat5 from "./media/jaskirat-7.png";
-// import jaskirat6 from "./media/jaskirat-8.png";
 import jaskirat7 from "./media/jaskirat-9.png";
+import mail from "./media/logos/svg/mail.svg";
+import call from "./media/logos/svg/call.svg";
 
 export default function About() {
   return (
     <div className="f-main">
       <div className="f-image">
-        {/* <Carousel
-          showArrows={false}
-          showThumbs={false}
-          autoPlay={true}
-          infiniteLoop={true}
-          showStatus={false}
-          showIndicators={false}
-          className="carousel"
-        > */}
-        {/* <div>
-            <img src={jaskirat1} alt="me-1" />
-          </div>
-          <div>
-            <img src={jaskirat2} alt="me-1" />
-          </div>
-          <div>
-            <img src={jaskirat3} alt="me-1" />
-          </div>
-          <div>
-            <img src={jaskirat4} alt="me-1" />
-          </div>
-          <div>
-            <img src={jaskirat5} alt="me-1" />
-          </div>
-          <div>
-            <img src={jaskirat6} alt="me-1" />
-          </div> */}
         <div>
           <img src={jaskirat7} alt="me-1" />
         </div>
-        {/* </Carousel> */}
       </div>
 
       <div className="f-body">
@@ -56,6 +23,17 @@ export default function About() {
           deadlines. I enjoy using my obsessive attention to detail, my
           unequivocal love for making things, and my mission-driven work ethic
           to create simple yet beautiful designs.
+        </div>
+        <div className="contact-info">
+          <p>
+            <img src={mail} alt="Mail: " />
+            <a href="mailto:JaskiratSOberoi@gmail.com">
+              {" "}
+              JaskiratSOberoi@gmail.com
+            </a>
+            <img src={call} alt="Call: " />
+            <a href="tel:+919818733538">+91 9818733538</a>
+          </p>
         </div>
       </div>
     </div>
