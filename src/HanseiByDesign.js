@@ -15,7 +15,7 @@ export default function HanseiByDesign() {
       </div>
       <div className="h-desc">
         Hansei By Design is my brandname under which I develop/design all my
-        freelance/open-source work. The concpet of 'Hansei' is of Japanese
+        freelance/open-source work. The concept of 'Hansei' is of Japanese
         origin which means to acknowledge one's own mistake and to pledge
         improvement. Hansei By Design roughly translates to reflective design
         which is the idea to keep improving step by step by reflecting on the

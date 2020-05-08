@@ -127,7 +127,14 @@ export default function Hero() {
         </div>
       </div>
       <div className="foot">
-        <a href="/linkedin">Jaskirat Singh Oberoi </a> © Hansei By Design 2020
+        <a
+          href="https://www.linkedin.com/in/jaskiratoberoi/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jaskirat Singh Oberoi
+        </a>
+        {"  "}© Hansei By Design 2020
       </div>
     </main>
   );

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d98019e.chunk.css",
-    "main.js": "/static/js/main.b170c0c2.chunk.js",
+    "main.css": "/static/css/main.c3db9929.chunk.css",
+    "main.js": "/static/js/main.c0db94d9.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.87d3c81e.js",
-    "static/js/2.a7baa8a9.chunk.js": "/static/js/2.a7baa8a9.chunk.js",
+    "static/js/2.bc24806d.chunk.js": "/static/js/2.bc24806d.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.9d94107ea9ba3f47f78693610c6c9b46.js": "/precache-manifest.9d94107ea9ba3f47f78693610c6c9b46.js",
+    "precache-manifest.5c44cee29a6ffd6072b0284a66e0172c.js": "/precache-manifest.5c44cee29a6ffd6072b0284a66e0172c.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.a7baa8a9.chunk.js.LICENSE.txt": "/static/js/2.a7baa8a9.chunk.js.LICENSE.txt",
+    "static/js/2.bc24806d.chunk.js.LICENSE.txt": "/static/js/2.bc24806d.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "/static/media/022-website.895a094c.svg",
     "static/media/033-vscode.svg": "/static/media/033-vscode.648b96e4.svg",
     "static/media/040-website.svg": "/static/media/040-website.2f809523.svg",
@@ -19,6 +19,7 @@
     "static/media/Figma.svg": "/static/media/Figma.57f55d66.svg",
     "static/media/SQL Databases.svg": "/static/media/SQL Databases.39675f32.svg",
     "static/media/bs4.svg": "/static/media/bs4.10e321e2.svg",
+    "static/media/call.svg": "/static/media/call.e1195dfa.svg",
     "static/media/choose.png": "/static/media/choose.bbef1469.png",
     "static/media/cmr.png": "/static/media/cmr.a6cc690d.png",
     "static/media/code.svg": "/static/media/code.f7e655ee.svg",
@@ -38,11 +39,13 @@
     "static/media/icons8-react-native.svg": "/static/media/icons8-react-native.652f28d1.svg",
     "static/media/jaskirat-9.png": "/static/media/jaskirat-9.4d3a8761.png",
     "static/media/life.png": "/static/media/life.a0bfcdf9.png",
+    "static/media/mail.svg": "/static/media/mail.19a69059.svg",
     "static/media/map.svg": "/static/media/map.3ab74883.svg",
     "static/media/mori.png": "/static/media/mori.a6ded22e.png",
     "static/media/portfolio.png": "/static/media/portfolio.0575024d.png",
     "static/media/sass.svg": "/static/media/sass.1023f78a.svg",
     "static/media/sql.svg": "/static/media/sql.fcabefd4.svg",
+    "static/media/tft.png": "/static/media/tft.ad4c71d2.png",
     "static/media/todo.png": "/static/media/todo.161ce391.png",
     "static/media/ttt.png": "/static/media/ttt.43e86b7f.png",
     "static/media/tvs.png": "/static/media/tvs.8af0624d.png",
@@ -52,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.87d3c81e.js",
-    "static/js/2.a7baa8a9.chunk.js",
-    "static/css/main.6d98019e.chunk.css",
-    "static/js/main.b170c0c2.chunk.js"
+    "static/js/2.bc24806d.chunk.js",
+    "static/css/main.c3db9929.chunk.css",
+    "static/js/main.c0db94d9.chunk.js"
   ]
 }

@@ -9,9 +9,24 @@ import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import HanseiByDesign from "./HanseiByDesign";
 
+import { createBrowserHistory } from 'history';
+import ReactGA from 'react-ga';
+
 function App() {
+
+  const trackingId = "UA-165898079-1"; 
+ReactGA.initialize(trackingId);
+
+  const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
   return (
-    <Router>
+    <Router history={history}>
       <header className="app-header">
         <Header />
       </header>

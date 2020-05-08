@@ -11,6 +11,7 @@ import csi from "./media/csi.png";
 import ttt from "./media/ttt.png";
 import portfolio from "./media/portfolio.png";
 import covidjs from "./media/covidjs.png";
+import tft from "./media/tft.png";
 
 export default function Portfolio() {
   return (
@@ -176,6 +177,24 @@ export default function Portfolio() {
             <h1 className="p-title">S.K. TVS Motors</h1>
             <div className="p-details">
               <span>Design:</span> Adobe XD, Photoshop <br />
+              <span>Dev:</span> N/A
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="https://www.behance.net/gallery/94571539/Product-Page-Design"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project-card">
+            <div className="p-image">
+              <img src={tft} alt="product page"></img>
+            </div>
+            <h1 className="p-title">Sample Product Page</h1>
+            <div className="p-details">
+              <span>Design:</span> Wireframe, Adobe XD
+              <br />
               <span>Dev:</span> N/A
             </div>
           </div>
