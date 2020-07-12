@@ -118,7 +118,7 @@ export default function Hero() {
               My Projects
             </Link>
             <Link className="subtle" to="/Work">
-              Work-ex
+              Career
             </Link>
           </div>
         </div>

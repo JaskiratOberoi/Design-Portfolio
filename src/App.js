@@ -15,15 +15,15 @@ import ReactGA from 'react-ga';
 function App() {
 
   const trackingId = "UA-165898079-1"; 
-ReactGA.initialize(trackingId);
+  ReactGA.initialize(trackingId);
 
   const history = createBrowserHistory();
 
-// Initialize google analytics page view tracking
-history.listen(location => {
-  ReactGA.set({ page: location.pathname }); // Update the user's current page
-  ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
+
+  history.listen(location => {
+    ReactGA.set({ page: location.pathname }); 
+    ReactGA.pageview(location.pathname); 
+  });
 
   return (
     <Router history={history}>

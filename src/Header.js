@@ -30,7 +30,7 @@ export default function Header() {
       </div>
       <ul className="navbar" id="navbar">
         <Link to="/work">
-          <li className="ltr">Experience</li>
+          <li className="ltr">Career</li>
         </Link>
         <Link to="/portfolio">
           <li className="ltr">Portfolio</li>

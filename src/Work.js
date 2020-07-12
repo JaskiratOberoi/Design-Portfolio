@@ -9,10 +9,12 @@ export default function Work() {
       <Fragment>
         <Timeline>
           <Event
-            interval={"This could be your company"}
-            title={"?"}
-            subtitle={""}
-          ></Event>
+            interval={"July 2020 - Present"}
+            title={"Amazon"}
+            subtitle={"Support Engineer III - L4"}
+          >
+            It's the start of something beautiful.
+          </Event>
           <Event
             interval={"July 2019 – April 2020"}
             title={"Hanu Software"}

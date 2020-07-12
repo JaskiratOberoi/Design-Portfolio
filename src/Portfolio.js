@@ -23,6 +23,47 @@ export default function Portfolio() {
       </h2>
 
       <div className="project-cards">
+
+      <a href="http://cmrgaming.in" target="_blank" rel="noopener noreferrer">
+          <div className="project-card">
+            <div className="p-image">
+              <img src={cmr} alt="cmr"></img>
+            </div>
+            <h1 className="p-title">C.M.R Gaming</h1>
+            <div className="p-details">
+              <span>Design:</span> Minimalistic , Adobe XD <br />
+              <span>Dev:</span> HTML5, Sass, Vanilla JS
+            </div>
+          </div>
+        </a>
+      <a href="http://csi.hanseibydesign.com/" target="_blank" rel="noopener noreferrer">
+          <div className="project-card">
+            <div className="p-image">
+              <img src={csi} alt="cmr"></img>
+            </div>
+            <h1 className="p-title">CSI Student Branch</h1>
+            <div className="p-details">
+              <span>Design:</span> Minimal Design <br />
+              <span>Dev:</span> HTML5, W3 CSS, Vanilla JS
+            </div>
+          </div>
+        </a>
+        <a
+          href="http://covid19in.live"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project-card">
+            <div className="p-image">
+              <img src={covid} alt="covid"></img>
+            </div>
+            <h1 className="p-title">Covid-19 India Tacker</h1>
+            <div className="p-details">
+              <span>Design:</span> Flat UI, Adobe XD <br />
+              <span>Dev:</span> HTML5, Sass, Python 3
+            </div>
+          </div>
+        </a>
         <a
           href="http://covid19.hanseibydesign.com/"
           target="_blank"
@@ -71,35 +112,9 @@ export default function Portfolio() {
           </div>
         </Link>
 
-        <a href="http://cmrgaming.in" target="_blank" rel="noopener noreferrer">
-          <div className="project-card">
-            <div className="p-image">
-              <img src={cmr} alt="cmr"></img>
-            </div>
-            <h1 className="p-title">C.M.R Gaming</h1>
-            <div className="p-details">
-              <span>Design:</span> Minimalistic , Adobe XD <br />
-              <span>Dev:</span> HTML5, Sass, Vanilla JS
-            </div>
-          </div>
-        </a>
+       
 
-        <a
-          href="http://covid19in.live"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="project-card">
-            <div className="p-image">
-              <img src={covid} alt="covid"></img>
-            </div>
-            <h1 className="p-title">Covid-19 India Tacker</h1>
-            <div className="p-details">
-              <span>Design:</span> Flat UI, Adobe XD <br />
-              <span>Dev:</span> HTML5, Sass, Python 3
-            </div>
-          </div>
-        </a>
+        
 
         <a
           href="http://get-organised.hanseibydesign.com/"
@@ -135,18 +150,7 @@ export default function Portfolio() {
           </div>
         </a>
 
-        <a href="http://csi-amity.tk" target="_blank" rel="noopener noreferrer">
-          <div className="project-card">
-            <div className="p-image">
-              <img src={csi} alt="cmr"></img>
-            </div>
-            <h1 className="p-title">CSI Student Branch</h1>
-            <div className="p-details">
-              <span>Design:</span> Minimal Design <br />
-              <span>Dev:</span> HTML5, W3 CSS, Vanilla JS
-            </div>
-          </div>
-        </a>
+       
 
         <a
           href="https://www.behance.net/gallery/94964421/Choose-Life"
