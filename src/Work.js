@@ -63,7 +63,7 @@ export default function Work() {
             title={"AT&T"}
             subtitle={"Project Based Summer Internship"}
           >
-            Stack Overflow Question Recommender (Data Mining Project): <br />
+            <b>Stack Overflow Question Recommender (Data Mining Project): </b><br />
             Developed desktop app that is a Question Recommender for Stack
             Overflow:
             <br />
