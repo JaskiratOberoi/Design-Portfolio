@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import developer from "./media/code.svg";
+import { Link } from "react-router-dom";
+import developer from "../media/code.svg";
 
-export default function Hero() {
+export default function Home() {
   return (
     <main>
       <div className="hero">
@@ -114,10 +114,10 @@ export default function Hero() {
             meaningful to me.
           </div>
           <div className="get-in-touch">
-            <Link className="cta" to="/Portfolio">
+            <Link className="btn btn-primary" to="/portfolio">
               My Projects
             </Link>
-            <Link className="subtle" to="/Work">
+            <Link className="btn btn-secondary" to="/career">
               Career
             </Link>
           </div>
@@ -125,16 +125,6 @@ export default function Hero() {
         <div className="hero-image">
           <img src={developer} alt="hero"></img>
         </div>
-      </div>
-      <div className="foot">
-        <a
-          href="https://www.linkedin.com/in/jaskiratoberoi/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jaskirat Singh Oberoi
-        </a>
-        {"  "}© Hansei By Design 2020
       </div>
     </main>
   );
