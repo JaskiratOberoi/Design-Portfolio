@@ -1,6 +1,7 @@
 import React from "react";
 
-import { portfolioData } from "../Constants/data/portfolioData";
+import ProjectCard from "../Components/ProjectCard";
+import { projectData } from "../Constants/data/projectData";
 
 
 
@@ -15,7 +16,7 @@ const Portfolio = () => {
 
       <div className="project-cards">
 
-        {portfolioData.map((data) => (
+        {projectData.map((data) => (
           <ProjectCard
             url={data.url}
             bannerSrc={data.bannerSrc}

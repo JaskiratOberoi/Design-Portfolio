@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import {Link} from "react-router-dom";
 
+import NavLinks from "../Constants/NavLinks";
+import SocialLinks from "../Constants/SocialLinks";
+
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 

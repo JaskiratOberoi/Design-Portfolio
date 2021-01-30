@@ -1,5 +1,5 @@
 import React from "react";
-import hbd from "./media/hanseibydesign.png";
+import hbd from "../media/hanseibydesign.png";
 
 export default function HanseiByDesign() {
   return (

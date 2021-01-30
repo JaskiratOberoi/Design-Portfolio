@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router} from "react-router-dom";
 
-import "./scss/App.css";
+import "./scss/App.scss";
 
 import Navbar from "./Components/Navbar";
 import Routing from "./Components/Routing";

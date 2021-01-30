@@ -7,7 +7,6 @@ export default function Home() {
     <main>
       <div className="hero">
         <div className="hero-text">
-          {/* <h1>UI/UX Practitioner</h1> */}
           <svg
             width="808"
             height="78"
