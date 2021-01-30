@@ -1,0 +1,33 @@
+.btn,
+.btn:active,
+.btn:link {
+  border: 3px solid $clr-primary;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+
+  background-color: $clr-primary;
+  color: $clr-background-primary;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+  &:hover {
+    padding-right: 2rem;
+  }
+}
+
+.btn-secondary {
+  background-color: $clr-background-primary;
+  color: $clr-primary;
+
+  &:hover {
+    transform: scaleX(1);
+    background-color: $clr-primary;
+    color: $clr-background-primary;
+  }
+}

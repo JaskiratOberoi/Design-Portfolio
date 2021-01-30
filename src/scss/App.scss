@@ -1,8 +1,15 @@
-@import "portfolio";
-@import "about";
-@import "Work";
-@import "skills";
-@import "hansei";
+@import "abstracts";
+
+@import "./components/navbar";
+@import "./components/button";
+@import "./components/portfolio";
+@import "./components/about";
+@import "./components/Work";
+@import "./components/skills";
+@import "./components/hansei";
+@import "./components/footer";
+
+// RESET
 
 * {
   margin: 0;
@@ -12,132 +19,29 @@
 }
 
 ::selection {
-  background-color: #ffffff;
-  color: #000514;
+  background-color: $clr-white;
+  color: $clr-background-primary;
 }
 
 body {
   line-height: 1.4;
-  background: #000514;
-  color: #f1f1f1;
+  background: $clr-background-primary;
+  color: $clr-primary;
   font-family: "Lato", sans-serif;
   min-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-nav {
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .title {
-    padding: 0 2rem;
-    font-family: "Pacifico", cursive;
-    font-size: 1.3rem;
-    a {
-      text-decoration: none;
-      color: #f1f1f1;
-      font-size: 1.3rem;
-    }
-
-    // &::after {
-    //   content: "Work in Progress";
-    //   color: #f1f1f1;
-    //   font-size: 0.8rem;
-    //   font-family: "Lato";
-    //   font-weight: 600;
-    //   padding: 0.2rem 0.5rem;
-    //   border-radius: 3px;
-    //   position: relative;
-    //   top: -20px;
-    //   right: 50px;
-    //   transition: all 0.3s ease;
-    // }
-    // &:hover::after {
-    //   background: #f1f1f1;
-    //   color: #000514;
-    // }
-  }
-
-  .navbar {
-    display: flex;
-    list-style: none;
-    padding: 1rem;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-
-    a {
-      text-decoration: none;
-      color: #f1f1f1;
-
-      li {
-        font-weight: bold;
-        text-decoration: none;
-        padding: 20px 0px;
-        margin: 0px 20px;
-        display: inline-block;
-        position: relative;
-        opacity: 0.75;
-
-        &:hover {
-          opacity: 1;
-          cursor: pointer;
-        }
-
-        &::before {
-          transition: 300ms;
-          height: 3px;
-          content: "";
-          position: absolute;
-          background-color: #f1f1f1;
-        }
-      }
-    }
-    .ltr {
-      &::before {
-        width: 0%;
-        bottom: 15px;
-      }
-      &:hover::before {
-        width: 100%;
-      }
-    }
-  }
-
-  .mobile-nav {
-    display: none;
-    i {
-      color: #f1f1f1;
-    }
-  }
-
-  .social {
-    padding: 0 2rem;
-
-    ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      li {
-        padding: 0 1rem;
-        color: #f1f1f1;
-        a {
-          text-decoration: none;
-          color: rgba(241, 241, 241, 0.8);
-          i {
-            cursor: pointer;
-            &:hover {
-              color: rgba(241, 241, 241, 1);
-            }
-          }
-        }
-      }
-    }
-  }
+  flex-direction: column;
+}
+.page {
+  // min-height: calc(100vh - 6rem);
+  flex: 1;
 }
 
 .hero {
@@ -198,7 +102,7 @@ nav {
       animation: yourAnimation 0.5s ease forwards 3.8s;
       margin-bottom: -5%;
       opacity: 0;
-      color: #f1f1f1;
+      color: $clr-primary;
       border-radius: 10px;
       &::after {
         position: relative;
@@ -243,53 +147,62 @@ nav {
       display: flex;
       opacity: 0;
       animation: yourAnimation 0.6s ease forwards 4.6s;
+      margin: 1rem;
 
-      button,
-      Link {
-        cursor: pointer;
-        text-decoration: none;
-      }
-      .cta {
-        border: none;
-        border-radius: 5px;
-        padding: 0.6rem 0.5rem;
-        margin: 1rem 0;
-        margin-left: 1rem;
-        background: #f1f1f1;
-        text-align: center;
-        color: #000514;
-        text-decoration: none;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        text-transform: uppercase;
-        font-weight: 600;
-        width: 35%;
-        line-height: 1.6;
-        transition: all 0.3s ease-in-out;
-        &:hover {
-          width: 40%;
+      & .btn {
+        flex: 1;
+        &:not(:last-child) {
+          margin-right: 1rem;
         }
       }
 
-      .subtle {
-        border: none;
-        border-radius: 5px;
-        padding: 0.6rem 0.5rem;
-        margin: 1rem 0.5rem;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration: none;
-        font-weight: 600;
-        background: #000514;
-        color: #f1f1f1;
-        border: 3px solid #f1f1f1;
-        width: 35%;
-        transition: all 0.3s ease-in-out;
-        &:hover {
-          background: #f1f1f1;
-          color: #000514;
-        }
-      }
+      // button,
+      // Link {
+      //   cursor: pointer;
+      //   text-decoration: none;
+      // }
+      // .cta {
+      //   border: none;
+      //   border-radius: 5px;
+      //   padding: 0.6rem 0.5rem;
+      //   margin: 1rem 0;
+      //   margin-left: 1rem;
+      //   background: $clr-primary;
+      //   text-align: center;
+      //   color: $clr-background-primary;
+      //   text-decoration: none;
+      //   // TODO:
+      //   // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      //   text-transform: uppercase;
+      //   font-weight: 600;
+      //   width: 35%;
+      //   line-height: 1.6;
+      //   transition: all 0.3s ease-in-out;
+      //   &:hover {
+      //     width: 40%;
+      //   }
+      // }
+
+      // .subtle {
+      //   border: none;
+      //   border-radius: 5px;
+      //   padding: 0.6rem 0.5rem;
+      //   // TODO:
+      //   // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      //   text-transform: uppercase;
+      //   text-align: center;
+      //   text-decoration: none;
+      //   font-weight: 600;
+      //   background: $clr-background-primary;
+      //   color: $clr-primary;
+      //   border: 3px solid $clr-primary;
+      //   width: 35%;
+      //   transition: all 0.3s ease-in-out;
+      //   &:hover {
+      //     background: $clr-primary;
+      //     color: $clr-background-primary;
+      //   }
+      // }
     }
   }
 
@@ -300,60 +213,40 @@ nav {
   }
 }
 
-.foot {
-  display: flex;
-  position: absolute;
-  margin-top: 2rem;
-  width: 100vw;
-  bottom: 10px;
-  display: hidden;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
-
-  a {
-    color: #f1f1f1;
-    text-decoration: none;
-    font-size: 0.8rem;
-  }
-}
-
 //animations
 
-.detail-page {
-  overflow: auto;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 100vh;
-  background-color: #03a9f4;
-  transition: transform 0.5s, opacity 0.5s;
+// .detail-page {
+//   overflow: auto;
+//   box-sizing: border-box;
+//   padding: 20px;
+//   height: 100vh;
+//   background-color: #03a9f4;
+//   transition: transform 0.5s, opacity 0.5s;
 
-  &.transition-appear {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
+//   &.transition-appear {
+//     opacity: 0;
+//     transform: translate3d(100%, 0, 0);
+//   }
 
-  &.transition-appear.transition-appear-active {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-  &.transition-leave {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
+//   &.transition-appear.transition-appear-active {
+//     opacity: 1;
+//     transform: translate3d(0, 0, 0);
+//   }
+//   &.transition-leave {
+//     opacity: 1;
+//     transform: translate3d(0, 0, 0);
+//   }
 
-  &.transition-leave.transition-leave-active {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-}
+//   &.transition-leave.transition-leave-active {
+//     opacity: 0;
+//     transform: translate3d(100%, 0, 0);
+//   }
+// }
 
 // UI/UX SVG Animation
 
 #UI {
-  animation: fill-anim 0.5s ease forwards 3.3s;
+  animation: fill-anim 0.5s ease forwards 2.3s;
   path {
     &:nth-child(1) {
       stroke-dasharray: 337px;
@@ -444,7 +337,7 @@ nav {
     fill: transparent;
   }
   to {
-    fill: #f1f1f1;
+    fill: $clr-primary;
   }
 }
 

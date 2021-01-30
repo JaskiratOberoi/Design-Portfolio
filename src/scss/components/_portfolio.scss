@@ -15,14 +15,14 @@
   }
   a {
     text-decoration: none;
-    color: #f1f1f1;
+    color: $clr-primary;
   }
 
   .project-cards {
-    height: 70vh;
+    // height: 70vh;
     position: relative;
     max-width: 80%;
-    background: #000514;
+    background: $clr-background-primary;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
     .project-card {
       height: 50%;
       max-width: 280px;
-      background: #000514;
+      background: $clr-background-primary;
       border-radius: 10px;
       padding: 1rem;
       margin: 0.5rem 0.6rem;

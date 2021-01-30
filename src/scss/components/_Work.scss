@@ -25,22 +25,22 @@
       justify-content: center;
       align-items: center;
       &::before {
-        background: #f1f1f1;
+        background: $clr-background-secondary;
       }
       li.css-1psltl0 {
         width: 100%;
         margin: 1rem 0;
         label {
-          background: #f1f1f1;
-          outline-color: #000514;
+          background: $clr-background-secondary;
+          outline-color: $clr-background-primary;
           margin-top: 1rem !important;
         }
         div.css-1jv1kel {
           margin: 0;
           width: 100%;
           p {
-            background-color: #f1f1f1;
-            color: #000514;
+            background-color: $clr-background-secondary;
+            color: $clr-background-primary;
             font-weight: bold;
             border-radius: 5px;
           }
