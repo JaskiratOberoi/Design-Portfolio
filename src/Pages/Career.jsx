@@ -1,5 +1,4 @@
 import React, {Fragment} from "react";
-// import {render} from "react-dom";
 
 import {Timeline, Event} from "react-timeline-scribble";
 
