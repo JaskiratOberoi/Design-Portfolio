@@ -17,17 +17,18 @@
 
 .btn-primary {
   &:hover {
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
 .btn-secondary {
-  background-color: $clr-background-primary;
-  color: $clr-primary;
+  background-color: $clr-background-primary !important;
+  color: $clr-primary !important;
 
   &:hover {
     transform: scaleX(1);
-    background-color: $clr-primary;
-    color: $clr-background-primary;
+    background-color: $clr-primary !important;
+    color: $clr-background-primary !important;
   }
 }
