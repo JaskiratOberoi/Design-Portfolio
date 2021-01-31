@@ -123,7 +123,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-image">
-          <img src={developer} alt="hero"></img>
+          <img src="s3://jas-aws-portfolio/media/portfolio.png" alt="hero"></img>
         </div>
       </div>
     </main>
