@@ -14,6 +14,7 @@ import scss_logo from "../../media/logos/svg/sass.svg";
 import bs4_logo from "../../media/logos/svg/bs4.svg";
 
 import python_logo from "../../media/logos/svg/icons8-python.svg";
+import c_logo from "../../media/logos/svg/c-.png";
 import sql_logo from "../../media/logos/svg/sql.svg";
 import flask_logo from "../../media/logos/svg/flask.svg";
 
@@ -97,6 +98,10 @@ export const skillData = [
       {
         title: "Python 3",
         logo: python_logo,
+      },
+      {
+        title: "C/C++",
+        logo: c_logo,
       },
       {
         title: "Flask",

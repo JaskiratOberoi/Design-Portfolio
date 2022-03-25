@@ -7,12 +7,24 @@ export default function Work() {
     <div className="w-container">
       <Fragment>
         <Timeline>
-          <Event
-            interval={"July 2020 - Present"}
+        <Event
+            interval={"March 2021 - Present"}
             title={"Amazon"}
-            subtitle={"Support Engineer III - L4"}
+            subtitle={"Design Technologist"}
           >
-            It's the start of something beautiful.
+            Proud to hold the title of Amazon India's First ever Design Technologist. 
+          </Event>
+          <Event
+            interval={"July 2020 - March 2021"}
+            title={"Amazon"}
+            subtitle={"Support Engineer III "}
+          >
+            <br />● Implementing Data ingestion from sources like flat files, On-Prem SQL Server etc. into Data warehouses
+            <br />● Supporting clients directly in report generation activities using SQL and Python
+            <br />● Deploying automation scripts for report delivery to clients
+            <br />● Transformation of unstructured ingested data using python with internal tools
+            <br />● Support in developing BI reports using PowerBI
+            
           </Event>
           <Event
             interval={"July 2019 – April 2020"}
@@ -62,8 +74,8 @@ export default function Work() {
             title={"AT&T"}
             subtitle={"Project Based Summer Internship"}
           >
-            <b>Stack Overflow Question Recommender (Data Mining Project): </b><br />
-            Developed desktop app that is a Question Recommender for Stack
+            <b>&#10687; Stack Overflow Question Recommender (Data Mining Project): </b><br />
+            • Developed desktop app that is a Question Recommender for Stack
             Overflow:
             <br />
             • Core framework based on data mining using Jaccard’s Index
