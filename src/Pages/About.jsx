@@ -28,10 +28,7 @@ export default function About() {
         <div className="contact-info">
           <p>
             <img src={mail} alt="Mail: " />
-            <a href="mailto:JaskiratSOberoi@gmail.com">
-              {" "}
-              JaskiratSOberoi@gmail.com
-            </a>
+            <a href="mailto:me@jaskiratoberoi.com"> me@jaskiratoberoi.com</a>
             <img src={call} alt="Call: " />
             <a href="tel:+919818733538">+91 9818733538</a>
           </p>
