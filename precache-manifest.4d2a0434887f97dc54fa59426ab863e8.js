@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3ad3e9d74db8af64aa49c7d886cc262",
+    "revision": "1d678fe7168ae0c7157ca16de1355e9d",
     "url": "https://jaskiratoberoi.com/index.html"
   },
   {
-    "revision": "1780a2e2c43ee913fef9",
+    "revision": "c2dfa9a1ff0e4870ee46",
     "url": "https://jaskiratoberoi.com/static/css/main.9ac84765.chunk.css"
   },
   {
-    "revision": "bfd12218408adb2cf14c",
-    "url": "https://jaskiratoberoi.com/static/js/2.d8c6372f.chunk.js"
+    "revision": "b8b8c8712c4cc323d326",
+    "url": "https://jaskiratoberoi.com/static/js/2.6cfddc2e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "https://jaskiratoberoi.com/static/js/2.d8c6372f.chunk.js.LICENSE.txt"
+    "url": "https://jaskiratoberoi.com/static/js/2.6cfddc2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1780a2e2c43ee913fef9",
-    "url": "https://jaskiratoberoi.com/static/js/main.2cf1ed1f.chunk.js"
+    "revision": "c2dfa9a1ff0e4870ee46",
+    "url": "https://jaskiratoberoi.com/static/js/main.729b560a.chunk.js"
   },
   {
-    "revision": "c5f0b13e9637866a7c19",
-    "url": "https://jaskiratoberoi.com/static/js/runtime-main.153affe2.js"
+    "revision": "bfb27b017147613dd183",
+    "url": "https://jaskiratoberoi.com/static/js/runtime-main.7a9cde01.js"
   },
   {
     "revision": "895a094c9e1696dc02663082a58f585a",
