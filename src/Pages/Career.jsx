@@ -1,30 +1,55 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 
-import {Timeline, Event} from "react-timeline-scribble";
+import { Timeline, Event } from "react-timeline-scribble";
 
 export default function Work() {
   return (
     <div className="w-container">
       <Fragment>
         <Timeline>
-        <Event
+          <Event
             interval={"March 2021 - Present"}
             title={"Amazon"}
             subtitle={"Design Technologist"}
           >
-            Proud to hold the title of Amazon India's First ever Design Technologist. 
+            Proud to hold the title of Amazon India's First ever Design
+            Technologist.
+            <br />
+            <br />• Built multiple interactive prototypes to test and refine
+            design concepts.
+            <br />• Implement front-end development using HTML, CSS, and
+            JavaScript.
+            <br />• Contributed to the Internal Design System by building
+            components in React TypeScript
+            <br />• Ensured highest standards for the Design System by
+            implementing Unit Tests & UI Tests
+            <br />• Collaborated with cross-functional teams to bridge design
+            and development.
+            <br />• Translated design requirements into technical specifications
+            during design hand-offs.
+            <br />• Conducted user research and testing to evaluate usability
+            alongside UX researchers.
+            <br />• Analyzed user feedback to iterate on design solutions.
+            <br />• Staying updated on emerging technologies and design trends
+            in order to enhance UX/developer workflow.
+            <br />• Ensured feasibility and implementation of design concepts.
+            <br />• Communicated technical constraints to designers effectively.
+            <br />• Prioritized user experience in all aspects of product
+            development.
           </Event>
           <Event
             interval={"July 2020 - March 2021"}
             title={"Amazon"}
             subtitle={"Support Engineer III "}
           >
-            <br />● Implementing Data ingestion from sources like flat files, On-Prem SQL Server etc. into Data warehouses
-            <br />● Supporting clients directly in report generation activities using SQL and Python
-            <br />● Deploying automation scripts for report delivery to clients
-            <br />● Transformation of unstructured ingested data using python with internal tools
-            <br />● Support in developing BI reports using PowerBI
-            
+            <br />• Implementing Data ingestion pipelines from sources like flat
+            files, On-Prem SQL Server etc. into Data warehouses
+            <br />• Supporting clients directly in report generation activities
+            using SQL and Python
+            <br />• Deploying automation scripts for report delivery to clients
+            <br />• Transformation of unstructured ingested data using python
+            with internal tools
+            <br />• Support in developing BI reports using PowerBI
           </Event>
           <Event
             interval={"July 2019 – April 2020"}
@@ -74,7 +99,11 @@ export default function Work() {
             title={"AT&T"}
             subtitle={"Project Based Summer Internship"}
           >
-            <b>&#10687; Stack Overflow Question Recommender (Data Mining Project): </b><br />
+            <b>
+              &#10687; Stack Overflow Question Recommender (Data Mining
+              Project):{" "}
+            </b>
+            <br />
             • Developed desktop app that is a Question Recommender for Stack
             Overflow:
             <br />

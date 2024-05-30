@@ -8,7 +8,7 @@ import html_logo from "../../media/logos/svg/icons8-html-5.svg";
 import css_logo from "../../media/logos/svg/icons8-css3.svg";
 import flexbox_logo from "../../media/logos/svg/022-website.svg";
 import grid_logo from "../../media/logos/svg/040-website.svg";
-import js_logo from "../../media/logos/svg/icons8-javascript.svg";
+import js_logo from "../../media/logos/svg/javascript.svg";
 import react_logo from "../../media/logos/svg/icons8-react-native.svg";
 import scss_logo from "../../media/logos/svg/sass.svg";
 import bs4_logo from "../../media/logos/svg/bs4.svg";
@@ -31,7 +31,22 @@ import app_logo from "../../media/logos/svg/App Services.svg";
 import db_logo from "../../media/logos/svg/SQL Databases.svg";
 import az_logo from "../../media/logos/svg/All Resources.svg";
 
-
+import rsb_logo from "../../media/logos/svg/storybook.svg";
+import ve_logo from "../../media/logos/svg/vanilla-extract.svg";
+import json_logo from "../../media/logos/svg/json.svg";
+import reactts_logo from "../../media/logos/svg/reactts.svg";
+import ts_logo from "../../media/logos/svg/typescript.svg";
+import testts_logo from "../../media/logos/svg/testts.svg";
+import jupyter_logo from "../../media/logos/svg/jupyter.svg";
+import framer_logo from "../../media/logos/svg/framer.svg";
+import usert_logo from "../../media/logos/svg/user-testing.svg";
+import chatgpt_logo from "../../media/logos/svg/ChatGPT.svg";
+import gemini_logo from "../../media/logos/svg/gai3.png";
+import svg_logo from "../../media/logos/svg/svg.svg";
+import sdxl_logo from "../../media/logos/svg/sdxl.svg";
+import prompt_logo from "../../media/logos/svg/prompt.png";
+import nlp_logo from "../../media/logos/svg/nlp.png";
+import pythonai_logo from "../../media/logos/svg/pythonai.svg";
 
 export const skillData = [
   {
@@ -53,11 +68,47 @@ export const skillData = [
         title: "UX Writing",
         logo: uxwriting_logo,
       },
+      {
+        title: "User Testing",
+        logo: usert_logo,
+      },
+      {
+        title: "SVG management",
+        logo: svg_logo,
+      },
     ],
   },
   {
     title: "Frontend Engineer",
     skills: [
+      {
+        title: "JavaScript",
+        logo: js_logo,
+      },
+      {
+        title: "TypeScript",
+        logo: ts_logo,
+      },
+      {
+        title: "React Js",
+        logo: react_logo,
+      },
+      {
+        title: "React Ts",
+        logo: reactts_logo,
+      },
+      {
+        title: "Unit Tests Ts",
+        logo: testts_logo,
+      },
+      {
+        title: "Storybook",
+        logo: rsb_logo,
+      },
+      {
+        title: "Vanilla Extract",
+        logo: ve_logo,
+      },
       {
         title: "HTML 5",
         logo: html_logo,
@@ -82,13 +133,34 @@ export const skillData = [
         title: "Bootstrap",
         logo: bs4_logo,
       },
+    ],
+  },
+  {
+    title: "Prompt Engineer",
+    skills: [
       {
-        title: "JavaScript",
-        logo: js_logo,
+        title: "Chat GPT 3.5",
+        logo: chatgpt_logo,
       },
       {
-        title: "React JS",
-        logo: react_logo,
+        title: "Gemini Advanced",
+        logo: gemini_logo,
+      },
+      {
+        title: "Stable Diffusion XL",
+        logo: sdxl_logo,
+      },
+      {
+        title: "Prompt writing",
+        logo: prompt_logo,
+      },
+      {
+        title: "NLP",
+        logo: nlp_logo,
+      },
+      {
+        title: "Python",
+        logo: pythonai_logo,
       },
     ],
   },
@@ -110,6 +182,10 @@ export const skillData = [
       {
         title: "Microsoft SQL",
         logo: sql_logo,
+      },
+      {
+        title: "JSON",
+        logo: json_logo,
       },
     ],
   },
@@ -139,6 +215,14 @@ export const skillData = [
       {
         title: "Figma",
         logo: figma_logo,
+      },
+      {
+        title: "Framer",
+        logo: framer_logo,
+      },
+      {
+        title: "Jupyter",
+        logo: jupyter_logo,
       },
     ],
   },

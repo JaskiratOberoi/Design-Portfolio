@@ -10,10 +10,11 @@ import ttt from "../../media/ttt.png";
 import portfolio from "../../media/portfolio.png";
 import covidjs from "../../media/covidjs.png";
 import tft from "../../media/tft.png";
+import soqr from "../../media/soqr.png";
 
 export const projectData = [
   {
-    url: "http://cmr.jaskiratoberoi.com",
+    url: "http://cmr.hanseibydesign.com",
     bannerSrc: cmr,
     title: "C.M.R Gaming",
     designDetails: "Minimalistic , Adobe XD",
@@ -34,6 +35,13 @@ export const projectData = [
     devDetails: "Angular JS, PWA, Sass",
   },
   {
+    url: "https://github.com/JaskiratOberoi/Stack-Overflow-Questions-Recommender",
+    bannerSrc: soqr,
+    title: "StackOverflow Question Recommender",
+    designDetails: " Tkinter",
+    devDetails: "Python, NLP, Data mining",
+  },
+  {
     url: "/",
     bannerSrc: portfolio,
     title: "this.Portfolio",
@@ -41,14 +49,14 @@ export const projectData = [
     devDetails: "React JS, Router, Sass",
   },
   {
-    url: "http://get-organised.hanseibydesign.com/",
+    url: "http://todo.hanseibydesign.com/",
     bannerSrc: todo,
     title: "Pure JS Todo App",
     designDetails: " N/A",
     devDetails: "HTML5, Sass, Vanilla JS",
   },
   {
-    url: "http://life.jaskiratoberoi.com",
+    url: "http://life.hanseibydesign.com",
     bannerSrc: life,
     title: "Life Calendar",
     designDetails: " Neumorphic Design",
