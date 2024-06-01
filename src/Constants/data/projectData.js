@@ -1,10 +1,11 @@
 import bulk from "../../media/internal/bulk-dpx.png"
 import code from "../../media/internal/folder-code.png"
-import repo from "../../media/internal/cloud.png"
+// import repo from "../../media/internal/cloud.png"
 import flist from "../../media/internal/flist.png"
 import bulku from "../../media/internal/bulk-upload.png"
 import form from "../../media/internal/form.png"
 import esi from "../../media/internal/esi.png"
+import dash from "../../media/internal/dashboard.png"
 // import cmr from "../../media/cmr.png";
 import covid from "../../media/covid.png";
 import todo from "../../media/todo.png";
@@ -12,7 +13,7 @@ import choose from "../../media/choose.png";
 import mori from "../../media/mori.png";
 import life from "../../media/life.png";
 import tvs from "../../media/tvs.png";
-import csi from "../../media/csi.png";
+// import csi from "../../media/csi.png";
 import ttt from "../../media/ttt.png";
 import portfolio from "../../media/portfolio.png";
 import covidjs from "../../media/covidjs.png";
@@ -40,6 +41,13 @@ export const projectData = [
     title: "AB Bulk Buy Prototype [code repo]",
     designDetails: "Atomic Design, BUI, AUI",
     devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://prod.d15cjjmw7tlml.amplifyapp.com/",
+    bannerSrc: dash,
+    title: "ABUX HYD Dashboard alpha build (proof of concept)",
+    designDetails: "mimal design ux",
+    devDetails: "React JS, Scss",
   },
   {
     url: "https://tiny.amazon.com/9n99el1q/tinkbusiamazdev",

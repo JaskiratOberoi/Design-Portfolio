@@ -108,14 +108,14 @@ export default function Home() {
             />
           </svg>
 
-          <h2> Frontend Web Developer</h2>
+          <h2> Design Technologist</h2>
           <div className="intro">
             I’ve always sought out opportunities and challenges that are
             meaningful to me.
           </div>
           <div className="get-in-touch">
             <Link className="btn btn-primary" to="/portfolio">
-              My Projects
+              Portfolio
             </Link>
             <Link className="btn btn-secondary" to="/career">
               Career
