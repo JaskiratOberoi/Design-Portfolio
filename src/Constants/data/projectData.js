@@ -14,18 +14,18 @@ import soqr from "../../media/soqr.png";
 
 export const projectData = [
   {
-    url: "http://cmr.hanseibydesign.com",
+    url: "https://prod.d2nl5plfshmv98.amplifyapp.com/index.html",
     bannerSrc: cmr,
-    title: "C.M.R Gaming",
-    designDetails: "Minimalistic , Adobe XD",
-    devDetails: "HTML5, Sass, Vanilla JS",
+    title: "Amazon Business Bulk Buy Prototype",
+    designDetails: "BUI, AUI",
+    devDetails: "Pug, jquery, JavaScript, Scss",
   },
   {
     url: "http://csi.hanseibydesign.com/",
     bannerSrc: csi,
-    title: "CSI Student Branch",
-    designDetails: " Minimal Design",
-    devDetails: "HTML5, W3 CSS, Vanilla JS",
+    title: "AB Bulk Buy Prototype [Revamp]",
+    designDetails: "BUI, AUI",
+    devDetails: "React JS, Scss",
   },
   {
     url: "https://tic-tac-toe-36436.web.app/",
