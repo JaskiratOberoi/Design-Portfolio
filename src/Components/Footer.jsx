@@ -10,7 +10,7 @@ const Footer = () => {
       >
         Jaskirat Singh Oberoi
       </a>
-      {"  "}© Hansei By Design 2022
+      {"  "} © 2024
     </footer>
   );
 };
