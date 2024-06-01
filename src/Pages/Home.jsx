@@ -110,8 +110,7 @@ export default function Home() {
 
           <h2> Design Technologist</h2>
           <div className="intro">
-            I’ve always sought out opportunities and challenges that are
-            meaningful to me.
+          I thrive on meaningful challenges and actively seek opportunities that ignite my passion.
           </div>
           <div className="get-in-touch">
             <Link className="btn btn-primary" to="/portfolio">

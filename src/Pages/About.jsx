@@ -3,14 +3,24 @@ import React from "react";
 // import jaskirat7 from "../media/jaskirat-9.png";
 import mail from "../media/logos/svg/mail.svg";
 import call from "../media/logos/svg/call.svg";
-import jas from "../media/hyperbadge_jooberoi.png";
+// import jas from "../media/hyperbadge_jooberoi.png";
+import jay from "../media/jay.jpg";
+
+// Resume
+import resume from '../media/Jaskirat_Oberoi_Latest.pdf';
 
 export default function About() {
+
+  const downloadFile = () => window.open(
+      resume,
+      '_blank'
+     );
+
   return (
     <div className="f-main">
       <div className="f-image">
         <div>
-          <img src={jas} alt="me-1" />
+          <img src={jay} alt="me-1" />
         </div>
       </div>
 
@@ -20,14 +30,12 @@ export default function About() {
           <i className="fas fa-quote-right"></i>
         </div>
         <div className="main-text">
-          A designer by passion, an engineer by choice, I’m a determined Web
-          Developer & UI/UX Designer who is driven and can achieve strict
-          deadlines. I enjoy using my obsessive attention to detail, my
-          unequivocal love for making things, and my mission-driven work ethic
-          to create simple yet beautiful designs.
+          A designer by passion, an engineer by choice, I'm a determined Web
+          Developer & UI/UX Designer who is driven and thrives in fast-paced, dynamic environments. 
+          I possess a proven ability to translate complex challenges into innovative, user-centric 
+          outcomes. My goal is to contribute my skills and passion to a forward-thinking, high-growth organisation.
         </div>
         <div className="contact-info">
-          <p>
             <div>
               <img src={mail} alt="Mail: " />
               <a href="mailto:jooberoi@amazon.com"> jooberoi@amazon.com</a>
@@ -36,8 +44,12 @@ export default function About() {
               <img src={call} alt="Call: " />
               <a href="tel:+919818733538">+91-9818733538</a>
             </div>
-          </p>
         </div>
+        <div className="cv-button">
+              <button className="btn btn-secondary" onClick={downloadFile}>
+                Download Resume
+              </button>
+            </div>
       </div>
     </div>
   );

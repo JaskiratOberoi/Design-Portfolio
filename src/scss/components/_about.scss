@@ -13,7 +13,7 @@
     div {
       img {
         width: 100%;
-        border-radius: 10px;
+        border-radius: 500px;
       }
     }
   }
@@ -40,11 +40,10 @@
 
     .contact-info {
       padding: 1rem 0;
-      p {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
 
-        div{
+      div{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -57,10 +56,24 @@
             color: $clr-primary;
             text-decoration: none;
           }
-        }
-
         
+      }
+    }
+    .cv-button {
+
+      width: 100%;
+
+      .btn{
+        width: 70%;
+
+        &:hover {
+          width: 90%;
+          cursor: pointer;
+          border-radius: 50px;
+        }
       }
     }
   }
 }
+
+
