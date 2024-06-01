@@ -16,6 +16,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 20px;
+  cursor: none;
 }
 
 ::selection {
@@ -365,3 +366,18 @@ body {
 
 //Media queries
 @import "media";
+
+
+
+
+.cursor{
+  background-color: $clr-background-primary;
+  border: 2px solid #f1f1f1;
+  height: 24px;
+  width: 24px;
+  border-radius: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  // z-index: 100;
+}

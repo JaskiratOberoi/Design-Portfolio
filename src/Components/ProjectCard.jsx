@@ -9,8 +9,13 @@ const ProjectCard = (props) => {
         </div>
         <h1 className="p-title">{props.title}</h1>
         <div className="p-details">
-          <span>Design:</span> {props.designDetails} <br />
-          <span>Dev:</span> {props.devDetails}
+          { props.designDetails ? <> <span>Design:</span> { props.designDetails } <br /> </>: null}
+          { props.devDetails? 
+        <>
+        <span>Dev:</span> { props.devDetails }
+        </> 
+        :null }
+          
         </div>
       </div>
     </a>

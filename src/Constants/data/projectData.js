@@ -1,11 +1,11 @@
-import bulk from "../../media/internal/bulk-dpx.png"
-import code from "../../media/internal/folder-code.png"
+import bulk from "../../media/internal/bulk-dpx.png";
 // import repo from "../../media/internal/cloud.png"
-import flist from "../../media/internal/flist.png"
-import bulku from "../../media/internal/bulk-upload.png"
-import form from "../../media/internal/form.png"
-import esi from "../../media/internal/esi.png"
-import dash from "../../media/internal/dashboard.png"
+import flist from "../../media/internal/flist.png";
+import bulku from "../../media/internal/bulk-upload.png";
+import form from "../../media/internal/form.png";
+import esi from "../../media/internal/esi.png";
+import dash from "../../media/internal/dashboard.png";
+import abbpt from "../../media/internal/abbpt.png";
 // import cmr from "../../media/cmr.png";
 import covid from "../../media/covid.png";
 import todo from "../../media/todo.png";
@@ -19,6 +19,8 @@ import portfolio from "../../media/portfolio.png";
 import covidjs from "../../media/covidjs.png";
 import tft from "../../media/tft.png";
 import soqr from "../../media/soqr.png";
+import code from "../../media/logos/svg/code3.svg";
+
 
 export const projectData = [
   {
@@ -39,7 +41,7 @@ export const projectData = [
     url: "https://code.amazon.com/packages/ABS-Bulk-Purchasing-Prototype/trees/mainline#",
     bannerSrc: code,
     title: "AB Bulk Buy Prototype [code repo]",
-    designDetails: "Atomic Design, BUI, AUI",
+    // designDetails: "Atomic Design, BUI, AUI",
     devDetails: "Pug, jquery, JavaScript, Scss",
   },
   {
@@ -70,6 +72,14 @@ export const projectData = [
     designDetails: "Ink Design System",
     devDetails: "Ink Design System, React, JS",
   },
+  {
+    url: "https://www.amazon.com/businessprime",
+    bannerSrc: abbpt,
+    title: "AB Business Prime Plans Table",
+    designDetails: "AUI Design System",
+    devDetails: "AUI Design System, React, JS",
+  },
+  
   {
     url: "https://github.com/JaskiratOberoi/Stack-Overflow-Questions-Recommender",
     bannerSrc: soqr,
