@@ -1,15 +1,16 @@
 import React from "react";
 
-import jaskirat7 from "../media/jaskirat-9.png";
+// import jaskirat7 from "../media/jaskirat-9.png";
 import mail from "../media/logos/svg/mail.svg";
 import call from "../media/logos/svg/call.svg";
+import jas from "../media/hyperbadge_jooberoi.png";
 
 export default function About() {
   return (
     <div className="f-main">
       <div className="f-image">
         <div>
-          <img src={jaskirat7} alt="me-1" />
+          <img src={jas} alt="me-1" />
         </div>
       </div>
 
@@ -27,10 +28,14 @@ export default function About() {
         </div>
         <div className="contact-info">
           <p>
-            <img src={mail} alt="Mail: " />
-            <a href="mailto:me@jaskiratoberoi.com"> me@jaskiratoberoi.com</a>
-            <img src={call} alt="Call: " />
-            <a href="tel:+919818733538">+91 9818733538</a>
+            <div>
+              <img src={mail} alt="Mail: " />
+              <a href="mailto:jooberoi@amazon.com"> jooberoi@amazon.com</a>
+            </div>
+            <div>
+              <img src={call} alt="Call: " />
+              <a href="tel:+919818733538">+91-9818733538</a>
+            </div>
           </p>
         </div>
       </div>

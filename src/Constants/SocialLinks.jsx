@@ -33,11 +33,11 @@ const SocialLinks = ({ styleClass = "" }) => {
         </li>
         <li>
           <a
-            href="https://www.facebook.com/jaskirat.singh.oberoi.1996"
+            href="https://phonetool.amazon.com/users/jooberoi"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-facebook" />
+           <i class="fa fa-user"/>
           </a>
         </li>
       </ul>

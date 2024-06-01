@@ -8,9 +8,9 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Jaskirat Singh Oberoi
+        Jaskirat Singh Oberoi 
       </a>
-      {"  "} © 2024
+      {"  "}  © 2024
     </footer>
   );
 };

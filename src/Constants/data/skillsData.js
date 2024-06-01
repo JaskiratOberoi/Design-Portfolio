@@ -55,16 +55,20 @@ import micro from "../../media/logos/svg/micro.svg";
 
 
 // AWS imports
-import s3_logo from "../../media/logos/svg/aws-s3.svg";
-import ec2_logo from "../../media/logos/svg/aws-ec2.svg";
-import qs_logo from "../../media/logos/svg/aws-quicksight.svg";
-import lambda_logo from "../../media/logos/svg/aws-lambda.svg";
-import r53_logo from "../../media/logos/svg/aws-route53.svg";
-import api_logo from "../../media/logos/svg/aws-api-gateway.svg";
-import cf_logo from "../../media/logos/svg/aws-cloudfront.svg";
-import iam_logo from "../../media/logos/svg/aws-iam.svg";
+import s3_logo from "../../media/logos/svg/aws-s32.svg";
+import ec2_logo from "../../media/logos/svg/aws-ec22.svg";
+import qs_logo from "../../media/logos/svg/aws-quicksight2.svg";
+import lambda_logo from "../../media/logos/svg/aws-lambda2.svg";
+import r53_logo from "../../media/logos/svg/aws-route532.svg";
+import api_logo from "../../media/logos/svg/aws-api-gateway2.svg";
+import cf_logo from "../../media/logos/svg/aws-cloudfront2.svg";
+import iam_logo from "../../media/logos/svg/aws-iam2.svg";
 import aws_logo from "../../media/logos/svg/aws.svg";
-import amp_logo from "../../media/logos/svg/Amplify.svg";
+import amp_logo from "../../media/logos/svg/aws-amplify.svg";
+import elb_logo from "../../media/logos/svg/aws-elb.svg";
+import cm_logo from "../../media/logos/svg/aws-certificate-manager.svg";
+import rs_logo from "../../media/logos/svg/aws-route532.svg";
+import cp_logo from "../../media/logos/svg/aws-codepipeline.svg";
 
 
 export const skillData = [
@@ -200,7 +204,7 @@ export const skillData = [
     ],
   },
   {
-    title: "Cloud Engineer (Amazon Web Services)",
+    title: "Cloud Engineer (AWS)",
     skills: [
       {
         title: "Amplify CI/CD",
@@ -219,7 +223,7 @@ export const skillData = [
         logo: lambda_logo,
       },
       {
-        title: "Route 53",
+        title: "Route 53 - Hosted Zones",
         logo: r53_logo,
       },
       {
@@ -233,6 +237,22 @@ export const skillData = [
       {
         title: "Identity Access Mgmt",
         logo: iam_logo,
+      },
+      {
+        title: "Elastic Load balancer",
+        logo: elb_logo,
+      },
+      {
+        title: "Certificate Manager",
+        logo: cm_logo,
+      },
+      {
+        title: "Route 53",
+        logo: rs_logo,
+      },
+      {
+        title: "Code Pipeline",
+        logo: cp_logo,
       },
       {
         title: "QuickSight",
