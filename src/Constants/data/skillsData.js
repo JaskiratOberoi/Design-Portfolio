@@ -64,6 +64,7 @@ import api_logo from "../../media/logos/svg/aws-api-gateway.svg";
 import cf_logo from "../../media/logos/svg/aws-cloudfront.svg";
 import iam_logo from "../../media/logos/svg/aws-iam.svg";
 import aws_logo from "../../media/logos/svg/aws.svg";
+import amp_logo from "../../media/logos/svg/Amplify.svg";
 
 
 export const skillData = [
@@ -201,6 +202,10 @@ export const skillData = [
   {
     title: "Cloud Engineer (Amazon Web Services)",
     skills: [
+      {
+        title: "Amplify CI/CD",
+        logo: amp_logo,
+      },
       {
         title: "Elastic Compute Cloud",
         logo: ec2_logo,
