@@ -1,4 +1,11 @@
-import cmr from "../../media/cmr.png";
+import bulk from "../../media/internal/bulk-dpx.png"
+import code from "../../media/internal/folder-code.png"
+import repo from "../../media/internal/cloud.png"
+import flist from "../../media/internal/flist.png"
+import bulku from "../../media/internal/bulk-upload.png"
+import form from "../../media/internal/form.png"
+import esi from "../../media/internal/esi.png"
+// import cmr from "../../media/cmr.png";
 import covid from "../../media/covid.png";
 import todo from "../../media/todo.png";
 import choose from "../../media/choose.png";
@@ -14,25 +21,46 @@ import soqr from "../../media/soqr.png";
 
 export const projectData = [
   {
-    url: "https://prod.d2nl5plfshmv98.amplifyapp.com/index.html",
-    bannerSrc: cmr,
-    title: "Amazon Business Bulk Buy Prototype",
-    designDetails: "BUI, AUI",
-    devDetails: "Pug, jquery, JavaScript, Scss",
-  },
-  {
-    url: "http://csi.hanseibydesign.com/",
-    bannerSrc: csi,
-    title: "AB Bulk Buy Prototype [Revamp]",
+    url: "https://prod.d15cjjmw7tlml.amplifyapp.com/",
+    bannerSrc: esi,
+    title: "ESI Unified Onboarding Mgmt Prototype",
     designDetails: "BUI, AUI",
     devDetails: "React JS, Scss",
   },
   {
-    url: "https://tic-tac-toe-36436.web.app/",
-    bannerSrc: ttt,
-    title: "Tic Tac Toe",
-    designDetails: "Nebular UI ",
-    devDetails: "Angular JS, PWA, Sass",
+    url: "https://prod.d2nl5plfshmv98.amplifyapp.com/index.html",
+    bannerSrc: bulk,
+    title: "Amazon Business Bulk Prototype",
+    designDetails: "Atomic Design, BUI, AUI",
+    devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://code.amazon.com/packages/ABS-Bulk-Purchasing-Prototype/trees/mainline#",
+    bannerSrc: code,
+    title: "AB Bulk Buy Prototype [code repo]",
+    designDetails: "Atomic Design, BUI, AUI",
+    devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://tiny.amazon.com/9n99el1q/tinkbusiamazdev",
+    bannerSrc: flist,
+    title: "Filtered List Pattern",
+    designDetails: "Ink Design System",
+    devDetails: "Ink Design System, React, JS",
+  },
+  {
+    url: "https://tiny.amazon.com/7dv9agqj/tinkbusiamazdev",
+    bannerSrc: form,
+    title: "Form Pattern",
+    designDetails: "Ink Design System",
+    devDetails: "Ink Design System, React, JS",
+  },
+  {
+    url: "https://tiny.amazon.com/7qwb8quc/tinkbusiamazdev",
+    bannerSrc: bulku,
+    title: "Bulk Upload Pattern",
+    designDetails: "Ink Design System",
+    devDetails: "Ink Design System, React, JS",
   },
   {
     url: "https://github.com/JaskiratOberoi/Stack-Overflow-Questions-Recommender",
@@ -49,18 +77,25 @@ export const projectData = [
     devDetails: "React JS, Router, Sass",
   },
   {
+    url: "https://tic-tac-toe-36436.web.app/",
+    bannerSrc: ttt,
+    title: "PWA: Tic Tac Toe",
+    designDetails: "Nebular UI ",
+    devDetails: "Angular JS, Progressive Web App, Scss",
+  },
+  {
     url: "http://todo.hanseibydesign.com/",
     bannerSrc: todo,
     title: "Pure JS Todo App",
     designDetails: " N/A",
-    devDetails: "HTML5, Sass, Vanilla JS",
+    devDetails: "HTML5, Scss, Vanilla JS",
   },
   {
     url: "http://life.hanseibydesign.com",
     bannerSrc: life,
     title: "Life Calendar",
     designDetails: " Neumorphic Design",
-    devDetails: "HTML5, Sass, Vanilla JS",
+    devDetails: "HTML5, Scss, Vanilla JS",
   },
   {
     url: "http://covid19.hanseibydesign.com/",
@@ -74,7 +109,7 @@ export const projectData = [
     bannerSrc: covid,
     title: "Covid-19 India Tacker",
     designDetails: "Flat UI, Adobe XD ",
-    devDetails: " HTML5, Sass, Python 3",
+    devDetails: " HTML5, Scss, Python 3",
   },
   {
     url: "https://www.behance.net/gallery/94964421/Choose-Life",
