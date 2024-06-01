@@ -7,7 +7,9 @@ function Cursor() {
         y: 0
     });
 
-    const [cursorVariant, setCursorVariant] = useState("default");
+    const [cursorVariant, 
+        // setCursorVariant
+    ] = useState("default");
 
     useEffect(() => {
 
