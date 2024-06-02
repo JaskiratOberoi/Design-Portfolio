@@ -51,6 +51,7 @@ import framermotion_logo from "../../media/logos/svg/framer-motion.svg";
 import res_logo from "../../media/logos/responsive.png";
 import adp_logo from "../../media/logos/adaptive.png";
 import micro from "../../media/logos/svg/micro.svg";
+import webiny_logo from "../../media/logos/webiny.png";
 // import framermotion_logo from "../../media/logos/svg/framer-motion.svg";
 
 
@@ -67,7 +68,6 @@ import aws_logo from "../../media/logos/svg/aws.svg";
 import amp_logo from "../../media/logos/svg/aws-amplify.svg";
 import elb_logo from "../../media/logos/svg/aws-elb.svg";
 import cm_logo from "../../media/logos/svg/aws-certificate-manager.svg";
-import rs_logo from "../../media/logos/svg/aws-route532.svg";
 import cp_logo from "../../media/logos/svg/aws-codepipeline.svg";
 
 
@@ -147,6 +147,10 @@ export const skillData = [
       {
         title: "Vanilla Extract",
         logo: ve_logo,
+      },
+      {
+        title: "Webiny CMS",
+        logo: webiny_logo,
       },
       {
         title: "HTML 5",
@@ -245,10 +249,6 @@ export const skillData = [
       {
         title: "Certificate Manager",
         logo: cm_logo,
-      },
-      {
-        title: "Route 53",
-        logo: rs_logo,
       },
       {
         title: "Code Pipeline",

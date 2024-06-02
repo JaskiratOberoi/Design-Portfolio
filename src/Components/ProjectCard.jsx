@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     <a href={props.url} target="_blank" rel="noopener noreferrer">
       <div className="project-card">
         <div className="p-image">
-          <img src={props.bannerSrc} alt="project_image"></img>
+          <img src={props.bannerSrc} alt="project_image" loading="lazy"></img>
         </div>
         <h1 className="p-title">{props.title}</h1>
         <div className="p-details">
