@@ -12,8 +12,8 @@ export default function Work() {
             title={"Amazon"}
             subtitle={"Design Technologist"}
           >
-            Proud to hold the title of Amazon India's First ever Design
-            Technologist.
+            Proud to hold the title of "Amazon India's First ever Design
+            Technologist"
             <br />
             <br />• Built multiple interactive prototypes to test and refine
             design concepts.
