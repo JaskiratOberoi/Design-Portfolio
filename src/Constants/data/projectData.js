@@ -31,7 +31,7 @@ export const projectData = [
     devDetails: "React JS, Scss",
   },
   {
-    url: "https://prod.d2nl5plfshmv98.amplifyapp.com/index.html",
+    url: "https://quip-amazon.com/cUdiA5TZgc5r/Amazon-Business-Bulk-Picker-Prototype",
     bannerSrc: bulk,
     title: "Amazon Business Bulk Prototype",
     designDetails: "Atomic Design, BUI, AUI",
@@ -91,8 +91,8 @@ export const projectData = [
     url: "/",
     bannerSrc: portfolio,
     title: "this.Portfolio",
-    designDetails: " Minimal, Neumorphic",
-    devDetails: "React JS, Router, Sass",
+    designDetails: " Minimal, Neumorphic UI",
+    devDetails: "SPA, React JS, Router, Sass",
   },
   {
     url: "https://tic-tac-toe-36436.web.app/",
