@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f888ad663eba9dedb57243f361df8d2",
+    "revision": "b4952d34d8c46711986f5e8ffa28d158",
     "url": "https://jaskiratoberoi.com/index.html"
   },
   {
-    "revision": "772ae5f965665e334d29",
-    "url": "https://jaskiratoberoi.com/static/css/main.b2d78a38.chunk.css"
+    "revision": "2c53ef66f987140927bd",
+    "url": "https://jaskiratoberoi.com/static/css/main.48d03a23.chunk.css"
   },
   {
-    "revision": "bed9c1eeb3df878d3e64",
-    "url": "https://jaskiratoberoi.com/static/js/2.b6bcca77.chunk.js"
+    "revision": "57d774ce7872772faba1",
+    "url": "https://jaskiratoberoi.com/static/js/2.b8e8d34c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "https://jaskiratoberoi.com/static/js/2.b6bcca77.chunk.js.LICENSE.txt"
+    "url": "https://jaskiratoberoi.com/static/js/2.b8e8d34c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "772ae5f965665e334d29",
-    "url": "https://jaskiratoberoi.com/static/js/main.1b75315c.chunk.js"
+    "revision": "2c53ef66f987140927bd",
+    "url": "https://jaskiratoberoi.com/static/js/main.5715f133.chunk.js"
   },
   {
     "revision": "bfb27b017147613dd183",
@@ -68,6 +68,58 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/media/SQL Databases.39675f32.svg"
   },
   {
+    "revision": "ef80a24b43a1751b78df93534c85ec2a",
+    "url": "https://jaskiratoberoi.com/static/media/aws-amplify.ef80a24b.svg"
+  },
+  {
+    "revision": "483de9d175f8742eecb36ef968e0b242",
+    "url": "https://jaskiratoberoi.com/static/media/aws-api-gateway2.483de9d1.svg"
+  },
+  {
+    "revision": "bcd732dcc04d0473ffbd3d61dd45954f",
+    "url": "https://jaskiratoberoi.com/static/media/aws-certificate-manager.bcd732dc.svg"
+  },
+  {
+    "revision": "e982f0bb9fa9d48cbcdf7b9369394ad8",
+    "url": "https://jaskiratoberoi.com/static/media/aws-cloudfront2.e982f0bb.svg"
+  },
+  {
+    "revision": "8de4d302120445f932e17ad9a18a326d",
+    "url": "https://jaskiratoberoi.com/static/media/aws-codepipeline.8de4d302.svg"
+  },
+  {
+    "revision": "4505edbd0b0021606e4144a7c3f4686c",
+    "url": "https://jaskiratoberoi.com/static/media/aws-ec22.4505edbd.svg"
+  },
+  {
+    "revision": "f01f7e1dec0da7dc5ea639223120c9e2",
+    "url": "https://jaskiratoberoi.com/static/media/aws-elb.f01f7e1d.svg"
+  },
+  {
+    "revision": "d833fee41fd28d2da0f83c48a24a6bba",
+    "url": "https://jaskiratoberoi.com/static/media/aws-iam2.d833fee4.svg"
+  },
+  {
+    "revision": "107df1f6429fc1996e68c8f6705fd18c",
+    "url": "https://jaskiratoberoi.com/static/media/aws-lambda2.107df1f6.svg"
+  },
+  {
+    "revision": "45569b6d373cb7c96382802a909c01e6",
+    "url": "https://jaskiratoberoi.com/static/media/aws-quicksight2.45569b6d.svg"
+  },
+  {
+    "revision": "72bb437f1531da264aa72406f9f8be90",
+    "url": "https://jaskiratoberoi.com/static/media/aws-route532.72bb437f.svg"
+  },
+  {
+    "revision": "f88074009b61d5504bb106135a670b0b",
+    "url": "https://jaskiratoberoi.com/static/media/aws-s32.f8807400.svg"
+  },
+  {
+    "revision": "4782276b983c04d32bbd23d6c18d0aa5",
+    "url": "https://jaskiratoberoi.com/static/media/aws.4782276b.svg"
+  },
+  {
     "revision": "10e321e2929228e9ec7a400755b78667",
     "url": "https://jaskiratoberoi.com/static/media/bs4.10e321e2.svg"
   },
@@ -102,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e46efde04ebb7e27356491336f3237c",
     "url": "https://jaskiratoberoi.com/static/media/flask.7e46efde.svg"
+  },
+  {
+    "revision": "13fd5e6dc936fa33aa8a700deb9dc0fb",
+    "url": "https://jaskiratoberoi.com/static/media/framer-motion.13fd5e6d.svg"
   },
   {
     "revision": "5ff6efdbcb817763dd14cd084b7a3338",
@@ -148,12 +204,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/media/icons8-react-native.652f28d1.svg"
   },
   {
-    "revision": "4d3a8761d0a88e2eb79afb019c22afb6",
-    "url": "https://jaskiratoberoi.com/static/media/jaskirat-9.4d3a8761.png"
-  },
-  {
     "revision": "830791e93844f750d619e0839710261c",
     "url": "https://jaskiratoberoi.com/static/media/javascript.830791e9.svg"
+  },
+  {
+    "revision": "ea03b2d3e319fcad19687f48fca7a564",
+    "url": "https://jaskiratoberoi.com/static/media/jay.ea03b2d3.jpg"
   },
   {
     "revision": "a7581395e60fbc9f8058b7c814f101d3",
@@ -174,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81145c3f70c7af7dee66ad2415f32adb",
     "url": "https://jaskiratoberoi.com/static/media/map.81145c3f.svg"
+  },
+  {
+    "revision": "55b5be17c6b00ee6a458ea871e4efe4e",
+    "url": "https://jaskiratoberoi.com/static/media/micro.55b5be17.svg"
   },
   {
     "revision": "a6ded22e91d053b40a3a14908545ccfc",
@@ -198,6 +258,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "88b019e79b2554d8bf569bce9d4da8bb",
     "url": "https://jaskiratoberoi.com/static/media/reactts.88b019e7.svg"
+  },
+  {
+    "revision": "fa6c94f511d9b8df505419534945c476",
+    "url": "https://jaskiratoberoi.com/static/media/resume.fa6c94f5.pdf"
   },
   {
     "revision": "1023f78a2492cb3e48519909df2f1919",
@@ -262,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3e440788e1bfc4c711c9cfbc15c0121d",
     "url": "https://jaskiratoberoi.com/static/media/vanilla-extract.3e440788.svg"
+  },
+  {
+    "revision": "de70a0d0c1ff1c1301fa9644521ab073",
+    "url": "https://jaskiratoberoi.com/static/media/webiny.de70a0d0.png"
   },
   {
     "revision": "72a19cbb3606067022c3a20771b72a38",
