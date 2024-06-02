@@ -1,67 +1,62 @@
-
 .endorsement-list {
-    background: url($dev);
-    background-size: 100%;
-    background-repeat: no-repeat;
+  background: url($dev);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .endorsement {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem 2rem;
+    width: 95%;
+    margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
 
-    .endorsement {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem 2rem;
-        width: 95%;
-        margin-bottom: 1rem;
-        animation: float 3s ease-in-out infinite;
+    // for glass bg effect
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.26);
 
-        // for glass bg effect
-        background: rgba(0, 0, 0, 0.5);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(4.5px);
-        -webkit-backdrop-filter: blur(4.5px);
-        border: 1px solid rgba(255, 255, 255, 0.26);
+    &:nth-child(2) {
+      margin-left: 20%;
+      animation: float 3s ease-in-out infinite 0.5s;
+    }
+    &:hover {
+      background: rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+      animation-play-state: paused;
+    }
 
-        
+    .e-title {
+      font-size: large;
+      font-weight: bold;
+    }
 
-        &:nth-child(2){
-            margin-left: 20%;
-            animation: float 3s ease-in-out infinite 0.5s;
-        }
-        &:hover {
-            background: rgba(0, 0, 0, 0.8);
-            cursor: pointer;
-            animation-play-state: paused;
-        }
+    .e-body {
+      text-align: left;
+      font-size: 0.7rem;
+      padding-top: 0.5rem;
+    }
 
-        .e-title {
-            font-size: large;
-            font-weight: bold;
-        }
-
-        .e-body {
-            text-align: left;
-            font-size: 0.7rem;
-            padding-top: 0.5rem;
-        }
-
-        .e-source {
-            padding: 0.25rem 0.75rem;
-            width: fit-content;
-            font-size: 0.6rem;
-            font-style: italic;
-            align-self: flex-end;
-            justify-content: right;
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(4.5px);
-            -webkit-backdrop-filter: blur(4.5px);
-            border: 1px solid rgba(255, 255, 255, 0.26);
-            
-        }
-}
-
+    .e-source {
+      padding: 0.25rem 0.75rem;
+      width: fit-content;
+      font-size: 0.6rem;
+      font-style: italic;
+      align-self: flex-end;
+      justify-content: right;
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(4.5px);
+      -webkit-backdrop-filter: blur(4.5px);
+      border: 1px solid rgba(255, 255, 255, 0.26);
+    }
+  }
 }
