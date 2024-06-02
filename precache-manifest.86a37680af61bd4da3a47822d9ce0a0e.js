@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4952d34d8c46711986f5e8ffa28d158",
+    "revision": "241bd674bc96bfdc1e35eb7292e5d781",
     "url": "https://jaskiratoberoi.com/index.html"
   },
   {
-    "revision": "2c53ef66f987140927bd",
-    "url": "https://jaskiratoberoi.com/static/css/main.48d03a23.chunk.css"
+    "revision": "963ea8f962609dbf7f26",
+    "url": "https://jaskiratoberoi.com/static/css/main.b6ba0a3f.chunk.css"
   },
   {
     "revision": "57d774ce7872772faba1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/js/2.b8e8d34c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c53ef66f987140927bd",
+    "revision": "963ea8f962609dbf7f26",
     "url": "https://jaskiratoberoi.com/static/js/main.5715f133.chunk.js"
   },
   {
