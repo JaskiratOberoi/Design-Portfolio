@@ -4,6 +4,8 @@
     font-size: 16px;
   }
 
+
+
   .hero {
     .hero-text {
       h2 {
@@ -26,6 +28,13 @@
   * {
     font-size: 12px;
   }
+
+
+    .hero-image {
+      img{
+        display: flex;
+      }
+    }
   .hero {
     .hero-text {
       margin-bottom: 5px;
@@ -41,7 +50,7 @@
   }
 }
 
-@media all and (max-width: 850px) and (min-width: 800px) {
+@media all and (min-width: 800px) and (max-width: 850px) {
   .hero {
     .hero-text {
       .get-in-touch {
@@ -55,6 +64,18 @@
       }
     }
   }
+
+
+    .hero-image {
+      img{
+        display: flex;
+      }
+
+      .endorsement-list {
+        display: none;
+        }
+
+    }
 }
 
 //Mobiles and Tabs
@@ -65,6 +86,16 @@
     z-index: 5;
     transition: all 0.3s ease-in-out;
   }
+
+  .endorsement-list {
+    display: none;
+    }
+
+    .hero-image {
+      img{
+        display: flex !important;
+      }
+    }
 
   .body-padding-adder {
     padding-top: 280px;
@@ -298,12 +329,27 @@
     flex-direction: column;
     width: 100%;
     .f-image {
+      margin-top: 2rem;
       width: 50%;
     }
     .f-body {
       padding: 0 2rem;
-      margin-top: 30%;
+      margin-top: 10%;
       width: 100%;
+
+      .contact-info { 
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.5rem 0;
+          }
+        
+      }
     }
   }
 
@@ -341,6 +387,17 @@
   * {
     font-size: 10px;
   }
+
+  .endorsement-list {
+    display: none;
+    }
+
+    .hero-image {
+      img{
+        display: flex;
+      }
+      
+    }
 
   .foot {
     margin-bottom: -20px;

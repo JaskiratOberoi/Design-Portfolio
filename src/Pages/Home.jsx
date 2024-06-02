@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import developer from "../media/code.svg";
+import { endorsementData } from "../Constants/data/endorsementData";
+import Endorsement from "../Components/Endorsement";
 
 export default function Home() {
   return (
@@ -108,14 +110,13 @@ export default function Home() {
             />
           </svg>
 
-          <h2> Frontend Web Developer</h2>
+          <h2> Design Technologist</h2>
           <div className="intro">
-            I’ve always sought out opportunities and challenges that are
-            meaningful to me.
+          I thrive on meaningful challenges and actively seek opportunities that ignite my passion.
           </div>
           <div className="get-in-touch">
             <Link className="btn btn-primary" to="/portfolio">
-              My Projects
+              Portfolio
             </Link>
             <Link className="btn btn-secondary" to="/career">
               Career
@@ -124,6 +125,18 @@ export default function Home() {
         </div>
         <div className="hero-image">
           <img src={developer} alt="hero"></img>
+
+          <div className="endorsement-list">
+          {
+            endorsementData.map((data) => (
+              <Endorsement  
+                title = { data.title } 
+                body = { data.body }
+                source = { data.source }
+                />
+            ))
+          }
+          </div>
         </div>
       </div>
     </main>
