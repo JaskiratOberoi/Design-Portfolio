@@ -24,7 +24,7 @@ import code from "../../media/logos/svg/code3.svg";
 
 export const projectData = [
   {
-    url: "https://prod.d15cjjmw7tlml.amplifyapp.com/",
+    url: "https://quip-amazon.com/mmlEAfooUYRs/External-Systems-Integration-UOM-Prototype",
     bannerSrc: esi,
     title: "ESI Unified Onboarding Mgmt Prototype",
     designDetails: "BUI, AUI",
@@ -45,7 +45,7 @@ export const projectData = [
     devDetails: "Pug, jquery, JavaScript, Scss",
   },
   {
-    url: "https://prod.d15cjjmw7tlml.amplifyapp.com/",
+    url: "https://staging.dpb3nrjrd9hzb.amplifyapp.com/",
     bannerSrc: dash,
     title: "ABUX HYD Dashboard alpha build (proof of concept)",
     designDetails: "mimal design ux",
@@ -56,28 +56,28 @@ export const projectData = [
     bannerSrc: flist,
     title: "Filtered List Pattern",
     designDetails: "Ink Design System",
-    devDetails: "Ink Design System, React, JS",
+    devDetails: "Ink Design System, React, JavaScript",
   },
   {
     url: "https://tiny.amazon.com/7dv9agqj/tinkbusiamazdev",
     bannerSrc: form,
     title: "Form Pattern",
     designDetails: "Ink Design System",
-    devDetails: "Ink Design System, React, JS",
+    devDetails: "Ink Design System, React, JavaScript",
   },
   {
     url: "https://tiny.amazon.com/7qwb8quc/tinkbusiamazdev",
     bannerSrc: bulku,
     title: "Bulk Upload Pattern",
     designDetails: "Ink Design System",
-    devDetails: "Ink Design System, React, JS",
+    devDetails: "Ink Design System, React, JavaScript",
   },
   {
     url: "https://www.amazon.com/businessprime",
     bannerSrc: abbpt,
     title: "AB Business Prime Plans Table",
     designDetails: "AUI Design System",
-    devDetails: "AUI Design System, React, JS",
+    devDetails: "AUI Design System, React, JavaScript",
   },
   
   {
@@ -105,7 +105,7 @@ export const projectData = [
     url: "http://todo.hanseibydesign.com/",
     bannerSrc: todo,
     title: "Pure JS Todo App",
-    designDetails: " N/A",
+    designDetails: "Soft UI",
     devDetails: "HTML5, Scss, Vanilla JS",
   },
   {
@@ -134,27 +134,27 @@ export const projectData = [
     bannerSrc: choose,
     title: "Choose Life",
     designDetails: " Adobe XD, Photoshop ",
-    devDetails: " N/A",
+    devDetails: null,
   },
   {
     url: "https://www.behance.net/gallery/95252333/SK-TVS-Automobile-Franchise",
     bannerSrc: tvs,
     title: "S.K. TVS Motors",
     designDetails: " Adobe XD, Photoshop ",
-    devDetails: " N/A",
+    devDetails: null,
   },
   {
     url: "https://www.behance.net/gallery/94571539/Product-Page-Design",
     bannerSrc: tft,
     title: "Sample Product Page",
     designDetails: " Wireframe, Adobe XD",
-    devDetails: "N/A",
+    devDetails: null,
   },
   {
     url: "https://www.behance.net/gallery/93131927/Memento-Mori",
     bannerSrc: mori,
     title: "Memento Mori",
     designDetails: " Adobe XD, Photoshop",
-    devDetails: "N/A",
+    devDetails: null,
   },
 ];

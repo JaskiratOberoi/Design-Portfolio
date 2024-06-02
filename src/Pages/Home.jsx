@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import developer from "../media/code.svg";
+import { endorsementData } from "../Constants/data/endorsementData";
+import Endorsement from "../Components/endorsement";
 
 export default function Home() {
   return (
@@ -123,6 +125,18 @@ export default function Home() {
         </div>
         <div className="hero-image">
           <img src={developer} alt="hero"></img>
+
+          <div className="endorsement-list">
+          {
+            endorsementData.map((data) => (
+              <Endorsement  
+                title = { data.title } 
+                body = { data.body }
+                source = { data.source }
+                />
+            ))
+          }
+          </div>
         </div>
       </div>
     </main>

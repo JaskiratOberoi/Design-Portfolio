@@ -6,13 +6,11 @@ import call from "../media/logos/svg/call.svg";
 // import jas from "../media/hyperbadge_jooberoi.png";
 import jay from "../media/jay.jpg";
 
-// Resume
-import resume from '../media/Jaskirat_Oberoi_Latest.pdf';
 
 export default function About() {
 
   const downloadFile = () => window.open(
-      resume,
+      "https://quip-amazon.com/ZfqeAsFxGK9h/Jaskirat-Singh-Oberoi-Portfolio-Internal-use-only",
       '_blank'
      );
 
@@ -44,7 +42,7 @@ export default function About() {
         </div>
         <div className="cv-button">
               <button className="btn btn-secondary" onClick={downloadFile}>
-                Download Resume
+                View all internal projects
               </button>
             </div>
       </div>

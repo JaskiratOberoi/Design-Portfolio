@@ -9,6 +9,7 @@
 @import "./components/footer";
 @import "./components/button";
 @import "./components/details";
+@import "./components/card";
 
 // RESET
 
@@ -209,8 +210,10 @@ body {
   }
 
   .hero-image {
+    width: 100%;
     img {
       width: 100%;
+      display: none;
     }
   }
 }
