@@ -47,6 +47,29 @@ import sdxl_logo from "../../media/logos/svg/sdxl.svg";
 import prompt_logo from "../../media/logos/svg/prompt.png";
 import nlp_logo from "../../media/logos/svg/nlp.png";
 import pythonai_logo from "../../media/logos/svg/pythonai.svg";
+import framermotion_logo from "../../media/logos/svg/framer-motion.svg";
+import res_logo from "../../media/logos/responsive.png";
+import adp_logo from "../../media/logos/adaptive.png";
+import micro from "../../media/logos/svg/micro.svg";
+import webiny_logo from "../../media/logos/webiny.png";
+// import framermotion_logo from "../../media/logos/svg/framer-motion.svg";
+
+
+// AWS imports
+import s3_logo from "../../media/logos/svg/aws-s32.svg";
+import ec2_logo from "../../media/logos/svg/aws-ec22.svg";
+import qs_logo from "../../media/logos/svg/aws-quicksight2.svg";
+import lambda_logo from "../../media/logos/svg/aws-lambda2.svg";
+import r53_logo from "../../media/logos/svg/aws-route532.svg";
+import api_logo from "../../media/logos/svg/aws-api-gateway2.svg";
+import cf_logo from "../../media/logos/svg/aws-cloudfront2.svg";
+import iam_logo from "../../media/logos/svg/aws-iam2.svg";
+import aws_logo from "../../media/logos/svg/aws.svg";
+import amp_logo from "../../media/logos/svg/aws-amplify.svg";
+import elb_logo from "../../media/logos/svg/aws-elb.svg";
+import cm_logo from "../../media/logos/svg/aws-certificate-manager.svg";
+import cp_logo from "../../media/logos/svg/aws-codepipeline.svg";
+
 
 export const skillData = [
   {
@@ -55,6 +78,18 @@ export const skillData = [
       {
         title: "UI Prototyping",
         logo: ui_logo,
+      },
+      {
+        title: "Respinsive Design",
+        logo: res_logo,
+      },
+      {
+        title: "Adaptive Design",
+        logo: adp_logo,
+      },
+      {
+        title: "Micro Interactions",
+        logo: micro,
       },
       {
         title: "Site Mapping",
@@ -106,8 +141,16 @@ export const skillData = [
         logo: rsb_logo,
       },
       {
+        title: "Framer Motion",
+        logo: framermotion_logo,
+      },
+      {
         title: "Vanilla Extract",
         logo: ve_logo,
+      },
+      {
+        title: "Webiny CMS",
+        logo: webiny_logo,
       },
       {
         title: "HTML 5",
@@ -165,6 +208,92 @@ export const skillData = [
     ],
   },
   {
+    title: "Cloud Engineer (AWS)",
+    skills: [
+      {
+        title: "Amplify CI/CD",
+        logo: amp_logo,
+      },
+      {
+        title: "Elastic Compute Cloud",
+        logo: ec2_logo,
+      },
+      {
+        title: "Simple Storage Service",
+        logo: s3_logo,
+      },
+      {
+        title: "Lambda",
+        logo: lambda_logo,
+      },
+      {
+        title: "Route 53 - Hosted Zones",
+        logo: r53_logo,
+      },
+      {
+        title: "Cloudfront",
+        logo: cf_logo,
+      },
+      {
+        title: "API Gateway",
+        logo: api_logo,
+      },
+      {
+        title: "Identity Access Mgmt",
+        logo: iam_logo,
+      },
+      {
+        title: "Elastic Load balancer",
+        logo: elb_logo,
+      },
+      {
+        title: "Certificate Manager",
+        logo: cm_logo,
+      },
+      {
+        title: "Code Pipeline",
+        logo: cp_logo,
+      },
+      {
+        title: "QuickSight",
+        logo: qs_logo,
+      },
+      {
+        title: "Other Services",
+        logo: aws_logo,
+      },
+    ]
+  },
+  {
+    title: "Cloud Engineer (Microsoft Azure)",
+    skills: [
+      {
+        title: "SQL Services",
+        logo: db_logo,
+      },
+      {
+        title: "Data Factory",
+        logo: adf_logo,
+      },
+      {
+        title: "Databricks",
+        logo: databricks_logo,
+      },
+      {
+        title: "App Service",
+        logo: app_logo,
+      },
+      {
+        title: "Data Lake Service Gen2",
+        logo: adls_logo,
+      },
+      {
+        title: "Other Services",
+        logo: az_logo,
+      },
+    ],
+  },
+  {
     title: "Backend Engineer",
     skills: [
       {
@@ -201,7 +330,7 @@ export const skillData = [
         logo: github_logo,
       },
       {
-        title: "Git",
+        title: "Git (Version Control)",
         logo: git_logo,
       },
       {
@@ -223,35 +352,6 @@ export const skillData = [
       {
         title: "Jupyter",
         logo: jupyter_logo,
-      },
-    ],
-  },
-  {
-    title: "Cloud Engineer (MS Azure)",
-    skills: [
-      {
-        title: "SQL Services",
-        logo: db_logo,
-      },
-      {
-        title: "Data Factory",
-        logo: adf_logo,
-      },
-      {
-        title: "Databricks",
-        logo: databricks_logo,
-      },
-      {
-        title: "App Service",
-        logo: app_logo,
-      },
-      {
-        title: "ADLS Gen2",
-        logo: adls_logo,
-      },
-      {
-        title: "Other Services",
-        logo: az_logo,
       },
     ],
   },
