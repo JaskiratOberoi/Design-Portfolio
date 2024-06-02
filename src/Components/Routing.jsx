@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import {
   About,
@@ -13,16 +13,16 @@ import {
 const Routing = () => {
   return (
     <div className="page transition-wrapper">
-      <Route exact path="/" render={(props) => <Home />} />
-      <Route path="/about" render={(props) => <About />} />
-      <Route path="/career" render={(props) => <Career />} />
-      <Route path="/portfolio" render={(props) => <Portfolio />} />
-      <Route path="/skills" render={(props) => <Skills />} />
-      <Route path="/hanseibydesign" render={(props) => <HanseiByDesign />} />
+      <Route exact path="/" render={() => <Home />} />
+      <Route path="/about" render={() => <About />} />
+      <Route path="/career" render={() => <Career />} />
+      <Route path="/portfolio" render={() => <Portfolio />} />
+      <Route path="/skills" render={() => <Skills />} />
+      <Route path="/hanseibydesign" render={() => <HanseiByDesign />} />
       {/* ? If no path matches, redirect to "/" (Home) */}
-      <Route path="*">
+      {/* <Route path="*">
         <Redirect to="/" />
-      </Route>
+      </Route> */}
     </div>
   );
 };
