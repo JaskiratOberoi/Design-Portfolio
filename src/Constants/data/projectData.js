@@ -11,6 +11,7 @@ import portfolio from "../../media/portfolio.png";
 import covidjs from "../../media/covidjs.png";
 import tft from "../../media/tft.png";
 import soqr from "../../media/soqr.png";
+import oldp from "../../media/old.png";
 
 export const projectData = [
   {
@@ -63,18 +64,25 @@ export const projectData = [
     devDetails: "HTML5, Sass, Vanilla JS",
   },
   {
-    url: "http://covid19.hanseibydesign.com/",
+    url: "https://github.com/JaskiratOberoi/covid-19-react-js-tracker",
     bannerSrc: covidjs,
     title: "COVID-19 World Tracker",
     designDetails: "Material UI ",
     devDetails: " React JS, CSS Modules",
   },
   {
-    url: "http://covid19in.live",
+    url: "https://github.com/JaskiratOberoi/Covid19-India",
     bannerSrc: covid,
     title: "Covid-19 India Tacker",
     designDetails: "Flat UI, Adobe XD ",
     devDetails: " HTML5, Sass, Python 3",
+  },
+  {
+    url: "https://jaskiratoberoi.github.io/index.html",
+    bannerSrc: oldp,
+    title: "Old gh-pages portfolio",
+    designDetails: "Flat UI, Soft UI",
+    devDetails: " HTML5, Sass, github",
   },
   {
     url: "https://www.behance.net/gallery/94964421/Choose-Life",

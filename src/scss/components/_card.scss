@@ -8,6 +8,11 @@
   justify-content: center;
   align-items: center;
 
+  visibility: none;
+  opacity: 0;
+  animation: 0.5s fadeIn 2.5s;
+  animation-fill-mode: forwards;
+
   .endorsement {
     display: flex;
     flex-direction: column;
