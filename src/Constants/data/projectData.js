@@ -20,6 +20,8 @@ import covidjs from "../../media/covidjs.png";
 import tft from "../../media/tft.png";
 import soqr from "../../media/soqr.png";
 import code from "../../media/logos/svg/code3.svg";
+import boxAlert from "../../media/internal/boxAlert.png";
+import badge from "../../media/internal/badge.png";
 
 
 export const projectData = [
@@ -41,8 +43,22 @@ export const projectData = [
     url: "https://code.amazon.com/packages/ABS-Bulk-Purchasing-Prototype/trees/mainline#",
     bannerSrc: code,
     title: "AB Bulk Buy Prototype [code repo]",
-    // designDetails: "Atomic Design, BUI, AUI",
+    designDetails: null,
     devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://storybook.ink.business.amazon.dev/cr/CR-127563328/?path=/docs/components-boxalert--docs",
+    bannerSrc: boxAlert,
+    title: "Ink DS: Box Alert Component",
+    designDetails: "Ink Design System",
+    devDetails: "React Ts, TypeScript, Vanilla Extract, Unit tests",
+  },
+  {
+    url: "https://storybook.ink.business.amazon.dev/cr/CR-130446550/?path=/docs/components-badge--docs",
+    bannerSrc: badge,
+    title: "Ink DS: Badge Component",
+    designDetails: "Ink Design System",
+    devDetails: "React Ts, TypeScript, Vanilla Extract, Unit tests",
   },
   {
     url: "https://staging.dpb3nrjrd9hzb.amplifyapp.com/",
