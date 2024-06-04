@@ -13,7 +13,16 @@ import tft from "../../media/tft.png";
 import soqr from "../../media/soqr.png";
 import oldp from "../../media/old.png";
 
+import bulk from "../../media/bulk-dpx.png";
+
 export const projectData = [
+  {
+    url: "https://quip-amazon.com/cUdiA5TZgc5r/Amazon-Business-Bulk-Picker-Prototype",
+    bannerSrc: bulk,
+    title: "AB Bulk Picker Prototype",
+    designDetails: "Atomic Design, BUI, AUI",
+    devDetails: "Pug, jquery, JavaScript, Scss",
+  },
   {
     url: "http://cmr.hanseibydesign.com",
     bannerSrc: cmr,
