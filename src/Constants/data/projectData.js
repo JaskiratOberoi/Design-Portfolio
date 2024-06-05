@@ -22,6 +22,7 @@ import soqr from "../../media/soqr.png";
 import code from "../../media/logos/svg/code3.svg";
 import boxAlert from "../../media/internal/boxAlert.png";
 import badge from "../../media/internal/badge.png";
+import eproc from "../../media/internal/eproc.png";
 
 
 export const projectData = [
@@ -45,6 +46,13 @@ export const projectData = [
     title: "AB Bulk Buy Prototype [code repo]",
     designDetails: null,
     devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://protozoa.amazon.dev/prototypes/6b09fede-877c-469d-a18e-a0bc92d232bb/",
+    bannerSrc: eproc,
+    title: "E-Procurement Policies Prototype",
+    designDetails: " UX testing, BUI Design System",
+    devDetails: "React Js, Scss",
   },
   {
     url: "https://storybook.ink.business.amazon.dev/cr/CR-127563328/?path=/docs/components-boxalert--docs",

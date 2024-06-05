@@ -6,7 +6,7 @@ import { projectData } from "../Constants/data/projectData";
 const Portfolio = () => {
   return (
     <div className="main">
-      <h1 className="p-header">My Creations (AMZN internal use only)</h1>
+      <h1 className="p-header">Projects / Prototypes</h1>
       <h2 className="quote">
         "Instead of worrying about what you cannot control, shift your energy to
         what you can and create something beautiful."
