@@ -33,7 +33,7 @@ export default function About() {
         <div className="contact-info">
             <div>
               <img src={mail} alt="Mail: " />
-              <a href="mailto:jooberoi@amazon.com"> jooberoi@amazon.com</a>
+              <a href="mailto:me@jaskiratoberoi.com"> me@jaskiratoberoi.com</a>
             </div>
             <div>
               <img src={call} alt="Call: " />
