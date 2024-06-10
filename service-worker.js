@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://jaskiratoberoi.com/precache-manifest.6d53a4561f3bd79b32b7cd1dee590066.js"
+  "https://jaskiratoberoi.com/precache-manifest.ad43345a65695420a6089c7f6bac7468.js"
 );
 
 self.addEventListener('message', (event) => {
