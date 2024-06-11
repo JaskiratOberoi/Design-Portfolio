@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "https://jaskiratoberoi.com/static/css/main.d01d54f2.chunk.css",
-    "main.js": "https://jaskiratoberoi.com/static/js/main.c4f6c18b.chunk.js",
+    "main.js": "https://jaskiratoberoi.com/static/js/main.32949a32.chunk.js",
     "runtime-main.js": "https://jaskiratoberoi.com/static/js/runtime-main.7a9cde01.js",
     "static/js/2.cab2d667.chunk.js": "https://jaskiratoberoi.com/static/js/2.cab2d667.chunk.js",
     "index.html": "https://jaskiratoberoi.com/index.html",
-    "precache-manifest.ad43345a65695420a6089c7f6bac7468.js": "https://jaskiratoberoi.com/precache-manifest.ad43345a65695420a6089c7f6bac7468.js",
+    "precache-manifest.defc8dc539a36e53585a2c9574b915b7.js": "https://jaskiratoberoi.com/precache-manifest.defc8dc539a36e53585a2c9574b915b7.js",
     "service-worker.js": "https://jaskiratoberoi.com/service-worker.js",
     "static/js/2.cab2d667.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.cab2d667.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "https://jaskiratoberoi.com/static/media/022-website.895a094c.svg",
@@ -18,6 +18,7 @@
     "static/media/Data Factories.svg": "https://jaskiratoberoi.com/static/media/Data Factories.b575baef.svg",
     "static/media/Data Lake Storage.svg": "https://jaskiratoberoi.com/static/media/Data Lake Storage.d87a0f7d.svg",
     "static/media/Figma.svg": "https://jaskiratoberoi.com/static/media/Figma.57f55d66.svg",
+    "static/media/Jaskirat_Oberoi_external_final.pdf": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external_final.4e63c3b8.pdf",
     "static/media/SQL Databases.svg": "https://jaskiratoberoi.com/static/media/SQL Databases.39675f32.svg",
     "static/media/aws-amplify.svg": "https://jaskiratoberoi.com/static/media/aws-amplify.ef80a24b.svg",
     "static/media/aws-api-gateway2.svg": "https://jaskiratoberoi.com/static/media/aws-api-gateway2.483de9d1.svg",
@@ -69,7 +70,6 @@
     "static/media/prompt.png": "https://jaskiratoberoi.com/static/media/prompt.393befce.png",
     "static/media/pythonai.svg": "https://jaskiratoberoi.com/static/media/pythonai.15749c6b.svg",
     "static/media/reactts.svg": "https://jaskiratoberoi.com/static/media/reactts.88b019e7.svg",
-    "static/media/resume.pdf": "https://jaskiratoberoi.com/static/media/resume.fa6c94f5.pdf",
     "static/media/sass.svg": "https://jaskiratoberoi.com/static/media/sass.1023f78a.svg",
     "static/media/sdxl.svg": "https://jaskiratoberoi.com/static/media/sdxl.bfff8dd5.svg",
     "static/media/soqr.png": "https://jaskiratoberoi.com/static/media/soqr.0a809473.png",
@@ -93,6 +93,6 @@
     "static/js/runtime-main.7a9cde01.js",
     "static/js/2.cab2d667.chunk.js",
     "static/css/main.d01d54f2.chunk.css",
-    "static/js/main.c4f6c18b.chunk.js"
+    "static/js/main.32949a32.chunk.js"
   ]
 }
