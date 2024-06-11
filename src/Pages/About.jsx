@@ -4,7 +4,7 @@ import React from "react";
 import mail from "../media/logos/svg/mail.svg";
 import call from "../media/logos/svg/call.svg";
 import jay from "../media/jay.jpg";
-import resume from "../media/resume.pdf";
+import resume from "../media/Jaskirat_Oberoi_external_final.pdf";
 
 
 export default function About() {
@@ -28,7 +28,7 @@ export default function About() {
           <i className="fas fa-quote-right"></i>
         </div>
         <div className="main-text">
-        A designer by passion, an engineer by choice, I'm a determined Web Developer & UI/UX Designer who thrives in fast-paced, dynamic environments. I possess a proven ability to translate complex challenges into innovative, user-centric outcomes. My goal is to contribute my skills and passion to a forward-thinking, high-growth organization.
+        An engineer by passion, a designer by choice, I'm a determined Design Technologist who thrives in fast-paced, dynamic environments. I possess a proven ability to translate complex challenges into innovative, user-centric outcomes. My goal is to contribute my skills and passion to a forward-thinking, high-growth organization.
         </div>
         <div className="contact-info">
             <div>

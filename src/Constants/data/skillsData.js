@@ -73,47 +73,6 @@ import cp_logo from "../../media/logos/svg/aws-codepipeline.svg";
 
 export const skillData = [
   {
-    title: "UI/UX Designer",
-    skills: [
-      {
-        title: "UI Prototyping",
-        logo: ui_logo,
-      },
-      {
-        title: "Respinsive Design",
-        logo: res_logo,
-      },
-      {
-        title: "Adaptive Design",
-        logo: adp_logo,
-      },
-      {
-        title: "Micro Interactions",
-        logo: micro,
-      },
-      {
-        title: "Site Mapping",
-        logo: map_logo,
-      },
-      {
-        title: "Wireframes",
-        logo: wf_logo,
-      },
-      {
-        title: "UX Writing",
-        logo: uxwriting_logo,
-      },
-      {
-        title: "User Testing",
-        logo: usert_logo,
-      },
-      {
-        title: "SVG management",
-        logo: svg_logo,
-      },
-    ],
-  },
-  {
     title: "Frontend Engineer",
     skills: [
       {
@@ -175,6 +134,47 @@ export const skillData = [
       {
         title: "Bootstrap",
         logo: bs4_logo,
+      },
+    ],
+  },
+  {
+    title: "UI/UX Designer",
+    skills: [
+      {
+        title: "UI Prototyping",
+        logo: ui_logo,
+      },
+      {
+        title: "Respinsive Design",
+        logo: res_logo,
+      },
+      {
+        title: "Adaptive Design",
+        logo: adp_logo,
+      },
+      {
+        title: "Micro Interactions",
+        logo: micro,
+      },
+      {
+        title: "Site Mapping",
+        logo: map_logo,
+      },
+      {
+        title: "Wireframes",
+        logo: wf_logo,
+      },
+      {
+        title: "UX Writing",
+        logo: uxwriting_logo,
+      },
+      {
+        title: "User Testing",
+        logo: usert_logo,
+      },
+      {
+        title: "SVG management",
+        logo: svg_logo,
       },
     ],
   },
