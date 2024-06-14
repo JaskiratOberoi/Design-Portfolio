@@ -17,7 +17,7 @@ import bulk from "../../media/bulk-dpx.png";
 
 export const projectData = [
   {
-    url: "https://quip-amazon.com/cUdiA5TZgc5r/Amazon-Business-Bulk-Picker-Prototype",
+    url: "https://bulk.jaskiratoberoi.com/detail_asin=B07ZSB9QYL.html",
     bannerSrc: bulk,
     title: "AB Bulk Picker Prototype",
     designDetails: "Atomic Design, BUI, AUI",

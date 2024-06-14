@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://jaskiratoberoi.com/static/css/main.844be4b8.chunk.css",
-    "main.js": "https://jaskiratoberoi.com/static/js/main.0c80a0fd.chunk.js",
+    "main.css": "https://jaskiratoberoi.com/static/css/main.6628f846.chunk.css",
+    "main.js": "https://jaskiratoberoi.com/static/js/main.f076bcb9.chunk.js",
     "runtime-main.js": "https://jaskiratoberoi.com/static/js/runtime-main.153affe2.js",
-    "static/js/2.d41bf965.chunk.js": "https://jaskiratoberoi.com/static/js/2.d41bf965.chunk.js",
+    "static/js/2.25f314f7.chunk.js": "https://jaskiratoberoi.com/static/js/2.25f314f7.chunk.js",
     "index.html": "https://jaskiratoberoi.com/index.html",
-    "precache-manifest.b0b01d9244cc547cd4337f7298632f55.js": "https://jaskiratoberoi.com/precache-manifest.b0b01d9244cc547cd4337f7298632f55.js",
+    "precache-manifest.35de133ab5cbb5523f828a7180176a25.js": "https://jaskiratoberoi.com/precache-manifest.35de133ab5cbb5523f828a7180176a25.js",
     "service-worker.js": "https://jaskiratoberoi.com/service-worker.js",
-    "static/js/2.d41bf965.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.d41bf965.chunk.js.LICENSE.txt",
+    "static/js/2.25f314f7.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.25f314f7.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "https://jaskiratoberoi.com/static/media/022-website.895a094c.svg",
     "static/media/033-vscode.svg": "https://jaskiratoberoi.com/static/media/033-vscode.648b96e4.svg",
     "static/media/040-website.svg": "https://jaskiratoberoi.com/static/media/040-website.2f809523.svg",
@@ -18,6 +18,7 @@
     "static/media/Data Factories.svg": "https://jaskiratoberoi.com/static/media/Data Factories.976780af.svg",
     "static/media/Data Lake Storage.svg": "https://jaskiratoberoi.com/static/media/Data Lake Storage.2cc7e48c.svg",
     "static/media/Figma.svg": "https://jaskiratoberoi.com/static/media/Figma.7e7ed689.svg",
+    "static/media/Jaskirat_Oberoi_external_final.pdf": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external_final.4e63c3b8.pdf",
     "static/media/SQL Databases.svg": "https://jaskiratoberoi.com/static/media/SQL Databases.1976946c.svg",
     "static/media/aws-amplify.svg": "https://jaskiratoberoi.com/static/media/aws-amplify.a6c1454b.svg",
     "static/media/aws-api-gateway2.svg": "https://jaskiratoberoi.com/static/media/aws-api-gateway2.6619ea8a.svg",
@@ -33,6 +34,7 @@
     "static/media/aws-s32.svg": "https://jaskiratoberoi.com/static/media/aws-s32.5ccc0f6c.svg",
     "static/media/aws.svg": "https://jaskiratoberoi.com/static/media/aws.a3d3e992.svg",
     "static/media/bs4.svg": "https://jaskiratoberoi.com/static/media/bs4.9bca5a05.svg",
+    "static/media/bulk-dpx.png": "https://jaskiratoberoi.com/static/media/bulk-dpx.9fa7384f.png",
     "static/media/call.svg": "https://jaskiratoberoi.com/static/media/call.e1195dfa.svg",
     "static/media/choose.png": "https://jaskiratoberoi.com/static/media/choose.bbef1469.png",
     "static/media/cmr.png": "https://jaskiratoberoi.com/static/media/cmr.a6cc690d.png",
@@ -63,11 +65,11 @@
     "static/media/micro.svg": "https://jaskiratoberoi.com/static/media/micro.55b5be17.svg",
     "static/media/mori.png": "https://jaskiratoberoi.com/static/media/mori.a6ded22e.png",
     "static/media/nlp.png": "https://jaskiratoberoi.com/static/media/nlp.a383765e.png",
+    "static/media/old.png": "https://jaskiratoberoi.com/static/media/old.578293e3.png",
     "static/media/portfolio.png": "https://jaskiratoberoi.com/static/media/portfolio.b8fcaae2.png",
     "static/media/prompt.png": "https://jaskiratoberoi.com/static/media/prompt.393befce.png",
     "static/media/pythonai.svg": "https://jaskiratoberoi.com/static/media/pythonai.15749c6b.svg",
     "static/media/reactts.svg": "https://jaskiratoberoi.com/static/media/reactts.88b019e7.svg",
-    "static/media/resume.pdf": "https://jaskiratoberoi.com/static/media/resume.fa6c94f5.pdf",
     "static/media/sass.svg": "https://jaskiratoberoi.com/static/media/sass.1023f78a.svg",
     "static/media/sdxl.svg": "https://jaskiratoberoi.com/static/media/sdxl.bfff8dd5.svg",
     "static/media/soqr.png": "https://jaskiratoberoi.com/static/media/soqr.0a809473.png",
@@ -89,8 +91,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.153affe2.js",
-    "static/js/2.d41bf965.chunk.js",
-    "static/css/main.844be4b8.chunk.css",
-    "static/js/main.0c80a0fd.chunk.js"
+    "static/js/2.25f314f7.chunk.js",
+    "static/css/main.6628f846.chunk.css",
+    "static/js/main.f076bcb9.chunk.js"
   ]
 }
