@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbca718803ce92d61055ea23fff71634",
+    "revision": "fb73c40b109e30a4158fb9e74017fbc6",
     "url": "https://jaskiratoberoi.com/index.html"
   },
   {
-    "revision": "c0b0e79dc8ab4f298f56",
-    "url": "https://jaskiratoberoi.com/static/css/main.d01d54f2.chunk.css"
+    "revision": "10520b87e2fed774f8c1",
+    "url": "https://jaskiratoberoi.com/static/css/main.bebd5186.chunk.css"
   },
   {
-    "revision": "2bba0c72b6cee492637f",
-    "url": "https://jaskiratoberoi.com/static/js/2.cab2d667.chunk.js"
+    "revision": "58dda957a01f571fbdc1",
+    "url": "https://jaskiratoberoi.com/static/js/2.976e608e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "https://jaskiratoberoi.com/static/js/2.cab2d667.chunk.js.LICENSE.txt"
+    "url": "https://jaskiratoberoi.com/static/js/2.976e608e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0b0e79dc8ab4f298f56",
-    "url": "https://jaskiratoberoi.com/static/js/main.24e15414.chunk.js"
+    "revision": "10520b87e2fed774f8c1",
+    "url": "https://jaskiratoberoi.com/static/js/main.113753e2.chunk.js"
   },
   {
     "revision": "bfb27b017147613dd183",
@@ -64,12 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/media/Figma.57f55d66.svg"
   },
   {
-    "revision": "4e63c3b8cb885c4a5e969a434caf1514",
-    "url": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external_final.4e63c3b8.pdf"
+    "revision": "04f672e1a6017fcbd9cfcadc4e360915",
+    "url": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external.04f672e1.pdf"
   },
   {
     "revision": "39675f321b60a7c24a1ad677d522cf17",
     "url": "https://jaskiratoberoi.com/static/media/SQL Databases.39675f32.svg"
+  },
+  {
+    "revision": "f3a3b58cb5c06186e5f8c445e675b342",
+    "url": "https://jaskiratoberoi.com/static/media/abbpt.f3a3b58c.png"
   },
   {
     "revision": "ef80a24b43a1751b78df93534c85ec2a",
@@ -158,6 +162,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a35599f78ac216570cd22afcfe55e60",
     "url": "https://jaskiratoberoi.com/static/media/csi.9a35599f.png"
+  },
+  {
+    "revision": "bd704ccc681fb74d1919874483814978",
+    "url": "https://jaskiratoberoi.com/static/media/dashboard.bd704ccc.png"
+  },
+  {
+    "revision": "3d54f16afcae77ece7c87ed24b152ced",
+    "url": "https://jaskiratoberoi.com/static/media/eproc.3d54f16a.png"
   },
   {
     "revision": "7e46efde04ebb7e27356491336f3237c",

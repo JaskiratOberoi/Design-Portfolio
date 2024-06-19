@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://jaskiratoberoi.com/static/css/main.d01d54f2.chunk.css",
-    "main.js": "https://jaskiratoberoi.com/static/js/main.24e15414.chunk.js",
+    "main.css": "https://jaskiratoberoi.com/static/css/main.bebd5186.chunk.css",
+    "main.js": "https://jaskiratoberoi.com/static/js/main.113753e2.chunk.js",
     "runtime-main.js": "https://jaskiratoberoi.com/static/js/runtime-main.7a9cde01.js",
-    "static/js/2.cab2d667.chunk.js": "https://jaskiratoberoi.com/static/js/2.cab2d667.chunk.js",
+    "static/js/2.976e608e.chunk.js": "https://jaskiratoberoi.com/static/js/2.976e608e.chunk.js",
     "index.html": "https://jaskiratoberoi.com/index.html",
-    "precache-manifest.81d76fac10c9be1be7d46c97dde296dd.js": "https://jaskiratoberoi.com/precache-manifest.81d76fac10c9be1be7d46c97dde296dd.js",
+    "precache-manifest.f09459572f4d32cfca6f0a029b026298.js": "https://jaskiratoberoi.com/precache-manifest.f09459572f4d32cfca6f0a029b026298.js",
     "service-worker.js": "https://jaskiratoberoi.com/service-worker.js",
-    "static/js/2.cab2d667.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.cab2d667.chunk.js.LICENSE.txt",
+    "static/js/2.976e608e.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.976e608e.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "https://jaskiratoberoi.com/static/media/022-website.895a094c.svg",
     "static/media/033-vscode.svg": "https://jaskiratoberoi.com/static/media/033-vscode.648b96e4.svg",
     "static/media/040-website.svg": "https://jaskiratoberoi.com/static/media/040-website.2f809523.svg",
@@ -18,8 +18,9 @@
     "static/media/Data Factories.svg": "https://jaskiratoberoi.com/static/media/Data Factories.b575baef.svg",
     "static/media/Data Lake Storage.svg": "https://jaskiratoberoi.com/static/media/Data Lake Storage.d87a0f7d.svg",
     "static/media/Figma.svg": "https://jaskiratoberoi.com/static/media/Figma.57f55d66.svg",
-    "static/media/Jaskirat_Oberoi_external_final.pdf": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external_final.4e63c3b8.pdf",
+    "static/media/Jaskirat_Oberoi_external.pdf": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external.04f672e1.pdf",
     "static/media/SQL Databases.svg": "https://jaskiratoberoi.com/static/media/SQL Databases.39675f32.svg",
+    "static/media/abbpt.png": "https://jaskiratoberoi.com/static/media/abbpt.f3a3b58c.png",
     "static/media/aws-amplify.svg": "https://jaskiratoberoi.com/static/media/aws-amplify.ef80a24b.svg",
     "static/media/aws-api-gateway2.svg": "https://jaskiratoberoi.com/static/media/aws-api-gateway2.483de9d1.svg",
     "static/media/aws-certificate-manager.svg": "https://jaskiratoberoi.com/static/media/aws-certificate-manager.bcd732dc.svg",
@@ -42,6 +43,8 @@
     "static/media/covid.png": "https://jaskiratoberoi.com/static/media/covid.f4c3cb3c.png",
     "static/media/covidjs.png": "https://jaskiratoberoi.com/static/media/covidjs.02ba08f6.png",
     "static/media/csi.png": "https://jaskiratoberoi.com/static/media/csi.9a35599f.png",
+    "static/media/dashboard.png": "https://jaskiratoberoi.com/static/media/dashboard.bd704ccc.png",
+    "static/media/eproc.png": "https://jaskiratoberoi.com/static/media/eproc.3d54f16a.png",
     "static/media/flask.svg": "https://jaskiratoberoi.com/static/media/flask.7e46efde.svg",
     "static/media/framer-motion.svg": "https://jaskiratoberoi.com/static/media/framer-motion.13fd5e6d.svg",
     "static/media/framer.svg": "https://jaskiratoberoi.com/static/media/framer.5ff6efdb.svg",
@@ -91,8 +94,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a9cde01.js",
-    "static/js/2.cab2d667.chunk.js",
-    "static/css/main.d01d54f2.chunk.css",
-    "static/js/main.24e15414.chunk.js"
+    "static/js/2.976e608e.chunk.js",
+    "static/css/main.bebd5186.chunk.css",
+    "static/js/main.113753e2.chunk.js"
   ]
 }
