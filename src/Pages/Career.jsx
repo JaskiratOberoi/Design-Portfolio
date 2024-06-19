@@ -12,30 +12,62 @@ export default function Work() {
             title={"Amazon"}
             subtitle={"Design Technologist"}
           >
+            <span className="w-dt-title">
             Proud to hold the title of "Amazon India's First ever Design
             Technologist"
-            <br />
+            </span>
+            <span className="w-dt-details">
+            As Amazon India's pioneering Design Technologist, I spearheaded a streamlined design-to-development workflow. By meticulously overseeing each project phase, I ensured designs were code-feasible, suggesting alternatives when needed. On the development end I upheld strict adherence to design guidelines, personally implementing complex elements when necessary. This proactive approach significantly reduced roadblocks, boosting productivity across the Design-Development process. The success of this model led to its adoption across Amazon Business, elevating the overall workflow and quality standards. Collaborated with cross-functional teams of 20+ developers and 10+ UX designers in my tenure, bridging the gap between UX Design and Frontend Development.
+            </span>
+            <p></p>
+            <ul className="w-details-list">
+              <li>Built multiple interactive prototypes to test and refine
+            design concepts</li>
+              <li>Implement front-end development using HTML, CSS, and
+            JavaScript</li>
+              <li>Contributed to the Internal Design System by building
+            components in React TypeScript</li>
+              <li>Contributed to the Internal Design System by building
+            components in React TypeScript</li>
+              <li>Ensured highest standards for the Design System by
+            implementing Unit Tests & UI Tests</li>
+              <li>Collaborated with cross-functional teams to bridge design
+            and development</li>
+              <li>Translated design requirements into technical specifications
+            during design hand-offs</li>
+              <li>Conducted user research and testing to evaluate usability
+            alongside UX researchers</li>
+            <li>Analyzed user feedback to iterate on design solutions</li>
+            <li>Keeping up with emerging technologies and design trends
+            in order to enhance UX/developer workflow</li>
+            <li>Ensured feasibility and implementation of design concepts</li>
+            <li>Ensured feasibility and implementation of design concepts</li>
+            <li>Communicated technical constraints to designers effectively</li>
+            <li>Prioritized user experience in all aspects of product
+            development</li>
+            </ul>
+            {/* TESTING SOME STUFF
             <br />• Built multiple interactive prototypes to test and refine
-            design concepts.
+            design concepts
             <br />• Implement front-end development using HTML, CSS, and
-            JavaScript.
+            JavaScript
             <br />• Contributed to the Internal Design System by building
             components in React TypeScript
             <br />• Ensured highest standards for the Design System by
             implementing Unit Tests & UI Tests
             <br />• Collaborated with cross-functional teams to bridge design
-            and development.
+            and development
             <br />• Translated design requirements into technical specifications
-            during design hand-offs.
+            during design hand-offs
             <br />• Conducted user research and testing to evaluate usability
-            alongside UX researchers.
-            <br />• Analyzed user feedback to iterate on design solutions.
+            alongside UX researchers
+            <br />• Analyzed user feedback to iterate on design solutions
             <br />• Staying updated on emerging technologies and design trends
-            in order to enhance UX/developer workflow.
-            <br />• Ensured feasibility and implementation of design concepts.
-            <br />• Communicated technical constraints to designers effectively.
+            in order to enhance UX/developer workflow
+            <br />• Ensured feasibility and implementation of design concepts
+            <br />• Communicated technical constraints to designers effectively
             <br />• Prioritized user experience in all aspects of product
-            development.
+            development */}
           </Event>
           <Event
             interval={"July 2020 - March 2021"}

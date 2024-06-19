@@ -12,6 +12,9 @@ import covidjs from "../../media/covidjs.png";
 import tft from "../../media/tft.png";
 import soqr from "../../media/soqr.png";
 import oldp from "../../media/old.png";
+import dash from "../../media/internal/dashboard.png";
+import eproc from "../../media/internal/eproc.png";
+import abbpt from "../../media/internal/abbpt.png";
 
 import bulk from "../../media/bulk-dpx.png";
 
@@ -22,6 +25,27 @@ export const projectData = [
     title: "AB Bulk Picker Prototype",
     designDetails: "Atomic Design, BUI, AUI",
     devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://www.amazon.com/businessprime",
+    bannerSrc: abbpt,
+    title: "AB Business Prime Plans Table",
+    designDetails: "AUI Design System",
+    devDetails: "AUI Design System, React, JavaScript",
+  },
+  {
+    url: "https://staging.dpb3nrjrd9hzb.amplifyapp.com/",
+    bannerSrc: dash,
+    title: "ABUX HYD Dashboard alpha build",
+    designDetails: "mimal design ux",
+    devDetails: "React JS, Scss",
+  },
+  {
+    url: "https://protozoa.dev/prototypes/6b09fede-877c-469d-a18e-a0bc92d232bb/",
+    bannerSrc: eproc,
+    title: "E-Procurement Policies Prototype",
+    designDetails: " UX testing, BUI Design System",
+    devDetails: "React Js, Scss",
   },
   {
     url: "http://cmr.hanseibydesign.com",
@@ -40,7 +64,7 @@ export const projectData = [
   {
     url: "https://tic-tac-toe-36436.web.app/",
     bannerSrc: ttt,
-    title: "Tic Tac Toe",
+    title: "Tic Tac Toe PWA",
     designDetails: "Nebular UI ",
     devDetails: "Angular JS, PWA, Sass",
   },

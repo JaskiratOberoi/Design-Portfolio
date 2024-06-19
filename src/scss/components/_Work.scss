@@ -60,3 +60,22 @@
     }
   }
 }
+
+.w-dt-title {
+  font-style: italic !important;
+  font-size: large !important;
+  text-align: center;
+  margin-top: -1rem !important;
+  margin-bottom: 0.5rem;
+}
+
+.w-dt-details {
+  font-size: 0.8rem !important;
+  text-align: justify !important;
+}
+
+.w-details-list {
+  padding-left: 0.75rem !important;
+  list-style-type: '• ';
+  align-items: flex-start !important;
+}

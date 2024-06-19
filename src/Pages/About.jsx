@@ -4,7 +4,7 @@ import React from "react";
 import mail from "../media/logos/svg/mail.svg";
 import call from "../media/logos/svg/call.svg";
 import jay from "../media/jay.jpg";
-import resume from "../media/Jaskirat_Oberoi_external_final.pdf";
+import resume from "../media/Jaskirat_Oberoi_external.pdf";
 
 
 export default function About() {

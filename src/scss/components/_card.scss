@@ -22,7 +22,7 @@
     animation: float 3s ease-in-out infinite;
 
     // for glass bg effect
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.5px);
@@ -34,7 +34,7 @@
       animation: float 3s ease-in-out infinite 0.5s;
     }
     &:hover {
-      background: rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.99);
       cursor: pointer;
       animation-play-state: paused;
     }
