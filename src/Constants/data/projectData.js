@@ -55,14 +55,14 @@ export const projectData = [
     devDetails: "React Js, Scss",
   },
   {
-    url: "https://storybook.ink.business.amazon.dev/cr/CR-127563328/?path=/docs/components-boxalert--docs",
+    url: "https://storybook.ink.business.amazon.dev/?path=/docs/components-boxalert--docs",
     bannerSrc: boxAlert,
     title: "Ink DS: Box Alert Component",
     designDetails: "Ink Design System",
     devDetails: "React Ts, TypeScript, Vanilla Extract, Unit tests",
   },
   {
-    url: "https://storybook.ink.business.amazon.dev/cr/CR-130446550/?path=/docs/components-badge--docs",
+    url: "https://storybook.ink.business.amazon.dev/?path=/docs/components-badge--docs",
     bannerSrc: badge,
     title: "Ink DS: Badge Component",
     designDetails: "Ink Design System",
