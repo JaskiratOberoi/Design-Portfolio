@@ -61,7 +61,7 @@ import ec2_logo from "../../media/logos/svg/aws-ec22.svg";
 import qs_logo from "../../media/logos/svg/aws-quicksight2.svg";
 import lambda_logo from "../../media/logos/svg/aws-lambda2.svg";
 import r53_logo from "../../media/logos/svg/aws-route532.svg";
-// import api_logo from "../../media/logos/svg/aws-api-gateway2.svg";
+import api_logo from "../../media/logos/svg/aws-api-gateway2.svg";
 import cf_logo from "../../media/logos/svg/aws-cloudfront2.svg";
 import iam_logo from "../../media/logos/svg/aws-iam2.svg";
 import aws_logo from "../../media/logos/svg/aws.svg";
@@ -72,47 +72,6 @@ import cp_logo from "../../media/logos/svg/aws-codepipeline.svg";
 
 
 export const skillData = [
-  {
-    title: "UI/UX Designer",
-    skills: [
-      {
-        title: "UI Prototyping",
-        logo: ui_logo,
-      },
-      {
-        title: "Responsive Design",
-        logo: res_logo,
-      },
-      {
-        title: "Adaptive Design",
-        logo: adp_logo,
-      },
-      {
-        title: "Micro Interactions",
-        logo: micro,
-      },
-      {
-        title: "Site Mapping",
-        logo: map_logo,
-      },
-      {
-        title: "Wireframes",
-        logo: wf_logo,
-      },
-      {
-        title: "UX Writing",
-        logo: uxwriting_logo,
-      },
-      {
-        title: "User Testing",
-        logo: usert_logo,
-      },
-      {
-        title: "SVG management",
-        logo: svg_logo,
-      },
-    ],
-  },
   {
     title: "Frontend Engineer",
     skills: [
@@ -179,6 +138,47 @@ export const skillData = [
     ],
   },
   {
+    title: "UI/UX Designer",
+    skills: [
+      {
+        title: "UI Prototyping",
+        logo: ui_logo,
+      },
+      {
+        title: "Respinsive Design",
+        logo: res_logo,
+      },
+      {
+        title: "Adaptive Design",
+        logo: adp_logo,
+      },
+      {
+        title: "Micro Interactions",
+        logo: micro,
+      },
+      {
+        title: "Site Mapping",
+        logo: map_logo,
+      },
+      {
+        title: "Wireframes",
+        logo: wf_logo,
+      },
+      {
+        title: "UX Writing",
+        logo: uxwriting_logo,
+      },
+      {
+        title: "User Testing",
+        logo: usert_logo,
+      },
+      {
+        title: "SVG management",
+        logo: svg_logo,
+      },
+    ],
+  },
+  {
     title: "Prompt Engineer",
     skills: [
       {
@@ -234,10 +234,10 @@ export const skillData = [
         title: "Cloudfront",
         logo: cf_logo,
       },
-      // {
-      //   title: "API Gateway",
-      //   logo: api_logo,
-      // },
+      {
+        title: "API Gateway",
+        logo: api_logo,
+      },
       {
         title: "Identity Access Mgmt",
         logo: iam_logo,
