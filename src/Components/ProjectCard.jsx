@@ -1,9 +1,14 @@
 import React from "react";
 
 const ProjectCard = (props) => {
+
+  const gotoLink = () => window.open(
+    props.url,
+    '_blank'
+   );
   return (
-    <a href={props.url} target="_blank" rel="noopener noreferrer">
-      <div className="project-card">
+    // <a href={props.url} target="_blank" rel="noopener noreferrer" className={props.featured ? "featured-card": null}>
+      <div className="project-card" onClick={gotoLink}>
         <div className="p-image">
           <img src={props.bannerSrc} alt="project_image"></img>
         </div>
@@ -13,7 +18,7 @@ const ProjectCard = (props) => {
           { props.devDetails? <> <span>Dev:</span> { props.devDetails } </> :null }
         </div>
       </div>
-    </a>
+    // </a>
   );
 };
 

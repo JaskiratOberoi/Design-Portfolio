@@ -6,7 +6,7 @@ import { projectData } from "../Constants/data/projectData";
 const Portfolio = () => {
   return (
     <div className="main">
-      <h1 className="p-header">My Creations (to be updated)</h1>
+      <h1 className="p-header">My Creations</h1>
       <h2 className="quote">
         "Instead of worrying about what you cannot control, shift your energy to
         what you can and create something beautiful."
@@ -20,6 +20,7 @@ const Portfolio = () => {
             title={data.title}
             designDetails={data.designDetails}
             devDetails={data.devDetails}
+            featured={data.featured}
           />
         ))}
       </div>

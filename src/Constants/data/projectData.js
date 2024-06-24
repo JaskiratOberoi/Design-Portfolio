@@ -28,6 +28,7 @@ export const projectData = [
     title: "Internal Design System Contributions",
     designDetails: "Box Alert, Badge",
     devDetails: "React Ts, TypeScript, Vanilla Extract, Unit tests",
+    featured: true,
   },
   {
     // url: "https://bulk.jaskiratoberoi.com/detail_asin=B07ZSB9QYL.html",
@@ -36,6 +37,7 @@ export const projectData = [
     title: "AB Bulk Picker Prototype",
     designDetails: "Atomic Design, BUI, AUI",
     devDetails: "Pug, jquery, JavaScript, Scss",
+    featured: true,
   },
   {
     url: "https://drive.google.com/file/d/1AqxD_vZOm3J8hyWE55lQCXObm2Yn21RE/view?usp=sharing",
@@ -43,6 +45,7 @@ export const projectData = [
     title: "ESI Unified Onboarding Mgmt Prototype",
     designDetails: "BUI, AUI",
     devDetails: "React JS, Scss",
+    featured: false,
   },
   {
     url: "https://www.amazon.com/businessprime",
@@ -50,6 +53,7 @@ export const projectData = [
     title: "AB Business Prime Plans Table",
     designDetails: "AUI Design System",
     devDetails: "AUI Design System, React, JavaScript",
+    featured: false,
   },
   {
     url: "https://staging.dpb3nrjrd9hzb.amplifyapp.com/",
@@ -57,6 +61,7 @@ export const projectData = [
     title: "ABUX HYD Dashboard alpha build",
     designDetails: "mimal design ux",
     devDetails: "React JS, Scss",
+    featured: false,
   },
   {
     url: "https://protozoa.dev/prototypes/6b09fede-877c-469d-a18e-a0bc92d232bb/",
@@ -64,6 +69,7 @@ export const projectData = [
     title: "E-Procurement Policies Prototype",
     designDetails: " UX testing, BUI Design System",
     devDetails: "React Js, Scss",
+    featured: false,
   },
   {
     url: "http://cmr.hanseibydesign.com",
@@ -71,6 +77,7 @@ export const projectData = [
     title: "C.M.R Gaming",
     designDetails: "Minimalistic , Adobe XD",
     devDetails: "HTML5, Sass, Vanilla JS",
+    featured: false,
   },
   {
     url: "http://csi.hanseibydesign.com/",
@@ -78,6 +85,7 @@ export const projectData = [
     title: "CSI Student Branch",
     designDetails: " Minimal Design",
     devDetails: "HTML5, W3 CSS, Vanilla JS",
+    featured: false,
   },
   {
     url: "https://tic-tac-toe-36436.web.app/",
@@ -85,6 +93,7 @@ export const projectData = [
     title: "Tic Tac Toe PWA",
     designDetails: "Nebular UI ",
     devDetails: "Angular JS, PWA, Sass",
+    featured: false,
   },
   {
     url: "https://github.com/JaskiratOberoi/Stack-Overflow-Questions-Recommender",
@@ -92,6 +101,7 @@ export const projectData = [
     title: "StackOverflow Question Recommender",
     designDetails: " Tkinter",
     devDetails: "Python, NLP, Data mining",
+    featured: false,
   },
   {
     url: "/",
@@ -99,6 +109,7 @@ export const projectData = [
     title: "this.Portfolio",
     designDetails: " Minimal, Neumorphic",
     devDetails: "React JS, Router, Sass",
+    featured: false,
   },
   {
     url: "http://todo.hanseibydesign.com/",
@@ -106,6 +117,7 @@ export const projectData = [
     title: "Pure JS Todo App",
     designDetails: null,
     devDetails: "HTML5, Sass, Vanilla JS",
+    featured: false,
   },
   {
     url: "http://life.hanseibydesign.com",
@@ -113,6 +125,7 @@ export const projectData = [
     title: "Life Calendar",
     designDetails: " Neumorphic Design",
     devDetails: "HTML5, Sass, Vanilla JS",
+    featured: false,
   },
   {
     url: "https://github.com/JaskiratOberoi/covid-19-react-js-tracker",
@@ -120,6 +133,7 @@ export const projectData = [
     title: "COVID-19 World Tracker",
     designDetails: "Material UI ",
     devDetails: " React JS, CSS Modules",
+    featured: false,
   },
   {
     url: "https://github.com/JaskiratOberoi/Covid19-India",
@@ -127,6 +141,7 @@ export const projectData = [
     title: "Covid-19 India Tacker",
     designDetails: "Flat UI, Adobe XD ",
     devDetails: " HTML5, Sass, Python 3",
+    featured: false,
   },
   {
     url: "https://jaskiratoberoi.github.io/index.html",
@@ -134,6 +149,7 @@ export const projectData = [
     title: "Old gh-pages portfolio",
     designDetails: "Flat UI, Soft UI",
     devDetails: " HTML5, Sass, github",
+    featured: false,
   },
   {
     url: "https://www.behance.net/gallery/94964421/Choose-Life",
@@ -141,6 +157,7 @@ export const projectData = [
     title: "Choose Life",
     designDetails: " Adobe XD, Photoshop ",
     devDetails: null,
+    featured: false,
   },
   {
     url: "https://www.behance.net/gallery/95252333/SK-TVS-Automobile-Franchise",
@@ -148,6 +165,7 @@ export const projectData = [
     title: "S.K. TVS Motors",
     designDetails: " Adobe XD, Photoshop ",
     devDetails: null,
+    featured: false,
   },
   {
     url: "https://www.behance.net/gallery/94571539/Product-Page-Design",
@@ -155,6 +173,7 @@ export const projectData = [
     title: "Sample Product Page",
     designDetails: " Wireframe, Adobe XD",
     devDetails: null,
+    featured: false,
   },
   {
     url: "https://www.behance.net/gallery/93131927/Memento-Mori",
@@ -162,5 +181,6 @@ export const projectData = [
     title: "Memento Mori",
     designDetails: " Adobe XD, Photoshop",
     devDetails: null,
+    featured: false,
   },
 ];
