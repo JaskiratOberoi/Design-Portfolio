@@ -17,14 +17,32 @@ import eproc from "../../media/internal/eproc.png";
 import abbpt from "../../media/internal/abbpt.png";
 
 import bulk from "../../media/bulk-dpx.png";
+import ink from "../../media/internal/inkDS.png";
+import esi from "../../media/internal/esi.png";
 
 export const projectData = [
   {
-    url: "https://bulk.jaskiratoberoi.com/detail_asin=B07ZSB9QYL.html",
+    // url: "https://storybook.ink.business.amazon.dev/?path=/docs/components-boxalert--docs",
+    url: "https://drive.google.com/file/d/1ytzMKjT4w0_Uqiu79OPGpap5N10jo5-d/view?usp=drive_link",
+    bannerSrc: ink,
+    title: "Internal Design System Contributions",
+    designDetails: "Box Alert, Badge",
+    devDetails: "React Ts, TypeScript, Vanilla Extract, Unit tests",
+  },
+  {
+    // url: "https://bulk.jaskiratoberoi.com/detail_asin=B07ZSB9QYL.html",
+    url: "https://docs.google.com/document/d/1AYS08zdjDPDecQv62guN-QvrUlYbg65BamVg0TbnRrU/edit?usp=sharing",
     bannerSrc: bulk,
     title: "AB Bulk Picker Prototype",
     designDetails: "Atomic Design, BUI, AUI",
     devDetails: "Pug, jquery, JavaScript, Scss",
+  },
+  {
+    url: "https://drive.google.com/file/d/1AqxD_vZOm3J8hyWE55lQCXObm2Yn21RE/view?usp=sharing",
+    bannerSrc: esi,
+    title: "ESI Unified Onboarding Mgmt Prototype",
+    designDetails: "BUI, AUI",
+    devDetails: "React JS, Scss",
   },
   {
     url: "https://www.amazon.com/businessprime",
