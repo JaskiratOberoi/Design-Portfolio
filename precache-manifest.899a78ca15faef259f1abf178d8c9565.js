@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb73c40b109e30a4158fb9e74017fbc6",
+    "revision": "b7ed180c1ed7e72ef40308e43568fc68",
     "url": "https://jaskiratoberoi.com/index.html"
   },
   {
-    "revision": "10520b87e2fed774f8c1",
-    "url": "https://jaskiratoberoi.com/static/css/main.bebd5186.chunk.css"
+    "revision": "bfc59c0105405e9a3253",
+    "url": "https://jaskiratoberoi.com/static/css/main.427d2615.chunk.css"
   },
   {
-    "revision": "58dda957a01f571fbdc1",
-    "url": "https://jaskiratoberoi.com/static/js/2.976e608e.chunk.js"
+    "revision": "bcfb9cbb05d02e7067ba",
+    "url": "https://jaskiratoberoi.com/static/js/2.a3679698.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "https://jaskiratoberoi.com/static/js/2.976e608e.chunk.js.LICENSE.txt"
+    "revision": "f6824f9d21e18ea56d2a3d63f6372ed6",
+    "url": "https://jaskiratoberoi.com/static/js/2.a3679698.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10520b87e2fed774f8c1",
-    "url": "https://jaskiratoberoi.com/static/js/main.113753e2.chunk.js"
+    "revision": "bfc59c0105405e9a3253",
+    "url": "https://jaskiratoberoi.com/static/js/main.6df8a962.chunk.js"
   },
   {
     "revision": "bfb27b017147613dd183",
@@ -172,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/media/eproc.3d54f16a.png"
   },
   {
+    "revision": "e761cb76cee284f8400749f5e71d1fc8",
+    "url": "https://jaskiratoberoi.com/static/media/esi.e761cb76.png"
+  },
+  {
     "revision": "7e46efde04ebb7e27356491336f3237c",
     "url": "https://jaskiratoberoi.com/static/media/flask.7e46efde.svg"
   },
@@ -222,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "652f28d1787dcf20fed8d848db36fed1",
     "url": "https://jaskiratoberoi.com/static/media/icons8-react-native.652f28d1.svg"
+  },
+  {
+    "revision": "f7179f6776a836eb6b7d6ede4ee223aa",
+    "url": "https://jaskiratoberoi.com/static/media/inkDS.f7179f67.png"
   },
   {
     "revision": "830791e93844f750d619e0839710261c",
