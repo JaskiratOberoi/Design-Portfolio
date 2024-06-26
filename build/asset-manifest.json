@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "https://jaskiratoberoi.com/static/css/main.427d2615.chunk.css",
-    "main.js": "https://jaskiratoberoi.com/static/js/main.91fd0039.chunk.js",
+    "main.css": "https://jaskiratoberoi.com/static/css/main.a18cd33d.chunk.css",
+    "main.js": "https://jaskiratoberoi.com/static/js/main.ce06b36d.chunk.js",
     "runtime-main.js": "https://jaskiratoberoi.com/static/js/runtime-main.7a9cde01.js",
     "static/js/2.e33167d0.chunk.js": "https://jaskiratoberoi.com/static/js/2.e33167d0.chunk.js",
     "index.html": "https://jaskiratoberoi.com/index.html",
-    "precache-manifest.64a40df8ed02afd65787570481e9bb23.js": "https://jaskiratoberoi.com/precache-manifest.64a40df8ed02afd65787570481e9bb23.js",
+    "precache-manifest.4304da84746341b9b4e39fbddb687c1e.js": "https://jaskiratoberoi.com/precache-manifest.4304da84746341b9b4e39fbddb687c1e.js",
     "service-worker.js": "https://jaskiratoberoi.com/service-worker.js",
     "static/js/2.e33167d0.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.e33167d0.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "https://jaskiratoberoi.com/static/media/022-website.895a094c.svg",
@@ -18,7 +18,7 @@
     "static/media/Data Factories.svg": "https://jaskiratoberoi.com/static/media/Data Factories.b575baef.svg",
     "static/media/Data Lake Storage.svg": "https://jaskiratoberoi.com/static/media/Data Lake Storage.d87a0f7d.svg",
     "static/media/Figma.svg": "https://jaskiratoberoi.com/static/media/Figma.57f55d66.svg",
-    "static/media/Jaskirat_Oberoi_external.pdf": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external.04f672e1.pdf",
+    "static/media/Jaskirat Oberoi latest resume.pdf": "https://jaskiratoberoi.com/static/media/Jaskirat Oberoi latest resume.adf8e738.pdf",
     "static/media/SQL Databases.svg": "https://jaskiratoberoi.com/static/media/SQL Databases.39675f32.svg",
     "static/media/abbpt.png": "https://jaskiratoberoi.com/static/media/abbpt.f3a3b58c.png",
     "static/media/aws-amplify.svg": "https://jaskiratoberoi.com/static/media/aws-amplify.ef80a24b.svg",
@@ -97,7 +97,7 @@
   "entrypoints": [
     "static/js/runtime-main.7a9cde01.js",
     "static/js/2.e33167d0.chunk.js",
-    "static/css/main.427d2615.chunk.css",
-    "static/js/main.91fd0039.chunk.js"
+    "static/css/main.a18cd33d.chunk.css",
+    "static/js/main.ce06b36d.chunk.js"
   ]
 }
