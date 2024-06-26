@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c222cb516f0a0c6b07568fd7200087cc",
+    "revision": "a0552ad8f4bf6a5ae695f9e1b18a89d5",
     "url": "https://jaskiratoberoi.com/index.html"
   },
   {
-    "revision": "15cd07285c0fa38671ac",
+    "revision": "fb74b3488fd41fd02160",
     "url": "https://jaskiratoberoi.com/static/css/main.a18cd33d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/js/2.a3679698.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15cd07285c0fa38671ac",
-    "url": "https://jaskiratoberoi.com/static/js/main.1a745f57.chunk.js"
+    "revision": "fb74b3488fd41fd02160",
+    "url": "https://jaskiratoberoi.com/static/js/main.bd629c26.chunk.js"
   },
   {
     "revision": "bfb27b017147613dd183",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://jaskiratoberoi.com/static/media/Figma.57f55d66.svg"
   },
   {
-    "revision": "04f672e1a6017fcbd9cfcadc4e360915",
-    "url": "https://jaskiratoberoi.com/static/media/Jaskirat_Oberoi_external.04f672e1.pdf"
+    "revision": "adf8e73892c0c042aa7006631651b431",
+    "url": "https://jaskiratoberoi.com/static/media/Jaskirat Oberoi latest resume.adf8e738.pdf"
   },
   {
     "revision": "39675f321b60a7c24a1ad677d522cf17",
