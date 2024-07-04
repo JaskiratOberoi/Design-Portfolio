@@ -11,9 +11,10 @@ const Navbar = () => {
     let body = document.getElementById("body");
     if (navbarOpen) {
       body.classList.add("body-padding-adder");
-    } else {
-      body.classList.remove("body-padding-adder");
     }
+    return () => {
+      body.classList.remove("body-padding-adder");
+    };
   }, [navbarOpen]);
 
   return (
