@@ -110,7 +110,7 @@ export default function Home() {
             />
           </svg>
 
-          <h2> Design Technologist</h2>
+          <h2> FEE & Design Technologist</h2>
           <div className="intro">
           I thrive on meaningful challenges and actively seek opportunities that ignite my passion.
           </div>

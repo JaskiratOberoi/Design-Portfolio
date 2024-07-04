@@ -9,6 +9,7 @@ import {
   Portfolio,
   Skills,
 } from "../Pages";
+import Details from "./Details";
 
 const Routing = () => {
   return (
@@ -19,6 +20,7 @@ const Routing = () => {
       <Route path="/portfolio" render={() => <Portfolio />} />
       <Route path="/skills" render={() => <Skills />} />
       <Route path="/hanseibydesign" render={() => <HanseiByDesign />} />
+      <Route path="/bulk-details" render={() => <Details />} />
       {/* ? If no path matches, redirect to "/" (Home) */}
       {/* <Route path="*">
         <Redirect to="/" />
