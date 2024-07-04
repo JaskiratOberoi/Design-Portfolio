@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from "uuid";
+
 import cmr from "../../media/cmr.png";
 import covid from "../../media/covid.png";
 import todo from "../../media/todo.png";
@@ -29,6 +31,7 @@ export const projectData = [
     designDetails: "Components, A11Y, WCAG3",
     devDetails: "React Ts, TypeScript, Vanilla Extract, Unit tests",
     featured: true,
+    id: uuidv4(),
   },
   {
     // url: "https://bulk.jaskiratoberoi.com/detail_asin=B07ZSB9QYL.html",
@@ -38,6 +41,7 @@ export const projectData = [
     designDetails: "Atomic Design, BUI, AUI",
     devDetails: "Pug, jquery, JavaScript, Scss",
     featured: true,
+    id: uuidv4(),
   },
   {
     url: "https://drive.google.com/file/d/1AqxD_vZOm3J8hyWE55lQCXObm2Yn21RE/view?usp=sharing",
@@ -46,6 +50,7 @@ export const projectData = [
     designDetails: "BUI, AUI",
     devDetails: "React JS, Scss",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://www.amazon.com/businessprime",
@@ -54,6 +59,7 @@ export const projectData = [
     designDetails: "AUI Design System",
     devDetails: "AUI Design System, React, JavaScript",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://staging.dpb3nrjrd9hzb.amplifyapp.com/",
@@ -62,6 +68,7 @@ export const projectData = [
     designDetails: "mimal design ux",
     devDetails: "React JS, Scss",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://protozoa.dev/prototypes/6b09fede-877c-469d-a18e-a0bc92d232bb/",
@@ -70,6 +77,7 @@ export const projectData = [
     designDetails: " UX testing, BUI Design System",
     devDetails: "React Js, Scss",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "http://cmr.hanseibydesign.com",
@@ -78,6 +86,7 @@ export const projectData = [
     designDetails: "Minimalistic , Adobe XD",
     devDetails: "HTML5, Sass, Vanilla JS",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "http://csi.hanseibydesign.com/",
@@ -86,6 +95,7 @@ export const projectData = [
     designDetails: " Minimal Design",
     devDetails: "HTML5, W3 CSS, Vanilla JS",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://tic-tac-toe-36436.web.app/",
@@ -94,6 +104,7 @@ export const projectData = [
     designDetails: "Nebular UI ",
     devDetails: "Angular JS, PWA, Sass",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://github.com/JaskiratOberoi/Stack-Overflow-Questions-Recommender",
@@ -102,6 +113,7 @@ export const projectData = [
     designDetails: " Tkinter",
     devDetails: "Python, NLP, Data mining",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "/",
@@ -110,6 +122,7 @@ export const projectData = [
     designDetails: " Minimal, Neumorphic",
     devDetails: "React JS, Router, Sass",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "http://todo.hanseibydesign.com/",
@@ -118,6 +131,7 @@ export const projectData = [
     designDetails: null,
     devDetails: "HTML5, Sass, Vanilla JS",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "http://life.hanseibydesign.com",
@@ -126,6 +140,7 @@ export const projectData = [
     designDetails: " Neumorphic Design",
     devDetails: "HTML5, Sass, Vanilla JS",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://github.com/JaskiratOberoi/covid-19-react-js-tracker",
@@ -134,6 +149,7 @@ export const projectData = [
     designDetails: "Material UI ",
     devDetails: " React JS, CSS Modules",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://github.com/JaskiratOberoi/Covid19-India",
@@ -142,6 +158,7 @@ export const projectData = [
     designDetails: "Flat UI, Adobe XD ",
     devDetails: " HTML5, Sass, Python 3",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://jaskiratoberoi.github.io/index.html",
@@ -150,6 +167,7 @@ export const projectData = [
     designDetails: "Flat UI, Soft UI",
     devDetails: " HTML5, Sass, github",
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://www.behance.net/gallery/94964421/Choose-Life",
@@ -158,6 +176,7 @@ export const projectData = [
     designDetails: " Adobe XD, Photoshop ",
     devDetails: null,
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://www.behance.net/gallery/95252333/SK-TVS-Automobile-Franchise",
@@ -166,6 +185,7 @@ export const projectData = [
     designDetails: " Adobe XD, Photoshop ",
     devDetails: null,
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://www.behance.net/gallery/94571539/Product-Page-Design",
@@ -174,6 +194,7 @@ export const projectData = [
     designDetails: " Wireframe, Adobe XD",
     devDetails: null,
     featured: false,
+    id: uuidv4(),
   },
   {
     url: "https://www.behance.net/gallery/93131927/Memento-Mori",
@@ -182,5 +203,6 @@ export const projectData = [
     designDetails: " Adobe XD, Photoshop",
     devDetails: null,
     featured: false,
+    id: uuidv4(),
   },
 ];

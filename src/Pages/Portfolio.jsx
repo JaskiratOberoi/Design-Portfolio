@@ -15,6 +15,7 @@ const Portfolio = () => {
       <div className="project-cards">
         {projectData.map((data) => (
           <ProjectCard
+            key={data.id}
             url={data.url}
             bannerSrc={data.bannerSrc}
             title={data.title}
