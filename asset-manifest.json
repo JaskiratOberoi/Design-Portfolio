@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://jaskiratoberoi.com/static/css/main.a18cd33d.chunk.css",
-    "main.js": "https://jaskiratoberoi.com/static/js/main.d20039d1.chunk.js",
+    "main.js": "https://jaskiratoberoi.com/static/js/main.a7245943.chunk.js",
     "runtime-main.js": "https://jaskiratoberoi.com/static/js/runtime-main.7a9cde01.js",
-    "static/js/2.519a10bf.chunk.js": "https://jaskiratoberoi.com/static/js/2.519a10bf.chunk.js",
+    "static/js/2.f42bc1bc.chunk.js": "https://jaskiratoberoi.com/static/js/2.f42bc1bc.chunk.js",
     "index.html": "https://jaskiratoberoi.com/index.html",
-    "precache-manifest.1ab860e91d8bbf871036f9b9c549a170.js": "https://jaskiratoberoi.com/precache-manifest.1ab860e91d8bbf871036f9b9c549a170.js",
+    "precache-manifest.55c2d83775f21a96c3961362c81bb274.js": "https://jaskiratoberoi.com/precache-manifest.55c2d83775f21a96c3961362c81bb274.js",
     "service-worker.js": "https://jaskiratoberoi.com/service-worker.js",
-    "static/js/2.519a10bf.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.519a10bf.chunk.js.LICENSE.txt",
+    "static/js/2.f42bc1bc.chunk.js.LICENSE.txt": "https://jaskiratoberoi.com/static/js/2.f42bc1bc.chunk.js.LICENSE.txt",
     "static/media/022-website.svg": "https://jaskiratoberoi.com/static/media/022-website.895a094c.svg",
     "static/media/033-vscode.svg": "https://jaskiratoberoi.com/static/media/033-vscode.648b96e4.svg",
     "static/media/040-website.svg": "https://jaskiratoberoi.com/static/media/040-website.2f809523.svg",
@@ -96,8 +96,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a9cde01.js",
-    "static/js/2.519a10bf.chunk.js",
+    "static/js/2.f42bc1bc.chunk.js",
     "static/css/main.a18cd33d.chunk.css",
-    "static/js/main.d20039d1.chunk.js"
+    "static/js/main.a7245943.chunk.js"
   ]
 }
