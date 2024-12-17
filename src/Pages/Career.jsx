@@ -8,8 +8,22 @@ export default function Work() {
       <Fragment>
         <Timeline>
           <Event
-            interval={"March 2021 - Present"}
-            title={"Amazon"}
+            interval={"Aug 2024 - Present"}
+            title={"Boomi.com (formerly Dell Boomi)"}
+            subtitle={"Senior Design Technologist"}
+          >
+            <br />• Responsible for designing, developing and maintaining their
+            internal design system: Magnetosphere
+            <br />• Responsible for designing and developing components for
+            their public design system: Exosphere
+            <br />• Deploying rapid prototypes for testing components
+            <br />• Maintaing an open channel fo communication between the
+            design and dev team
+            <br />• Support in workflow enhancement by creating internal tools
+          </Event>
+          <Event
+            interval={"March 2021 - July 2024"}
+            title={"Amazon [Amazon Business UX team]"}
             subtitle={"Design Technologist"}
           >
             <span className="w-dt-title">
@@ -77,7 +91,7 @@ export default function Work() {
           </Event>
           <Event
             interval={"July 2020 - March 2021"}
-            title={"Amazon"}
+            title={"Amazon [Fintech team]"}
             subtitle={"Support Engineer III "}
           >
             <br />• Implementing Data ingestion pipelines from sources like flat
@@ -91,7 +105,7 @@ export default function Work() {
           </Event>
           <Event
             interval={"July 2019 – April 2020"}
-            title={"Hanu Software"}
+            title={"Insight (formerly Hanu Software - Microsoft Gold Partner)"}
             subtitle={"Cloud Engineer"}
           >
             <b>
