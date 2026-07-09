@@ -23,9 +23,7 @@ export default function Services() {
           >
             <div className="service-card__top">
               <span className="service-card__index">{service.index}</span>
-              <span className="service-card__plus" aria-hidden="true">
-                ✦
-              </span>
+              <span className="service-card__plus clover" aria-hidden="true" />
             </div>
             <h3 className="service-card__title">{service.title}</h3>
             <p className="service-card__desc">{service.description}</p>

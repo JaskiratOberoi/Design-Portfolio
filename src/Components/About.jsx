@@ -67,7 +67,7 @@ export default function About() {
                 viewport={{ once: true, margin: "-40px" }}
                 transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.15 + i * 0.08 }}
               >
-                <span className="accent">✦</span> {fact}
+                <span className="clover accent" aria-hidden="true" /> {fact}
               </motion.li>
             ))}
           </ul>

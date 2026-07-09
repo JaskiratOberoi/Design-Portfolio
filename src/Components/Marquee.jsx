@@ -9,7 +9,7 @@ export default function Marquee() {
           <div className="marquee__group" key={copy}>
             {row.map((item, i) => (
               <span className="marquee__item" key={`${copy}-${i}`}>
-                {item} <span className="marquee__star">✦</span>
+                {item} <span className="marquee__star clover" />
               </span>
             ))}
           </div>
