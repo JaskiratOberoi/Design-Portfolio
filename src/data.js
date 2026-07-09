@@ -161,7 +161,7 @@ export const EXPERIENCE = [
   },
   {
     period: "2021 — 2025",
-    company: "Amazon",
+    company: "Amazon (Amazon Business)",
     role: "Design Technologist",
     note: "Amazon India's first-ever Design Technologist. Bridged 10+ designers and 20+ engineers across Hyderabad, Madrid, Austin and Seattle.",
   },
