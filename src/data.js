@@ -150,8 +150,8 @@ export const EXPERIENCE = [
   {
     period: "2024 — Now",
     company: "OpenRipples",
-    role: "Senior Frontend Engineer",
-    note: "Frontend engineering for a mission-driven product.",
+    role: "Senior Frontend & Design Engineer",
+    note: "Freelance services firm (openripples.com) — I bring frontend and design engineering expertise to client projects and services.",
   },
   {
     period: "2024 — 2025",
