@@ -4,6 +4,9 @@ import esi from "./assets/esi.png";
 import eproc from "./assets/eproc.png";
 import dashboard from "./assets/dashboard.png";
 import abbpt from "./assets/abbpt.png";
+import coveandlane from "./assets/coveandlane.png";
+import noukaitokyo from "./assets/noukaitokyo.svg";
+import pragyavijh from "./assets/pragyavijh.png";
 
 export const SOCIALS = [
   { label: "LinkedIn", url: "https://www.linkedin.com/in/jaskiratoberoi/" },
@@ -16,6 +19,36 @@ export const EMAIL = "me@jaskiratoberoi.com";
 export const WORK = [
   {
     index: "01",
+    title: "Cove & Lane",
+    tags: ["Freelance", "Conversion Design", "Performance"],
+    year: "Live",
+    image: coveandlane,
+    url: "https://coveandlane.in/",
+    blurb:
+      "Design refresh and performance overhaul for a fashion e-commerce brand — conversion-focused changes and a 40% lift in performance metrics.",
+  },
+  {
+    index: "02",
+    title: "Noukai Tokyo",
+    tags: ["Freelance", "E-commerce", "Shopify"],
+    year: "WIP",
+    image: noukaitokyo,
+    url: "https://noukaitokyo.com",
+    blurb:
+      "Product store built from scratch for a Tokyo-based client — Phase I shipped, Phase II in the works.",
+  },
+  {
+    index: "03",
+    title: "Pragya Vijh",
+    tags: ["Freelance", "E-commerce", "Design + Build"],
+    year: "Live",
+    image: pragyavijh,
+    url: "https://pragyavijh.com/in",
+    blurb:
+      "Designed and developed end-to-end — an e-commerce store selling products and services for a celebrity tarot reader and astrologer.",
+  },
+  {
+    index: "04",
     title: "Ink Design System",
     tags: ["Design Systems", "React TS", "WCAG 3"],
     year: "2024",
@@ -25,7 +58,7 @@ export const WORK = [
       "Accessible component library — tokens, docs and unit-tested components for an internal design system at Amazon.",
   },
   {
-    index: "02",
+    index: "05",
     title: "AB Bulk Picker",
     tags: ["Rapid Prototyping", "Atomic Design"],
     year: "2023",
@@ -35,7 +68,7 @@ export const WORK = [
       "High-fidelity coded prototype that let Amazon Business test a bulk-purchasing flow before a line of production code.",
   },
   {
-    index: "03",
+    index: "06",
     title: "ESI Unified Onboarding",
     tags: ["Product Design", "React"],
     year: "2023",
@@ -45,7 +78,7 @@ export const WORK = [
       "Unified onboarding management prototype — one flow to replace a maze of internal tools.",
   },
   {
-    index: "04",
+    index: "07",
     title: "Business Prime Plans",
     tags: ["Design Systems", "Production UI"],
     year: "2022",
@@ -55,7 +88,7 @@ export const WORK = [
       "Plans-comparison table shipped to production on amazon.com/businessprime, built on the AUI design system.",
   },
   {
-    index: "05",
+    index: "08",
     title: "E-Procurement Policies",
     tags: ["UX Testing", "Prototype"],
     year: "2022",
@@ -65,7 +98,7 @@ export const WORK = [
       "Interactive prototype used in moderated user-testing rounds for procurement policy workflows.",
   },
   {
-    index: "06",
+    index: "09",
     title: "ABUX Dashboard",
     tags: ["Data Viz", "Internal Tools"],
     year: "2021",

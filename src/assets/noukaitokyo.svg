@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900">
+  <rect width="1280" height="900" fill="#2c2a23" />
+  <circle cx="1050" cy="180" r="90" fill="#a85b38" />
+  <text x="80" y="430" font-family="Georgia, serif" font-size="150" letter-spacing="6" fill="#f2eee3">NOUKAI</text>
+  <text x="80" y="580" font-family="Georgia, serif" font-size="150" letter-spacing="6" fill="none" stroke="#f2eee3" stroke-width="2">TOKYO</text>
+  <text x="82" y="700" font-family="Helvetica, Arial, sans-serif" font-size="34" letter-spacing="8" fill="#a3c585">PHASE II — LAUNCHING SOON</text>
+  <line x1="80" y1="760" x2="560" y2="760" stroke="#a85b38" stroke-width="3" />
+</svg>
