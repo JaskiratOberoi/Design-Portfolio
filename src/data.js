@@ -109,16 +109,28 @@ export const SERVICES = [
 
 export const EXPERIENCE = [
   {
-    period: "2024 — Now",
-    company: "Boomi",
-    role: "Senior Design Technologist",
-    note: "Designing and building the Magnetosphere & Exosphere design systems.",
+    period: "2025 — Now",
+    company: "Ares Labs",
+    role: "Director, UX Design & Software Engineering",
+    note: "Leading a team of 10 designers and developers. Architected the internal design system, cut SDLC iteration cycles by 70% with AI-powered tooling, and shipped a CRM that lifted net earnings 10%.",
   },
   {
-    period: "2021 — 2024",
-    company: "Amazon Business UX",
+    period: "2024 — Now",
+    company: "OpenRipples",
+    role: "Senior Frontend Engineer",
+    note: "Frontend engineering for a mission-driven product.",
+  },
+  {
+    period: "2024 — 2025",
+    company: "Boomi",
+    role: "Senior Design Technologist",
+    note: "Designed and built the Magnetosphere (internal) & Exosphere (public) design systems; mentored interns, designers and developers.",
+  },
+  {
+    period: "2021 — 2025",
+    company: "Amazon",
     role: "Design Technologist",
-    note: "Amazon India's first-ever Design Technologist. Bridged 10+ designers and 20+ engineers.",
+    note: "Amazon India's first-ever Design Technologist. Bridged 10+ designers and 20+ engineers across Hyderabad, Madrid, Austin and Seattle.",
   },
   {
     period: "2020 — 2021",
@@ -128,15 +140,15 @@ export const EXPERIENCE = [
   },
   {
     period: "2019 — 2020",
-    company: "Insight (Hanu)",
+    company: "Hanu Software",
     role: "Cloud Engineer",
     note: "Azure data platforms for Fortune-500 clients; designed a chatbot admin portal.",
   },
   {
-    period: "2018",
-    company: "AT&T",
-    role: "Summer Intern",
-    note: "Built a Stack Overflow question recommender with Python + NLP.",
+    period: "2017 — 2020",
+    company: "Hansei By Design",
+    role: "Freelance Designer & Developer",
+    note: "Where it started — UI/UX, web design, frontend builds and content for freelance clients.",
   },
 ];
 

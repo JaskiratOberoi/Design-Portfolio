@@ -1,11 +1,12 @@
 /* ---------------------------------- tokens --------------------------------- */
 :root {
-  --bg: #f3efe7;
-  --ink: #17130c;
-  --ink-soft: rgba(23, 19, 12, 0.62);
-  --line: rgba(23, 19, 12, 0.16);
-  --accent: #ff4d00;
-  --paper: #fbf9f4;
+  --bg: #e9e4d8;
+  --ink: #2c2a23;
+  --ink-soft: rgba(44, 42, 35, 0.64);
+  --line: rgba(44, 42, 35, 0.18);
+  --accent: #a85b38;
+  --moss: #4e5a40;
+  --paper: #f2eee3;
 
   --font-display: "Clash Display", "Space Grotesk", sans-serif;
   --font-body: "Satoshi", "Inter", system-ui, sans-serif;
@@ -163,18 +164,18 @@ body.is-hovering .cursor-ring {
 }
 
 .pulse--light {
-  background: #7cff6b;
+  background: #a3c585;
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 77, 0, 0.5);
+    box-shadow: 0 0 0 0 rgba(168, 91, 56, 0.5);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(255, 77, 0, 0);
+    box-shadow: 0 0 0 10px rgba(168, 91, 56, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 77, 0, 0);
+    box-shadow: 0 0 0 0 rgba(168, 91, 56, 0);
   }
 }
 
@@ -223,7 +224,7 @@ body.is-hovering .cursor-ring {
 }
 
 .nav--scrolled {
-  background: rgba(243, 239, 231, 0.82);
+  background: rgba(242, 238, 227, 0.82);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   box-shadow: 0 1px 0 var(--line);
@@ -607,7 +608,7 @@ body.is-hovering .cursor-ring {
     rotate 0.35s var(--ease);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 30px 60px -20px rgba(23, 19, 12, 0.45);
+  box-shadow: 0 30px 60px -20px rgba(44, 42, 35, 0.45);
 }
 
 .work__preview--visible {
@@ -697,7 +698,7 @@ body.is-hovering .cursor-ring {
 }
 
 .service-card:hover .service-card__desc {
-  color: rgba(243, 239, 231, 0.72);
+  color: rgba(242, 238, 227, 0.72);
 }
 
 .service-card__list {
@@ -720,7 +721,7 @@ body.is-hovering .cursor-ring {
 }
 
 .service-card:hover .service-card__list li {
-  border-color: rgba(243, 239, 231, 0.3);
+  border-color: rgba(242, 238, 227, 0.3);
 }
 
 .services__note {
@@ -785,8 +786,8 @@ body.is-hovering .cursor-ring {
 
 /* ------------------------------- testimonials ------------------------------- */
 .testimonials {
-  background: var(--accent);
-  color: var(--ink);
+  background: var(--moss);
+  color: var(--paper);
   margin-top: clamp(4rem, 9vw, 8rem);
   padding: clamp(4rem, 8vw, 7rem) var(--gutter);
 }
@@ -819,7 +820,7 @@ body.is-hovering .cursor-ring {
 .quote-card figcaption {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid rgba(23, 19, 12, 0.35);
+  border-top: 1px solid rgba(242, 238, 227, 0.35);
   padding-top: 1rem;
 }
 
@@ -933,7 +934,7 @@ body.is-hovering .cursor-ring {
   align-items: center;
   gap: 0.6rem;
   font-size: 0.9375rem;
-  color: rgba(243, 239, 231, 0.65);
+  color: rgba(242, 238, 227, 0.65);
   margin-bottom: 1.5rem;
 }
 
@@ -965,7 +966,7 @@ body.is-hovering .cursor-ring {
   font-family: var(--font-display);
   font-size: clamp(1.15rem, 2.4vw, 1.8rem);
   font-weight: 500;
-  border: 1.5px solid rgba(243, 239, 231, 0.4);
+  border: 1.5px solid rgba(242, 238, 227, 0.4);
   border-radius: 99px;
   padding: 1.1rem 2.4rem;
   transition: background 0.35s var(--ease), color 0.35s var(--ease),
@@ -980,8 +981,8 @@ body.is-hovering .cursor-ring {
 
 .btn-copy {
   font-size: 0.9375rem;
-  color: rgba(243, 239, 231, 0.65);
-  border-bottom: 1px solid rgba(243, 239, 231, 0.3);
+  color: rgba(242, 238, 227, 0.65);
+  border-bottom: 1px solid rgba(242, 238, 227, 0.3);
   padding-bottom: 0.15rem;
   transition: color 0.3s;
 }
@@ -996,10 +997,10 @@ body.is-hovering .cursor-ring {
   justify-content: space-between;
   gap: 1.5rem;
   flex-wrap: wrap;
-  border-top: 1px solid rgba(243, 239, 231, 0.15);
+  border-top: 1px solid rgba(242, 238, 227, 0.15);
   padding-top: 1.5rem;
   font-size: 0.875rem;
-  color: rgba(243, 239, 231, 0.6);
+  color: rgba(242, 238, 227, 0.6);
 }
 
 .footer__socials {

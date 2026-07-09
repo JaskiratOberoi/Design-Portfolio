@@ -5,7 +5,7 @@ import { EXPERIENCE } from "../data.js";
 export default function Experience() {
   return (
     <section className="experience" id="experience">
-      <SectionHeading kicker="Career — full-time chapters" title="Where I've been" />
+      <SectionHeading kicker="Career — the chapters so far" title="Where I've been" />
 
       <div className="experience__list">
         {EXPERIENCE.map((job, i) => (

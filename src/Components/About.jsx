@@ -6,6 +6,8 @@ import resume from "../assets/resume.pdf";
 const FACTS = [
   "Amazon India's first-ever Design Technologist",
   "Built design systems used by hundreds of engineers",
+  "Leads a 10-person design + engineering team",
+  "Freelancing since 2017 (Hansei By Design)",
   "WCAG accessibility nerd",
   "Mantra: be kind to your future self",
 ];
@@ -36,11 +38,11 @@ export default function About() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            An engineer by passion, a designer by choice. By day I'm a Senior
-            Design Technologist at <strong>Boomi</strong>, building design
-            systems used across the company. Before that, I spent four years at{" "}
-            <strong>Amazon</strong> doing the same at a scale of millions of
-            customers.
+            An engineer by passion, a designer by choice. Today I lead UX
+            design and software engineering as a Director at{" "}
+            <strong>Ares Labs</strong>. Before that I built design systems at{" "}
+            <strong>Boomi</strong> and spent four years at <strong>Amazon</strong>{" "}
+            doing the same at a scale of millions of customers.
           </motion.p>
           <motion.p
             className="about__text"
@@ -49,10 +51,11 @@ export default function About() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
           >
-            Freelance is where I take everything I've learned inside big tech
-            and apply it to teams that move fast. You get one person who can
-            take an idea from whiteboard to production — no telephone game
-            between designer and developer.
+            Freelance isn't a side quest for me — it's where I started, running{" "}
+            <em>Hansei By Design</em> for three years before big tech. Now I
+            bring everything I've learned inside Amazon and Boomi back to teams
+            that move fast: one person who takes an idea from whiteboard to
+            production, no telephone game between designer and developer.
           </motion.p>
 
           <ul className="about__facts">

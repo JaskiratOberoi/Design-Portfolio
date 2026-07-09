@@ -92,11 +92,11 @@ export default function Hero() {
           variants={fade}
         >
           <div className="stat">
-            <span className="stat__num">7+</span>
+            <span className="stat__num">8+</span>
             <span className="stat__label">years shipping</span>
           </div>
           <div className="stat">
-            <span className="stat__num">3</span>
+            <span className="stat__num">4</span>
             <span className="stat__label">design systems built</span>
           </div>
           <div className="stat">
