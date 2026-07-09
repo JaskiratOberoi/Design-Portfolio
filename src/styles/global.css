@@ -15,8 +15,8 @@
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --gutter: clamp(1.25rem, 4vw, 4rem);
 
-  /* four-leaf clover ornament, tinted via mask + background-color */
-  --clover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg id='l'%3E%3Ccircle cx='9.9' cy='5.4' r='3.2'/%3E%3Ccircle cx='14.1' cy='5.4' r='3.2'/%3E%3Cpath d='M7.2 6.4 Q12 9.4 16.8 6.4 L12 12.2 Z'/%3E%3C/g%3E%3Cuse href='%23l' transform='rotate(90 12 12)'/%3E%3Cuse href='%23l' transform='rotate(180 12 12)'/%3E%3Cuse href='%23l' transform='rotate(270 12 12)'/%3E%3C/svg%3E");
+  /* four-leaf clover ornament (with stem), tinted via mask + background-color */
+  --clover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11.4 13.2 C13.6 16.2 16.3 18.2 16 22.2' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3Cg transform='translate(11.2 10.2) scale(0.84) translate(-12 -12)'%3E%3Cg id='l'%3E%3Ccircle cx='9.9' cy='5.4' r='3.2'/%3E%3Ccircle cx='14.1' cy='5.4' r='3.2'/%3E%3Cpath d='M7.2 6.4 Q12 9.4 16.8 6.4 L12 12.2 Z'/%3E%3C/g%3E%3Cuse href='%23l' transform='rotate(90 12 12)'/%3E%3Cuse href='%23l' transform='rotate(180 12 12)'/%3E%3Cuse href='%23l' transform='rotate(270 12 12)'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* ---------------------------------- reset ----------------------------------- */
