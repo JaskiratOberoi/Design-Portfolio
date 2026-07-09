@@ -1,56 +1,23 @@
 {
   "name": "jaskiratoberoi",
   "homepage": "https://jaskiratoberoi.com",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "caniuse-lite": "^1.0.30001574",
-    "express": "^4.17.1",
-    "express-favicon": "^2.0.1",
-    "history": "^4.10.1",
-    "i": "^0.3.6",
-    "jquery": "^3.5.0",
-    "npm": "^6.14.11",
-    "path": "^0.12.7",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-ga": "^2.7.0",
-    "react-mailto": "^0.4.0",
-    "react-markdown": "^8.0.3",
-    "react-responsive-carousel": "^3.2.4",
-    "react-router-dom": "^5.1.2",
-    "react-router-page-transition": "^3.1.0",
-    "react-scripts": "3.4.1",
-    "react-timeline-scribble": "^1.0.14",
-    "uuid": "^10.0.0",
-    "yargs-parser": "^18.1.3"
-  },
+  "type": "module",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "server": "node server.js",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "lenis": "^1.1.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "sass": "^1.50.1"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
   }
 }
