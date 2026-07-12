@@ -16,6 +16,19 @@ export const SOCIALS = [
 
 export const EMAIL = "me@jaskiratoberoi.com";
 
+export const CLIENTS = [
+  "Amazon",
+  "Amazon Business",
+  "Boomi",
+  "Ares Labs",
+  "OpenRipples",
+  "Cove & Lane",
+  "Noukai Tokyo",
+  "Pragya Vijh",
+  "AT&T",
+  "Hanu Software",
+];
+
 export const WORK = [
   {
     index: "01",

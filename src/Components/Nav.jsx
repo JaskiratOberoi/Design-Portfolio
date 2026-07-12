@@ -45,7 +45,8 @@ export default function Nav() {
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
     >
       <a href="#top" className="nav__brand" aria-label="Back to top">
-        Jaskirat<span className="nav__brand-mark">®</span>
+        <span className="clover clover--accent" aria-hidden="true" />
+        Jaskirat
       </a>
 
       <nav className="nav__links" aria-label="Primary">

@@ -16,35 +16,46 @@ export default function Work() {
         title="Things I've shipped"
       />
 
-      <div className="work__grid">
+      <div className="work__list">
         {featured.map((project, i) => (
-          <motion.a
+          <motion.article
             key={project.index}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`work-card ${i % 4 === 0 || i % 4 === 3 ? "work-card--wide" : "work-card--narrow"}`}
-            initial={{ opacity: 0, y: 44 }}
+            className={`work-feature ${i % 2 === 1 ? "work-feature--flip" : ""}`}
+            initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: (i % 2) * 0.1 }}
+            transition={{ duration: 0.85, ease: [0.16, 1, 0.3, 1] }}
           >
-            <div className="work-card__media">
+            <a
+              className="work-feature__media"
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${project.title} — view project`}
+            >
               <img src={project.image} alt={project.title} loading="lazy" />
+            </a>
+            <div className="work-feature__body">
+              <div className="work-feature__tags">
+                {project.tags.map((tag) => (
+                  <span className="meta" key={tag}>
+                    {tag}
+                  </span>
+                ))}
+                <span className="meta">{project.year}</span>
+              </div>
+              <h3 className="work-feature__title">{project.title}</h3>
+              <p className="work-feature__blurb">{project.blurb}</p>
+              <a
+                className="btn-pill work-feature__cta"
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View project
+              </a>
             </div>
-            <div className="work-card__head">
-              <h3 className="work-card__title">{project.title}</h3>
-              <span className="meta">{project.year}</span>
-            </div>
-            <p className="work-card__blurb">{project.blurb}</p>
-            <div className="work-card__tags">
-              {project.tags.map((tag) => (
-                <span className="meta" key={tag}>
-                  {tag}
-                </span>
-              ))}
-            </div>
-          </motion.a>
+          </motion.article>
         ))}
       </div>
 

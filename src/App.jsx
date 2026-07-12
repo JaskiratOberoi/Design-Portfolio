@@ -6,12 +6,13 @@ import Hero from "./components/Hero.jsx";
 import Marquee from "./components/Marquee.jsx";
 import Work from "./components/Work.jsx";
 import Services from "./components/Services.jsx";
+import Clients from "./components/Clients.jsx";
+import Statement from "./components/Statement.jsx";
 import Engage from "./components/Engage.jsx";
 import Experience from "./components/Experience.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import About from "./components/About.jsx";
 import Footer from "./components/Footer.jsx";
-import { EMAIL } from "./data.js";
 
 export default function App() {
   useEffect(() => {
@@ -63,10 +64,9 @@ export default function App() {
         <Hero />
         <Marquee />
         <Work />
-        <a className="cta-band" href={`mailto:${EMAIL}`}>
-          Start a project ↗
-        </a>
         <Services />
+        <Clients />
+        <Statement />
         <Engage />
         <Experience />
         <Testimonials />
