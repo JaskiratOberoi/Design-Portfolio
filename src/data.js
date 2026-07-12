@@ -201,15 +201,45 @@ export const EXPERIENCE = [
 export const TESTIMONIALS = [
   {
     quote:
+      "He brought that rare intersection of design and engineering to discussions, and it showed. His perspective consistently helped our design team make stronger, more grounded decisions by understanding the technical implications behind the work. Any team would be lucky to have him — I certainly felt lucky to have him as a partner in the craft.",
+    name: "Frank Wang",
+    role: "Design Leader, Enterprise SaaS",
+  },
+  {
+    quote:
+      "He proved himself to be a very capable and collaborative team member, especially when deadlines were tight and the problem space ambiguous. We could trust him to roll up his sleeves and get the job done right, no matter what obstacles arose — all while being a super fun colleague to work with.",
+    name: "Sashank Macharla",
+    role: "Design @ Meta, ex-Amazon",
+  },
+  {
+    quote:
+      "Jas is a highly skilled design technologist with a deep understanding of the latest technologies and tools. His ability to seamlessly integrate design principles with cutting-edge technology results in highly effective solutions that meet modern standards.",
+    name: "Chandra Sekhar K",
+    role: "Head of UX Design, Ikonz Studios — managed Jas at Amazon",
+  },
+  {
+    quote:
       "I always found him to be bright, curious, patient, and self-aware. He learned well from early mistakes, developing the ability to anticipate and solve problems with initiative. If you are seeking a front-end engineer with a high degree of both ability and motivation, consider Jaskirat for your team.",
     name: "Gregory Martin",
     role: "Sr. Design Technologist, Amazon",
   },
   {
     quote:
+      "As a Senior Design Technologist, he's helped me see how design and development can (and should) go hand in hand. I've learned a lot from him — not just about design systems, but about how to think more holistically as a frontend developer. He's approachable, supportive, and someone you can always count on for thoughtful insights.",
+    name: "Aman Rai",
+    role: "Frontend Developer, Boomi",
+  },
+  {
+    quote:
       "His expertise in creating highly interactive and dynamic prototypes has been invaluable, bridging the gap between design and engineering seamlessly. Jas's deep knowledge of UX, UI, and front-end technologies makes him a key asset to our team.",
     name: "Vijayraj Bhatt",
     role: "Sr. UX Designer, Amazon",
+  },
+  {
+    quote:
+      "Jaskirat has consistently demonstrated a strong work ethic and a collaborative spirit. He is always willing to help, brings great ideas to the table, and contributes actively to problem-solving. His positive attitude and reliability make him a valuable team member, and I highly recommend him for any future projects or roles.",
+    name: "Rakesh Patil",
+    role: "Test Engineer, GlobalLogic",
   },
 ];
 
