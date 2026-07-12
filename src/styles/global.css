@@ -16,8 +16,8 @@
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --gutter: clamp(1.25rem, 3.5vw, 3.5rem);
 
-  /* pixel four-leaf clover (with stem), tinted via mask + background-color */
-  --clover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 20'%3E%3Cpath d='M6 2h2v1H6zM9 2h2v1H9zM5 3h7v1H5zM5 4h7v1H5zM3 5h2v1H3zM6 5h5v1H6zM12 5h2v1H12zM2 6h4v1H2zM7 6h3v1H7zM11 6h4v1H11zM2 7h5v1H2zM8 7h1v1H8zM10 7h5v1H10zM3 8h11v1H3zM2 9h5v1H2zM8 9h1v1H8zM10 9h5v1H10zM2 10h4v1H2zM7 10h3v1H7zM11 10h4v1H11zM3 11h2v1H3zM6 11h5v1H6zM12 11h2v1H12zM5 12h7v1H5zM5 13h7v1H5zM6 14h2v1H6zM9 14h2v1H9zM9 15h1v1H9zM10 16h1v1H10zM10 17h1v1H10zM11 18h1v1H11z'/%3E%3C/svg%3E");
+  /* smooth four-leaf clover (with stem), tinted via mask + background-color */
+  --clover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11.4 13.2 C13.6 16.2 16.3 18.2 16 22.2' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3Cg transform='translate(11.2 10.2) scale(0.84) translate(-12 -12)'%3E%3Cg id='l'%3E%3Ccircle cx='9.9' cy='5.4' r='3.2'/%3E%3Ccircle cx='14.1' cy='5.4' r='3.2'/%3E%3Cpath d='M7.2 6.4 Q12 9.4 16.8 6.4 L12 12.2 Z'/%3E%3C/g%3E%3Cuse href='%23l' transform='rotate(90 12 12)'/%3E%3Cuse href='%23l' transform='rotate(180 12 12)'/%3E%3Cuse href='%23l' transform='rotate(270 12 12)'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* ---------------------------------- reset ----------------------------------- */
@@ -143,9 +143,9 @@ body.is-hovering .cursor-ring {
 
 .clover {
   display: inline-block;
-  width: 0.85em;
-  height: 1.05em;
-  vertical-align: -0.16em;
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: -0.1em;
   background-color: var(--ink);
   -webkit-mask: var(--clover) no-repeat center / contain;
   mask: var(--clover) no-repeat center / contain;
@@ -241,10 +241,10 @@ body.is-hovering .cursor-ring {
 .section-head__kicker::before {
   content: "";
   display: inline-block;
-  width: 0.9em;
-  height: 1.1em;
+  width: 0.95em;
+  height: 0.95em;
   margin-right: 0.5em;
-  vertical-align: -0.2em;
+  vertical-align: -0.12em;
   background-color: var(--accent);
   -webkit-mask: var(--clover) no-repeat center / contain;
   mask: var(--clover) no-repeat center / contain;
@@ -313,8 +313,8 @@ body.is-hovering .cursor-ring {
 }
 
 .nav__brand .clover {
-  width: 1em;
-  height: 1.2em;
+  width: 1.05em;
+  height: 1.05em;
 }
 
 .nav__links {
@@ -751,7 +751,7 @@ body.is-hovering .cursor-ring {
 
 .clients__mark {
   width: clamp(3.5rem, 6vw, 5.5rem);
-  height: clamp(4.2rem, 7.4vw, 6.8rem);
+  height: clamp(3.5rem, 6vw, 5.5rem);
   background-color: var(--accent);
   -webkit-mask: var(--clover) no-repeat center / contain;
   mask: var(--clover) no-repeat center / contain;
@@ -776,9 +776,9 @@ body.is-hovering .cursor-ring {
 }
 
 .statement__big .clover {
-  width: 0.8em;
-  height: 1em;
-  vertical-align: -0.06em;
+  width: 0.85em;
+  height: 0.85em;
+  vertical-align: -0.05em;
 }
 
 .statement__sub {
@@ -1055,8 +1055,8 @@ body.is-hovering .cursor-ring {
 
 .about__chip-block .clover {
   background-color: #fff;
-  width: 1.2em;
-  height: 1.5em;
+  width: 1.3em;
+  height: 1.3em;
 }
 
 .about__chip-body {
