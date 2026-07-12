@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import SectionHeading from "./SectionHeading.jsx";
+import SectionHead from "./SectionHead.jsx";
 import portrait from "../assets/jay.jpg";
 import resume from "../assets/resume.pdf";
 
@@ -15,16 +15,20 @@ const FACTS = [
 export default function About() {
   return (
     <section className="about" id="about">
-      <SectionHeading kicker="About — the person behind the pixels" title="Hi, I'm Jas" />
+      <SectionHead
+        num="05"
+        kicker="About — the person behind the pixels"
+        title="Hi, I'm Jas"
+      />
 
       <div className="about__grid">
         <motion.div
           className="about__photo"
           data-hover
-          initial={{ opacity: 0, scale: 0.94 }}
+          initial={{ opacity: 0, scale: 0.96 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
         >
           <img src={portrait} alt="Portrait of Jaskirat Singh Oberoi" />
           <span className="about__photo-tag">New Delhi, India</span>
@@ -33,41 +37,57 @@ export default function About() {
         <div className="about__body">
           <motion.p
             className="about__lead"
-            initial={{ opacity: 0, y: 32 }}
+            initial={{ opacity: 0, y: 28 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            An engineer by passion, a designer by choice. Today I lead UX
-            design and software engineering as a Director at{" "}
-            <strong>Ares Labs</strong>. Before that I built design systems at{" "}
-            <strong>Boomi</strong> and spent four years at <strong>Amazon</strong>{" "}
-            doing the same at a scale of millions of customers.
+            An <strong>engineer by passion, designer by choice</strong>. Today
+            I lead UX design and software engineering as a Director at{" "}
+            <strong>Ares Labs</strong> — before that I built design systems at{" "}
+            <strong>Boomi</strong> and spent four years at{" "}
+            <strong>Amazon</strong> at a scale of millions of customers.
           </motion.p>
           <motion.p
             className="about__text"
-            initial={{ opacity: 0, y: 32 }}
+            initial={{ opacity: 0, y: 28 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
           >
-            Freelance isn't a side quest for me — it's where I started, running{" "}
-            <em>Hansei By Design</em> for three years before big tech. Now I
-            bring everything I've learned inside Amazon and Boomi back to teams
-            that move fast: one person who takes an idea from whiteboard to
-            production, no telephone game between designer and developer.
+            Freelance isn't a side quest for me — it's where I started, running
+            Hansei By Design for three years before big tech. Now I bring
+            everything I've learned inside Amazon and Boomi back to teams that
+            move fast: one person who takes an idea from whiteboard to
+            production.
           </motion.p>
+
+          <motion.div
+            className="about__chip"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+          >
+            <span className="about__chip-block">
+              <span className="clover" aria-hidden="true" />
+            </span>
+            <span className="about__chip-body">
+              <b>20+</b>
+              <span>websites, products &amp; design systems shipped</span>
+            </span>
+          </motion.div>
 
           <ul className="about__facts">
             {FACTS.map((fact, i) => (
               <motion.li
                 key={fact}
-                initial={{ opacity: 0, x: -24 }}
+                initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-40px" }}
-                transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.15 + i * 0.08 }}
+                transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.1 + i * 0.06 }}
               >
-                <span className="clover accent" aria-hidden="true" /> {fact}
+                <span className="clover" aria-hidden="true" /> {fact}
               </motion.li>
             ))}
           </ul>
@@ -80,7 +100,7 @@ export default function About() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.35 }}
           >
             Download résumé <span aria-hidden="true">↓</span>
           </motion.a>

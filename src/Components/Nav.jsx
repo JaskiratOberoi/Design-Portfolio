@@ -58,7 +58,7 @@ export default function Nav() {
 
       <div className="nav__right">
         <span className="nav__time">
-          New Delhi <em>{time} IST</em>
+          Local time : <em>{time} IST</em>
         </span>
         <Magnetic strength={0.25}>
           <a href={`mailto:${EMAIL}`} className="btn-pill">

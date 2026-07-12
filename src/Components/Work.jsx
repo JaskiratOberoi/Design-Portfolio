@@ -1,79 +1,85 @@
-import { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import SectionHeading from "./SectionHeading.jsx";
+import SectionHead from "./SectionHead.jsx";
 import { WORK } from "../data.js";
 
-export default function Work() {
-  const [active, setActive] = useState(null);
-  const previewRef = useRef(null);
-  const sectionRef = useRef(null);
+const FEATURED_COUNT = 6;
 
-  const onMouseMove = (e) => {
-    const preview = previewRef.current;
-    const section = sectionRef.current;
-    if (!preview || !section) return;
-    const rect = section.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    preview.style.transform = `translate(${x + 32}px, ${y - 120}px)`;
-  };
+export default function Work() {
+  const featured = WORK.slice(0, FEATURED_COUNT);
+  const archive = WORK.slice(FEATURED_COUNT);
 
   return (
-    <section
-      className="work"
-      id="work"
-      ref={sectionRef}
-      onMouseMove={onMouseMove}
-    >
-      <SectionHeading kicker="Selected work — ’21 → ’26" title="Things I've shipped" />
+    <section className="work" id="work">
+      <SectionHead
+        num="01"
+        kicker="Selected work — freelance & big tech"
+        title="Things I've shipped"
+      />
 
-      <div className="work__list" onMouseLeave={() => setActive(null)}>
-        {WORK.map((project, i) => (
+      <div className="work__grid">
+        {featured.map((project, i) => (
           <motion.a
             key={project.index}
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`work-row ${active !== null && active !== i ? "work-row--dim" : ""}`}
-            onMouseEnter={() => setActive(i)}
-            initial={{ opacity: 0, y: 40 }}
+            className={`work-card ${i % 4 === 0 || i % 4 === 3 ? "work-card--wide" : "work-card--narrow"}`}
+            initial={{ opacity: 0, y: 44 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: i * 0.06 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: (i % 2) * 0.1 }}
           >
-            <span className="work-row__index">{project.index}</span>
-            <span className="work-row__title">{project.title}</span>
-            <span className="work-row__tags">
+            <div className="work-card__media">
+              <img src={project.image} alt={project.title} loading="lazy" />
+            </div>
+            <div className="work-card__head">
+              <h3 className="work-card__title">{project.title}</h3>
+              <span className="meta">{project.year}</span>
+            </div>
+            <p className="work-card__blurb">{project.blurb}</p>
+            <div className="work-card__tags">
               {project.tags.map((tag) => (
-                <span className="tag" key={tag}>
+                <span className="meta" key={tag}>
                   {tag}
                 </span>
               ))}
-            </span>
-            <span className="work-row__year">{project.year}</span>
-            <span className="work-row__arrow" aria-hidden="true">
-              ↗
-            </span>
-            <span className="work-row__blurb">{project.blurb}</span>
+            </div>
           </motion.a>
         ))}
+      </div>
 
-        <div
-          ref={previewRef}
-          className={`work__preview ${active !== null ? "work__preview--visible" : ""}`}
-          aria-hidden="true"
-        >
-          {WORK.map((project, i) => (
-            <img
+      {archive.length > 0 && (
+        <div className="work__more">
+          <p className="work__more-label meta">More projects</p>
+          {archive.map((project, i) => (
+            <motion.a
               key={project.index}
-              src={project.image}
-              alt=""
-              className={active === i ? "visible" : ""}
-              loading="lazy"
-            />
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="work-row"
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-40px" }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.05 }}
+            >
+              <span className="work-row__index">{project.index}</span>
+              <span className="work-row__title">{project.title}</span>
+              <span className="work-row__tags">
+                {project.tags.slice(0, 2).map((tag) => (
+                  <span className="meta" key={tag}>
+                    {tag}
+                  </span>
+                ))}
+              </span>
+              <span className="work-row__year meta">{project.year}</span>
+              <span className="work-row__arrow" aria-hidden="true">
+                ↗
+              </span>
+            </motion.a>
           ))}
         </div>
-      </div>
+      )}
     </section>
   );
 }

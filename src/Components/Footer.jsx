@@ -54,21 +54,7 @@ export default function Footer() {
                 },
               }}
             >
-              Let's make
-            </motion.span>
-          </span>
-          <span className="line-mask">
-            <motion.span
-              className="line"
-              variants={{
-                hidden: { y: "110%" },
-                visible: {
-                  y: "0%",
-                  transition: { duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.12 },
-                },
-              }}
-            >
-              it <em className="serif-italic">real</em>
+              Let's <em className="serif-italic">talk</em>
             </motion.span>
           </span>
         </motion.h2>

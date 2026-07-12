@@ -6,21 +6,36 @@ import Hero from "./components/Hero.jsx";
 import Marquee from "./components/Marquee.jsx";
 import Work from "./components/Work.jsx";
 import Services from "./components/Services.jsx";
+import Engage from "./components/Engage.jsx";
 import Experience from "./components/Experience.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import About from "./components/About.jsx";
 import Footer from "./components/Footer.jsx";
+import { EMAIL } from "./data.js";
 
 export default function App() {
   useEffect(() => {
-    const lenis = new Lenis({ lerp: 0.12, smoothWheel: true });
-    lenis.on("scroll", () => {});
+    // static review mode (/?static) skips smooth scrolling entirely
+    const isStatic = document.documentElement.classList.contains("static-mode");
+    const lenis = isStatic ? null : new Lenis({ lerp: 0.12, smoothWheel: true });
     let rafId;
-    const raf = (time) => {
-      lenis.raf(time);
+    if (lenis) {
+      const raf = (time) => {
+        lenis.raf(time);
+        rafId = requestAnimationFrame(raf);
+      };
       rafId = requestAnimationFrame(raf);
-    };
-    rafId = requestAnimationFrame(raf);
+    }
+
+    // honor deep links like /#work — React mounts after the browser's
+    // native fragment scroll has already given up
+    if (window.location.hash) {
+      const target = document.querySelector(window.location.hash);
+      if (target) {
+        if (lenis) lenis.scrollTo(target, { offset: -80, immediate: true });
+        else window.scrollTo(0, target.offsetTop - 80);
+      }
+    }
 
     const onAnchorClick = (e) => {
       const anchor = e.target.closest('a[href^="#"]');
@@ -28,27 +43,31 @@ export default function App() {
       const target = document.querySelector(anchor.getAttribute("href"));
       if (!target) return;
       e.preventDefault();
-      lenis.scrollTo(target, { offset: -80 });
+      if (lenis) lenis.scrollTo(target, { offset: -80 });
+      else window.scrollTo(0, target.offsetTop - 80);
     };
     document.addEventListener("click", onAnchorClick);
 
     return () => {
-      cancelAnimationFrame(rafId);
+      if (rafId) cancelAnimationFrame(rafId);
       document.removeEventListener("click", onAnchorClick);
-      lenis.destroy();
+      lenis?.destroy();
     };
   }, []);
 
   return (
     <>
       <Cursor />
-      <div className="grain" aria-hidden="true" />
       <Nav />
       <main>
         <Hero />
         <Marquee />
         <Work />
+        <a className="cta-band" href={`mailto:${EMAIL}`}>
+          Start a project ↗
+        </a>
         <Services />
+        <Engage />
         <Experience />
         <Testimonials />
         <About />
