@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Design tokens, v5 "Zero handoff"
+   --------------------------------------------------------------------------
+   Everything visual on the page derives from these variables. The on-page
+   "Page tokens" panel edits --radius, --display-wdth, --density and the
+   [data-accent] attribute live.
+
+   Theme model (three states):
+     no data-theme      -> follows prefers-color-scheme
+     data-theme="light" -> forced light
+     data-theme="dark"  -> forced dark
+   ========================================================================== */
+
+/* Self-hosted variable fonts (SIL Open Font License), latin subset.
+   Archivo: wdth 62-125, wght 300-900. Martian Mono: wdth 75-112.5, wght 400-600. */
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 300 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url("../assets/fonts/archivo-var-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Martian Mono";
+  font-style: normal;
+  font-weight: 400 600;
+  font-stretch: 75% 112.5%;
+  font-display: swap;
+  src: url("../assets/fonts/martian-mono-var-latin.woff2") format("woff2");
+}
+
+:root {
+  color-scheme: light;
+
+  /* ---- Palette (light) ---- */
+  --canvas: #e7e8e3;      /* page ground, like a design-tool canvas */
+  --dot: #c6c8c1;         /* canvas dot grid */
+  --paper: #f7f7f4;       /* frame surfaces */
+  --tint: #eeefea;        /* quiet fills inside frames */
+  --ink: #121316;         /* primary text */
+  --graphite: #54575f;    /* secondary text, 6.0:1 on paper */
+  --line: #d5d6d0;        /* hairlines */
+  --line-strong: #b9bbb4;
+
+  /* ---- Accent: one hue, a light and dark variant ----
+     Swapped by [data-accent] below. "Redline" is the colour of spec
+     measurements in design tools. */
+  --accent-light: #c9300c;  /* 4.9:1 on paper */
+  --accent-dark: #ff6038;
+  --accent: var(--accent-light);
+  --on-accent: #ffffff;
+  --danger: #b42318;      /* form errors, independent of accent */
+
+  /* ---- Shape ---- */
+  --radius: 6px;          /* controls, cards, inputs. Frames stay square. */
+
+  /* ---- Type ---- */
+  --font-sans: "Archivo", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-mono: "Martian Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --display-wdth: 112;    /* Archivo width axis, 62 to 125 */
+
+  --fs-mono: 0.6875rem;   /* 11px spec labels */
+  --fs-small: 0.875rem;
+  --fs-body: 1.0625rem;
+  --fs-lede: clamp(1.125rem, 1rem + 0.45vw, 1.375rem);
+  --fs-h3: clamp(1.25rem, 1.1rem + 0.4vw, 1.5rem);
+  --fs-h2: clamp(2.25rem, 1.2rem + 4.2vw, 5rem);
+
+  /* ---- Space (multiplied by --density) ---- */
+  --density: 1;
+  --s1: calc(0.25rem * var(--density));
+  --s2: calc(0.5rem * var(--density));
+  --s3: calc(0.75rem * var(--density));
+  --s4: calc(1rem * var(--density));
+  --s5: calc(1.5rem * var(--density));
+  --s6: calc(2rem * var(--density));
+  --s7: calc(3rem * var(--density));
+  --s8: calc(4.5rem * var(--density));
+  --s9: calc(7rem * var(--density));
+
+  --gutter: clamp(16px, 3.2vw, 48px);    /* page side padding */
+  --frame-pad: clamp(20px, 4.5vw, 72px); /* padding inside a frame */
+  --max: 1480px;
+  --ruler: 0px;                           /* 20px when rulers show */
+  --nav-h: 56px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* ---- Layers ---- */
+  --z-frame: 1;
+  --z-nav: 40;
+  --z-ruler: 45;
+  --z-inspect: 60;
+  --z-toast: 70;
+}
+
+/* Accent families */
+:root[data-accent="cobalt"] { --accent-light: #2b4cf0; --accent-dark: #7b8bff; }
+:root[data-accent="signal"] { --accent-light: #0b7f55; --accent-dark: #2fc48a; }
+:root[data-accent="ink"]    { --accent-light: #121316; --accent-dark: #ecede8; }
+
+/* ---- Dark palette: system preference ---- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --canvas: #0b0c0d;
+    --dot: #25272b;
+    --paper: #121316;
+    --tint: #1a1c1f;
+    --ink: #ecede8;
+    --graphite: #a0a3ab;
+    --line: #2a2c31;
+    --line-strong: #3d4046;
+    --accent: var(--accent-dark);
+    --on-accent: #0e0f11;
+    --danger: #ff7a66;
+  }
+}
+
+/* ---- Dark palette: explicit choice ---- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #0b0c0d;
+  --dot: #25272b;
+  --paper: #121316;
+  --tint: #1a1c1f;
+  --ink: #ecede8;
+  --graphite: #a0a3ab;
+  --line: #2a2c31;
+  --line-strong: #3d4046;
+  --accent: var(--accent-dark);
+  --on-accent: #0e0f11;
+  --danger: #ff7a66;
+}
+
+/* Rulers appear on large screens with a precise pointer */
+@media (min-width: 1024px) and (pointer: fine) {
+  :root { --ruler: 20px; }
+}
