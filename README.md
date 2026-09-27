@@ -80,16 +80,21 @@ card's `srcset`.
 
 ## Deploy
 
-`npm run build` produces a fully static `dist/` folder with relative asset
-paths, so it works from any host or sub-folder.
+jaskiratoberoi.com is hosted on Hostinger, which serves the static files on
+the `hostinger-deploy` branch through hPanel's Git integration.
 
-- **AWS Amplify Hosting:** build command `npm run build`, output directory `dist`.
-- **Netlify / Vercel / Cloudflare Pages:** same build command and output directory.
-- **GitHub Pages or S3:** upload the contents of `dist/`.
+Deploys are automatic. `.github/workflows/publish.yml` runs on every push to
+`master` or `redesign-v5` (or manually from the Actions tab). It:
 
-Note: `.github/workflows/publish.yml` still publishes a `build` folder from the
-old Create React App setup. Vite writes to `dist`, so change `FOLDER: build` to
-`FOLDER: dist` if you deploy through that workflow.
+1. installs dependencies and runs `npm run build`,
+2. publishes `dist/` to the `hostinger-deploy` branch,
+3. checks that jaskiratoberoi.com is serving the new build.
+
+If step 3 warns, Hostinger's auto-deploy is probably off. Open hPanel, go to
+Advanced > Git, and press Deploy for the `hostinger-deploy` branch.
+
+`dist/` uses relative asset paths, so the same build also works on any other
+static host (Netlify, Vercel, Cloudflare Pages, S3).
 
 ## Quality checks
 

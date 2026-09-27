@@ -1,29 +1,66 @@
-name: Generate a build and push to another branch
+name: Build and deploy to jaskiratoberoi.com
+
+# jaskiratoberoi.com is hosted on Hostinger, which deploys the static files
+# on the `hostinger-deploy` branch. This workflow builds the Vite site and
+# publishes dist/ to that branch, then checks the live site picked it up.
 
 on:
   push:
     branches:
       - master
+      - redesign-v5
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-hostinger
+  cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
+    name: Build and publish
     runs-on: ubuntu-latest
-    name: Build and Push
     steps:
-      - name: git-checkout
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Install all dependencies
-        run: npm install
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Build
-        run: npm run build 
+        run: npm run build
 
-      - name: Push
-        uses: s0/git-publish-subdir-action@develop
+      - name: Publish dist/ to hostinger-deploy
+        uses: s0/git-publish-subdir-action@v2.6.0
         env:
           REPO: self
-          BRANCH: build # The branch name where you want to push the assets
-          FOLDER: build # The directory where your assets are generated
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: ({sha}) {msg}"
+          BRANCH: hostinger-deploy
+          FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "Deploy: ({sha}) {msg}"
+          SKIP_EMPTY_COMMITS: true
+
+      - name: Check the live site serves this build
+        # Hostinger's Git auto-deploy usually picks the branch up within a
+        # minute. This only warns; it never fails the deploy.
+        continue-on-error: true
+        run: |
+          bundle=$(grep -o 'assets/index-[A-Za-z0-9_-]*\.js' dist/index.html | head -1)
+          echo "Expecting $bundle on https://jaskiratoberoi.com"
+          for i in $(seq 1 12); do
+            if curl -fsSL "https://jaskiratoberoi.com/?deploy=${GITHUB_SHA}" | grep -q "$bundle"; then
+              echo "Live site is serving this build."
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::warning::jaskiratoberoi.com is not serving $bundle yet. If Hostinger auto-deploy is off, press Deploy for the hostinger-deploy branch in hPanel > Advanced > Git."
+          exit 1
